@@ -43,7 +43,6 @@ Craft to Exile 2 日本語化ファイルのインストール方法を詳しく
 解凍したフォルダ内に以下のフォルダがあることを確認:
 ```
 config/
-kubejs/
 resourcepacks/
 ```
 
