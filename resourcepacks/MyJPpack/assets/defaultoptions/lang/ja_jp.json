@@ -1,0 +1,7 @@
+{
+  "config.defaultoptions.title": "デフォルトオプション",
+  "config.defaultoptions.defaultDifficulty": "デフォルトの難易度",
+  "config.defaultoptions.defaultDifficulty.tooltip": "新しく作成されたワールドに対して選択されるデフォルトの難易度。",
+  "config.defaultoptions.lockDifficulty": "ロックの難易度",
+  "config.defaultoptions.lockDifficulty.tooltip": "新しいワールドの難易度を特定のデフォルトに固定する場合はtrueに設定してください。外部ツールを持たないプレイヤーはロックを解除できません！おそらくこれは良くないアイデアです。お勧めしません。なぜこのオプションを追加したのでしょうか？"
+}

@@ -1,0 +1,16 @@
+{
+  "text.autoconfig.smoothboot.title": "スムーズブーツ",
+  "text.autoconfig.smoothboot.option.threadCount": "スレッド数",
+  "text.autoconfig.smoothboot.option.threadCount.bootstrap": "ブートストラップワーカースレッド数",
+  "text.autoconfig.smoothboot.option.threadCount.bootstrap.@Tooltip[0]": "注意: 増やすとパフォーマンスが低下することが知られています。",
+  "text.autoconfig.smoothboot.option.threadCount.bootstrap.@Tooltip[1]": "1 のままにしておくのが最適です。",
+  "text.autoconfig.smoothboot.option.threadCount.main": "メインワーカースレッド数",
+  "text.autoconfig.smoothboot.option.threadCount.main.@Tooltip[0]": "この値は読み込み時間に大きな影響を与えます。",
+  "text.autoconfig.smoothboot.option.threadCount.main.@Tooltip[1]": "ゲーム内のパフォーマンスにも影響する可能性があります。",
+  "text.autoconfig.smoothboot.option.threadPriority": "スレッドの優先度",
+  "text.autoconfig.smoothboot.option.threadPriority.game": "ゲームスレッドの優先度",
+  "text.autoconfig.smoothboot.option.threadPriority.bootstrap": "ブートストラップワーカーの優先度",
+  "text.autoconfig.smoothboot.option.threadPriority.main": "メインワーカーの優先度",
+  "text.autoconfig.smoothboot.option.threadPriority.io": "IOワーカーの優先度",
+  "text.autoconfig.smoothboot.option.threadPriority.integratedServer": "統合サーバースレッドの優先度"
+}

@@ -1,0 +1,218 @@
+{
+	id: "0E227194CDBA97C2"
+	loot_size: 1
+	order_index: 18
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/skill/int"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"healing_aura\",\"type\":\"SKILL\",\"perc\":11,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "ヒーリングウェーブ"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/skill/int"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"nature_balm\",\"type\":\"SKILL\",\"perc\":20,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "自然の香油"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/skill/int"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"power_chord\",\"type\":\"SKILL\",\"perc\":23,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "パワーコード"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/skill/int"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"song_of_vigor\",\"type\":\"SKILL\",\"perc\":16,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "活力の賛歌"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/skill/str"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"gong_strike\",\"type\":\"SKILL\",\"perc\":14,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "ゴングストライク"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/skill/str"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"boomerang\",\"type\":\"SKILL\",\"perc\":11,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "ブーメラン"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/skill/str"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"shred\",\"type\":\"SKILL\",\"perc\":23,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "シュレッド"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/skill/str"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"rejuv_totem\",\"type\":\"SKILL\",\"perc\":22,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "若返りのトーテム"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/skill/dex"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"craft_arrows\",\"type\":\"SKILL\",\"perc\":17,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "クラフトアロー"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/skill/dex"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"arrow_barrage\",\"type\":\"SKILL\",\"perc\":10,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "矢弾幕"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/skill/dex"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"charged_bolt\",\"type\":\"SKILL\",\"perc\":25,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "チャージボルト"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/skill/dex"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"fire_trap\",\"type\":\"SKILL\",\"perc\":18,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "ファイアトラップ"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/skill/int"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"fireball\",\"type\":\"SKILL\",\"perc\":16,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "火の玉"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/skill/int"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"frostball\",\"type\":\"SKILL\",\"perc\":18,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "氷の破片"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/skill/int"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"lightning_spear\",\"type\":\"SKILL\",\"perc\":22,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "ライトニングスピア"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/skill/str"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"fire_nova\",\"type\":\"SKILL\",\"perc\":23,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "ファイアノヴァ"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/skill/int"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"frost_nova\",\"type\":\"SKILL\",\"perc\":17,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "フロストノヴァ"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/skill/str"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"chilling_touch\",\"type\":\"SKILL\",\"perc\":16,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "冷たいタッチ"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/skill/int"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"curse_of_agony\",\"type\":\"SKILL\",\"perc\":21,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "苦痛の呪い"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/skill/int"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"summon_spirit_wolf\",\"type\":\"SKILL\",\"perc\":24,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "スピリットウルフを召喚する"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/skill/int"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"summon_zombie\",\"type\":\"SKILL\",\"perc\":20,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "ゾンビ召喚"
+		}
+	]
+	title: "スキルジェムショップ I"
+}

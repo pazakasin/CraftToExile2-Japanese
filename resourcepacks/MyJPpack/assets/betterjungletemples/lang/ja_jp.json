@@ -1,0 +1,13 @@
+{
+  "Use /locate structure betterjungletemples:jungle_temple instead!": "代わりに /locate structure betterjungletemples:jungle_temple を使用してください。",
+  "text.autoconfig.betterjungletemples-fabric-1_20.title": "YUNGのより良いジャングル寺院",
+  "text.autoconfig.betterjungletemples-fabric-1_20.option.betterJungleTemples": "YUNGのより良いジャングル寺院",
+  "text.autoconfig.betterjungletemples-fabric-1_20.option.betterJungleTemples.general": "一般的な",
+  "text.autoconfig.betterjungletemples-fabric-1_20.option.betterJungleTemples.general.@Tooltip": "一般設定",
+  "text.autoconfig.betterjungletemples-fabric-1_20.option.betterJungleTemples.compat": "Modの互換性",
+  "text.autoconfig.betterjungletemples-fabric-1_20.option.betterJungleTemples.compat.@Tooltip": "Mod互換性設定",
+  "text.autoconfig.betterjungletemples-fabric-1_20.option.betterJungleTemples.general.disableVanillaJungleTemples": "バニラのジャングル寺院を無効にする",
+  "text.autoconfig.betterjungletemples-fabric-1_20.option.betterJungleTemples.general.disableVanillaJungleTemples.@Tooltip": "バニラのジャングル寺院を無効にするかどうか。",
+  "text.autoconfig.betterjungletemples-fabric-1_20.option.betterJungleTemples.compat.pickYourPoisonEnabled": "毒を選ぶ互換性を有効にする",
+  "text.autoconfig.betterjungletemples-fabric-1_20.option.betterJungleTemples.compat.pickYourPoisonEnabled.@Tooltip": "PYP 毒ダーツが Better Jungle Temples に出現するかどうか。"
+}

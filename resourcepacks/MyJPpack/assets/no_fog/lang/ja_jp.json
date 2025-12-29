@@ -1,0 +1,17 @@
+{
+  "text.autoconfig.no_fog.title": "フォグ設定なし",
+  "text.no_fog.config.category.global": "グローバル設定",
+  "text.no_fog.config.category.dimensions": "ディメンションタイプの設定",
+  "text.no_fog.config.category.biomes": "バイオーム設定",
+  "text.no_fog.config.default.enabled": "デフォルト: 有効",
+  "text.no_fog.config.default.disabled": "デフォルト: 無効",
+  "text.no_fog.config.sky_fog": "スカイフォグを有効にする",
+  "text.no_fog.config.terrain_fog": "地形霧を有効にする",
+  "text.no_fog.config.thick_fog": "濃霧を有効にする",
+  "text.no_fog.config.thick_fog.tooltip": "（例：ボスの霧やネザーの霧）",
+  "text.no_fog.config.water_fog": "水霧を有効にする",
+  "text.no_fog.config.lava_fog": "溶岩霧を有効にする",
+  "text.no_fog.config.powder_snow_fog": "粉雪霧を有効にする",
+  "text.no_fog.config.blindness_fog": "盲目の霧を有効にする",
+  "text.no_fog.config.darkness_fog": "暗闇の霧を有効にする"
+}

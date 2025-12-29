@@ -1,0 +1,13 @@
+{
+  "config.client.renderAlertIcon": "falseに設定するとアラートアイコンは表示されません",
+  "config.client.renderRange": "範囲内のMobにのみ警告アイコンが表示されます",
+  "config.client.xOffset": "アラートアイコンの位置を水平方向に調整します",
+  "config.client.yOffset": "アラートアイコンの位置を垂直方向に調整します",
+  "config.client.alertIconSize": "アラートアイコンのサイズを調整します",
+  "config.client.scaleWithMobSize": "モブのサイズに合わせてアラートアイコンのサイズを調整します",
+  "config.client.clientMobBlacklist": "クライアントはこれらのモブの上に警告アイコンをレンダリングしません",
+  "config.client.treatBlacklistAsWhitelist": "クライアントはこれらのモブの上にのみ警告アイコンをレンダリングします",
+  "config.client.clientAggroIconStyle": "アグロアイコンを描画するために使用されるテクスチャを制御します",
+  "config.server.clientMobBlacklist": "サーバーはこれらのモブのターゲット獲得をチェックしません",
+  "config.server.hideAlertAfterTicks": "X ティックの間表示されたモブの警告アイコンを非表示にします。この機能を無効にするには、\u003c\u003d 0 に設定します。"
+}

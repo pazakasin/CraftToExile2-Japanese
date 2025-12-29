@@ -1,0 +1,10 @@
+{
+  "config.telepass.diamond_durability": "ダイヤモンドテレパスの使用回数を定義します [デフォルト: 1000]",
+  "config.telepass.gold_durability": "ゴールドテレパスの使用回数を定義します [デフォルト: 15]",
+  "item.telepass.diamond_telepass": "ダイヤモンドテレパス",
+  "item.telepass.dimension": "§cリンクされたプレイヤー§r %s §c別の次元にいるので、テレポートはキャンセルされました§r",
+  "item.telepass.gold_telepass": "ゴールドテレパス",
+  "item.telepass.offline": "§cリンクされたプレイヤー§r %s §cオフライン、テレポートはキャンセルされました§r",
+  "item.telepass.self": "§c自分自身にテレポートすることはできません!§r",
+  "itemGroup.telepass": "テレパス"
+}

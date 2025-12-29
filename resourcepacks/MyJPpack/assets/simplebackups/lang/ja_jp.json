@@ -1,0 +1,12 @@
+{
+  "simplebackups.backup_started": "バックアップを開始しました...",
+  "simplebackups.backup_finished": "バックアップは %s で完了しました (%s | %s)",
+  "simplebackups.backup_errors": "バックアップ中に%sエラーが発生しました",
+  "simplebackups.backup_failed_delete": "バックアップに失敗しました（未完了のファイルを削除しています） - 詳細についてはログファイルを確認してください",
+  "simplebackups.backup_failed_continue": "バックアップの作成が早期に失敗しました。一部のファイルはバックアップされていない可能性があります。データ損失を防ぐために、ログファイルで詳細を確認してください。",
+  "simplebackups.backups_paused": "バックアップを一時停止しました",
+  "simplebackups.commands.only_modified": "変更されたファイルだけでなく、設定ファイルもバックアップされます。",
+  "simplebackups.commands.is_merging": "マージ操作はすでに進行中です",
+  "simplebackups.commands.finished": "バックアップのマージが正常に完了しました",
+  "simplebackups.not_enough_space": "バックアップを作成するためのディスク容量が足りません。中止しました。"
+}

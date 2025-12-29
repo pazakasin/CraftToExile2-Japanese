@@ -1,0 +1,23 @@
+{
+  "fastload.screen.buildingTerrain.building": "目に見えるチャンクの構築",
+  "fastload.screen.buildingTerrain.preparing": "すべてのチャンクを準備する",
+  "fastload.buildingTerrain.starting": "セッションの開始",
+  "fastload.screen.buildingTerrain.template": "完了 / 目標",
+  "fastload.screen.config": "高速ロード構成",
+  "fastload.button.debug": "デバッグモード",
+  "fastload.button.debug.tooltip": "デバッグをログに出力する必要がありますか?",
+  "fastload.button.instant_load": "インスタントロード",
+  "fastload.button.instant_load.tooltip": "せっかちな人ですか？ロード画面が嫌いですか？電源を入れてワールドをロードするだけで、きっと後悔するでしょう。-_-",
+  "fastload.button.local_render_chunk_radius": "ローカル半径",
+  "fastload.button.local_render_chunk_radius.tooltip": "Fastload のシングルプレイヤー向け建物地形で、円内にレンダリングするチャンクの数の半径。",
+  "fastload.button.local_render_chunk_radius.min": "無効",
+  "fastload.button.local_render_chunk_radius.max": "何だこれ",
+  "fastload.button.server_render_chunk_radius": "サーバー半径",
+  "fastload.button.server_render_chunk_radius.tooltip": "Fastload のサーバー用建物地形でレンダリングする円内のチャンクの数の半径。",
+  "fastload.button.server_render_chunk_radius.min": "無効",
+  "fastload.button.server_render_chunk_radius.max": "何だこれ",
+  "fastload.button.chunk_try_limit": "チャンク試行制限",
+  "fastload.button.chunk_try_limit.tooltip": "プリレンダリングを中止する前に、同じチャンクカウントが何回連続して返されるか",
+  "fastload.button.chunk_try_limit.min": "NASAのPC",
+  "fastload.button.chunk_try_limit.max": "カタツムリ"
+}

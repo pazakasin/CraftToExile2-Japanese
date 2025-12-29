@@ -1,0 +1,976 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "rsquare"
+	filename: "act_0"
+	group: "1E3C4B5FFAE48A39"
+	icon: "minecraft:book"
+	id: "44789E48CD607F46"
+	images: [{
+		color: 8026746
+		height: 15.0d
+		image: "watut:textures/particles/book.png"
+		rotation: 0.0d
+		width: 15.0d
+		x: 3.0d
+		y: 2.5d
+	}]
+	order_index: 0
+	progression_mode: "linear"
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Craft to Exile 2へようこそ。MinecraftをアクションRPGに変える、高度にカスタマイズされたModパックです。"
+				""
+				"クエストの最初の章「プロローグ」では、このModパックで導入される特定のシステムの概要を説明します。これらのシステムは、他のMinecraft Modパックとは異なる可能性があります。"
+				""
+				"プロローグの各ページは、チェックマークをクリックして完了してください。"
+				""
+				"詳しくは、Wikiをご覧ください（メインメニューにもリンクがあります）。"
+				""
+				"Discordサーバー（メインメニューにもリンクがあります）にもお気軽にご参加ください。ゲーム内の問題解決や、Modパックに関するチャットも承ります。"
+			]
+			icon: "minecraft:writable_book"
+			id: "30403B3DE1E47F33"
+			rewards: [
+				{
+					id: "662E6BDEDAE044A6"
+					item: "sophisticatedbackpacks:iron_backpack"
+					type: "item"
+				}
+				{
+					count: 12
+					id: "4E506FC73E0B1EAC"
+					item: "minecraft:bread"
+					title: "パン"
+					type: "item"
+				}
+			]
+			subtitle: "目次"
+			tasks: [{
+				id: "77FDE21B75D712EC"
+				title: "クリックして読む"
+				type: "checkmark"
+			}]
+			title: "Craft to Exile 2 へようこそ!"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["624D8CD0A4A6668B"]
+			description: [
+				"CTE2はパーティーでのクエストとプレイに対応しています。「すべてのチーム/パーティー」オプションはインベントリからアクセスできます！"
+				""
+				"パーティープレイには3つのコマンドがあります。"
+				""
+				"「MineとSlashのチーム」コマンドを使用すると、経験値を共有したり、お互いに回復/強化したりできます。さらに、パーティーメンバーの体力/魔法シールドの値がGUIに表示されます！"
+				""
+				"「FTBチーム」コマンドを使用すると、クエストの進行状況を共有できます。「FTBチーム」コマンドにはカスタムチームチャットメニューも用意されており、デフォルトでは「-」キーを押すことでアクセスできます。"
+				""
+				"「Lightmanのチーム」コマンドを使用すると、お金やトレーダーの通知を共有できます。"
+			]
+			icon: "ftbquests:book"
+			id: "48075B2F138A9C2C"
+			rewards: [{
+				id: "7F6AE3A345D1324D"
+				item: "lightmanscurrency:coin_iron"
+				title: "お金"
+				type: "item"
+			}]
+			shape: "circle"
+			subtitle: "2bページ"
+			tasks: [{
+				id: "37CC2CFDC34FC657"
+				title: "クリックして読む"
+				type: "checkmark"
+			}]
+			title: "パーティープレイ"
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["04849611F904771C"]
+			description: [
+				"Mine and Slashのおかげで、CTE2は完全にカスタマイズされたレベルアップシステムを備えています。"
+				""
+				"モブを倒して経験値を獲得し、レベルアップごとにステータスポイントを獲得できます。これらのポイントは、メインハブで「H」+「r」を押すことで割り当てることができます。実際、ほとんどのメニューはこのメニューホイールからアクセスできます！"
+				""
+				"{image:cte2:textures/character_stats.png width:160 height:128 align:1}"
+				""
+				"プレイヤーのステータスは、装備（ギア）やタレントポイントなど、他の方法でも上昇させることができます。これらについては後ほど説明します。"
+			]
+			icon: "minecraft:book"
+			id: "624D8CD0A4A6668B"
+			rewards: [
+				{
+					id: "5B3178D7FC9CF9B3"
+					item: "mmorpg:potions/reset_points_stat"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 400"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "4A429E1B6344E4A4"
+					silent: true
+					title: "400 経験値"
+					type: "command"
+				}
+			]
+			subtitle: "2ページ目"
+			tasks: [{
+				id: "352F3C2796BACD2F"
+				title: "クリックして読む"
+				type: "checkmark"
+			}]
+			title: "キャラクターステータス"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["624D8CD0A4A6668B"]
+			description: [
+				"&eタレントツリー&rは、&eキャラクターカスタマイズ&rをさらに強化するレイヤーで、採掘と斬撃ハブにあります。"
+				""
+				"{image:cte2:textures/talent_tree.png width:160 height:115 align:1}"
+				""
+				"レベルアップごとに&e1タレントポイントを獲得します。&rまずは開始ポジションを選択し、既に所有しているノードに繋がっているノードに&eポイントを割り当てます。各&eノード&rはステータスに&eボーナス&rをもたらし、場合によってはゲームプレイの基本的なループを変えることもあります！"
+			]
+			icon: "minecraft:book"
+			id: "53A5ECD28E7E16E1"
+			rewards: [
+				{
+					id: "7F66934DFD28206B"
+					item: "mmorpg:potions/reset_points_talent"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 200"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "3BC953334872A751"
+					silent: true
+					title: "経験値200"
+					type: "command"
+				}
+			]
+			subtitle: "3ページ"
+			tasks: [{
+				id: "07B9CDCDF05CC52E"
+				title: "クリックして読む"
+				type: "checkmark"
+			}]
+			title: "タレントツリー"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["53A5ECD28E7E16E1"]
+			description: [
+				"{image:cte2:textures/gui.png width:160 height:105 align:1}"
+				""
+				"「キャラクター」メニューでは、様々なキャラクターの保存と読み込みができます。装備を除くキャラクターのすべての情報が保存されます。保存できるキャラクターは最大3体までです。新規作成したキャラクターはレベル1からスタートしますが、「タレント」や「アセンダシーポイント」といったクエスト完了時のアンロックは共有されます。"
+				""
+				"「サルベージ」メニューでは、入手した戦利品をクラフト素材に変えて、役立つアイテムに変えることができます。"
+				""
+				"「クラス」メニューでは、キャラクターの特化が可能です。ここでスキルを習得し、ポイントを使ってスキルを向上させることができます。CTE2では、2つの異なるクラスに「特化」できます！"
+				""
+				"「ジュエル」メニューは、タレントツリーのジュエルソケットにポイントを割り当てた後に使用します。ジュエルを装備することで、キャラクターのステータスを向上させることができます！"
+				""
+				"さらに、GUIの下部（ツルハシがある場所）には、「職業」レベルが表示されます。"
+			]
+			icon: "minecraft:book"
+			id: "0C1568D71346C427"
+			rewards: [
+				{
+					count: 4
+					id: "6BA00FC78BAE6C85"
+					item: "lightmanscurrency:coin_iron"
+					title: "お金"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 200"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "3B10C874A7833200"
+					silent: true
+					title: "経験値200"
+					type: "command"
+				}
+			]
+			subtitle: "4ページ"
+			tasks: [{
+				id: "60453E7473A695D0"
+				title: "クリックして読む"
+				type: "checkmark"
+			}]
+			title: "GUIの残りの部分"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0C1568D71346C427"]
+			description: [
+				"CTE2には3つの「主な」戦闘スタイルがあります。「近距離戦士」「魔法使い」「遠距離弓使い」のいずれかです。もちろんこれはあくまでも一般的な分類であり、各キャラクターは自由にカスタマイズして表現することができます。"
+				""
+				"炎を吐く戦士になりたいですか？死霊術使いになりたいですか？それとも罠を仕掛けるハンターになりたいですか？"
+				""
+				"CTE2はキャラクターカスタマイズの面で豊富な選択肢を提供しています。きっとあなたにぴったりのプレイスタイルが見つかるでしょう！"
+			]
+			icon: "minecraft:book"
+			id: "3059FF2D6DB1AC9F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "780B73E925FBD004"
+					table_id: 405550839613976496L
+					type: "choice"
+				}
+				{
+					count: 64
+					id: "1B21344DA58F8D97"
+					item: "minecraft:arrow"
+					title: "矢印"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 200"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "3098C9D09E030015"
+					silent: true
+					title: "経験値200"
+					type: "command"
+				}
+			]
+			subtitle: "5ページ"
+			tasks: [{
+				id: "7EA3FFEFB226B157"
+				title: "クリックして読む"
+				type: "checkmark"
+			}]
+			title: "あなたの最初の武器"
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3059FF2D6DB1AC9F"]
+			description: [
+				"Craft to Exile 2では戦闘が刷新されました。武器にはアニメーションとコンボがあり、使用する武器の種類によって異なる特性を持ちます。"
+				""
+				"さらに、Altキーを押すとドッジロールが実行できます。ドッジロールには短いクールダウンがあります。"
+				""
+				"CTE2では基本攻撃もお忘れなく！基本攻撃は戦闘において強力で、スキルと組み合わせて使用できます。"
+			]
+			icon: "minecraft:book"
+			id: "546A9D082F1A2160"
+			rewards: [
+				{
+					id: "4D3BA6D80A06AD15"
+					item: "minecraft:zombie_spawn_egg"
+					title: "ゾンビスポーンエッグ"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 200"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "539974DB413EB4B5"
+					silent: true
+					title: "経験値200"
+					type: "command"
+				}
+			]
+			subtitle: "6ページ"
+			tasks: [{
+				id: "222D99698592B33D"
+				title: "クリックして読む"
+				type: "checkmark"
+			}]
+			title: "戦闘"
+			x: 3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0A39A9996E8D63F4"]
+			description: [
+				"スキルは&9マナ&rまたは&aエネルギー&rを消費し、戦闘で使用します。スキルはクラスタブから習得でき、スキルGUIの&9スクエア&rスロットに装備できます。"
+				""
+				"{image:cte2:textures/skill_gem.png width:140 height:105 align:1}"
+				""
+				"スキルはレベルアップするか、&5円形&rスロットにセットするサポートジェムにリンクさせることで、強化・変更することができます。サポートジェムは、リンクしたスキルの&eリソースコスト&rとパワーを増加させます。"
+				""
+				"スキルには、リンクできるサポートジェムの数に上限があります（「&5サポートスロット:&r」を参照）。スキルが持つことができるソケットの数は&eスキルレベル&rによって決まり、レベル16で最大5ソケットになります。&e最初のスロットを取得するには、スキルが少なくともレベル4である必要があります。&r &cスロットの数は&lまた&rプレイヤーレベル&rによって制限されます（1から始まり、10レベルごとに1スロット追加されます）。&r"
+				""
+				"&e下&r行には、ステータスを強化するためにオーグメント容量を消費するオーグメントジェムを装備します。残りのオーグメント容量は、右側の&dピンク&rで確認できます。"
+			]
+			icon: "minecraft:book"
+			id: "22EAD61501470768"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5F7B46C685D188ED"
+					table_id: 981191123936022223L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "00B6E55860C350A9"
+					table_id: 5889716173591028936L
+					type: "choice"
+				}
+				{
+					id: "0FA3268AB0494B94"
+					item: "mmorpg:potions/reset_points_spell"
+					type: "item"
+				}
+				{
+					id: "104170C66DCC1E67"
+					item: "mmorpg:potions/reset_points_passive"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 200"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "555EEACB001F9F25"
+					silent: true
+					title: "経験値200"
+					type: "command"
+				}
+			]
+			subtitle: "8ページ"
+			tasks: [{
+				id: "703C97D9D47FEB19"
+				title: "クリックして読む"
+				type: "checkmark"
+			}]
+			title: "スキル、サポート、オーグメントジェム"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["546A9D082F1A2160"]
+			description: [
+				"戦闘で新しい剣と知識を試しましょう！"
+				""
+				"&e村でクリーチャーを召喚しないでください。アイアンゴーレムがゾンビを殺してしまう可能性があります！また、日中に召喚するのは危険です！洞窟で召喚することを検討してください。&r"
+				""
+				"&o武器には最低ステータスの必要条件があるため、戦闘前にステータスを必ず割り当てておきましょう！&r"
+			]
+			icon: "minecraft:book"
+			id: "0A39A9996E8D63F4"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give exp @p 700"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "1EDA06CB95371D19"
+				silent: true
+				title: "経験値700"
+				type: "command"
+			}]
+			subtitle: "7ページ"
+			tasks: [{
+				advancement: "minecraft:adventure/kill_a_mob"
+				criterion: ""
+				icon: "ftb_ph:zombie"
+				id: "54F60D14EA2C9CC2"
+				title: "ゾンビを1体倒す"
+				type: "advancement"
+			}]
+			title: "ファースト・ブラッド"
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["22EAD61501470768"]
+			description: [
+				"Minecraft では、&4 体力&r は生命力であり、これが 0 になるとキャラクターは死亡します。CTE2 では、&4 死&r しても装備は失われませんが、レベル 50 以降はかなりの経験値を失います。"
+				""
+				"キャラクターの防御力は、&4 防具&r (プレート)、&2 回避&r (レザー)、&9 魔法シールド&r (クロス) の 3 つのカテゴリに分類できますが、ハイブリッドタイプ (&8 ブリガンダイン&r = &4 防具&r / &2 回避&r) で構成される場合もあります。"
+				""
+				"防具は物理ダメージを軽減し、回避はあらゆる攻撃を完全に無効化するチャンスを与え、魔法シールドはゆっくりと回復する追加の体力バッファーとして機能します。これらのステータスは、主に装備、ステータスポイント、タレントツリーを通じて向上させることができます。"
+				""
+				"ダメージを軽減する&r には、属性耐性、呪文回避、ダメージ軽減などがあります。これらのステータスは、装備、タレントツリー、ジュエルで確認できます。"
+				""
+				"タレントツリーには、体力を1に設定したり、魔法シールドに大きなボーナスを与えたりするなど、防御力の挙動を変更できるオプションがあります。"
+				""
+				"&o鎧の見た目が気に入らない場合は、「コスメティックアーマー」でカバーできます！&r"
+			]
+			icon: "minecraft:book"
+			id: "7B22B96E95E5DA09"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5D5755216C597FF1"
+					table_id: 8672695084726290362L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3FE70BFEB5ED2D52"
+					table_id: 7074154712315855923L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5DC2202B09680066"
+					table_id: 8493327020853369464L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6D6A4A9389EE9F37"
+					table_id: 5741053327200068691L
+					type: "choice"
+				}
+				{
+					id: "45990E4571B1B2EA"
+					item: "minecraft:skeleton_spawn_egg"
+					title: "スケルトンスポーンエッグ"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 250"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "4B863DDA4942C800"
+					silent: true
+					title: "経験値250"
+					type: "command"
+				}
+			]
+			subtitle: "9ページ"
+			tasks: [{
+				id: "4B40DF289BF860BF"
+				title: "クリックして読む"
+				type: "checkmark"
+			}]
+			title: "スーツアップ"
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1C852F78D386B77E"]
+			description: [
+				"プロローグクエストラインの完了おめでとうございます。この最後のページを完了することで、ついに「第1幕」の旅を始めることができます！"
+				""
+				"CTE2では、「依存関係」を完了していなくても、後続のクエストのタスクを完了できます。ただし、報酬はクエストに到達するまで受け取ることはできません。"
+				""
+				"「サイドクエスト」には多くの役立つ情報が含まれており、CTE2で使用される他のMODについても紹介されているので、ぜひチェックしてください。これらのクエストラインを通して、他のMODと「Mine and Slash」の間には様々な連携があることを発見できます！"
+			]
+			icon: "minecraft:writable_book"
+			id: "0CDFB8E5BB59B981"
+			rewards: [
+				{
+					count: 15
+					id: "58E255CF9F588325"
+					item: "lightmanscurrency:coin_iron"
+					title: "お金"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 500"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "513F1792134DC311"
+					silent: true
+					title: "500経験値"
+					type: "command"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5786D74604BF83D1"
+					table_id: 405550839613976496L
+					type: "choice"
+				}
+			]
+			subtitle: "付録"
+			tasks: [{
+				id: "4DE938BD22A26E0A"
+				title: "クリックして読む"
+				type: "checkmark"
+			}]
+			title: "戦利品を獲得。レベルアップ。探索。"
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7B22B96E95E5DA09"]
+			description: [
+				"宝石とルーンは、空きソケットのある装備に差し込むことができます。一部の採掘通貨や斬撃通貨を使ってソケットを追加できます。"
+				""
+				"&b宝石&rには複数のティアがあります。3つを組み合わせて次のティアの&rを作成できます。アイテムに差し込んだら（カーソルに宝石があるアイテムをクリックします）。装備に差し込むと、宝石は追加のステータスを付与します。"
+				""
+				"&cルーン&rを装備に追加して、追加のステータスを付与することもできます。&eルーン装備&7に特定の組み合わせのルーンをスロットに入れると、特定のボーナスセットでアイテムを強化する&eルーンワード&rを作成できます。ルーン装備は、ルーンワードに必要なルーンの数よりも多くのスロットを持つ場合があることに注意してください。"
+				""
+				"&eルーンを持った状態で右クリックすると、作成可能なルーンワードが表示されます。&r &eルーンワード&rは、&eルーン装備&rのレアリティのアイテムでのみ作成できます。"
+				""
+				"&eExtractor Currency Orb!&r を使用してアイテムから宝石とルーンを取得できます。"
+			]
+			icon: "ftbquests:book"
+			id: "4C9F8B8F01189196"
+			rewards: [
+				{
+					id: "76247AC0012E1810"
+					item: "mmorpg:gems/azurite/1"
+					title: "欠けたアズライト"
+					type: "item"
+				}
+				{
+					id: "5722F71FCCB83AB8"
+					item: "mmorpg:gems/topaz/1"
+					title: "欠けたトパーズ"
+					type: "item"
+				}
+				{
+					id: "45878D000E81C7B4"
+					item: "mmorpg:runes/ano"
+					title: "あのルーン"
+					type: "item"
+				}
+				{
+					id: "549B167A69E67CFA"
+					item: "mmorpg:currency/extract_gem"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			subtitle: "9cページ"
+			tasks: [{
+				id: "1DADE93D8FAB373D"
+				title: "クリックして読む"
+				type: "checkmark"
+			}]
+			title: "宝石とルーン"
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["7B22B96E95E5DA09"]
+			description: [
+				"新しい呪文と防具を戦闘で試してみましょう！"
+				""
+				"&eアイアンゴーレムがスケルトンを倒してしまう可能性があるため、村でクリーチャーを召喚しないでください！また、日中に召喚するのは危険です！洞窟で召喚することを検討してください。&r"
+			]
+			icon: "minecraft:book"
+			id: "1895A7A94BE0A4B6"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give exp @p 250"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "23B96BB571FA8D03"
+				silent: true
+				title: "経験値250"
+				type: "command"
+			}]
+			subtitle: "10ページ"
+			tasks: [{
+				entity: "minecraft:skeleton"
+				icon: "ftb_ph:skeleton"
+				id: "33E51DA632612F0F"
+				type: "kill"
+				value: 1L
+			}]
+			title: "イージーキル"
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["30403B3DE1E47F33"]
+			description: [
+				"&o「お金で幸せは買える？」&r"
+				""
+				"ええ、この場合、お金は多くの便利なツールやリソースを購入するために使えます。お金を使って、村人や他のMODのトレーダーと物々交換をすることができます。もちろん、他のプレイヤーと取引したり、サーバーに接続している場合は、請求ブロックを購入したりすることもできます！"
+				""
+				"&rMobを倒したり、宝箱を略奪したりすることでお金を稼ぐことができます&r。また、トレーダーに商品を売ってお金を得ることもできます。"
+				""
+				"&r「eトレーディングターミナル/物々交換ボード&r」は、特定のリソースを入手するための貴重なツールです。&r"
+				""
+				"このクエストで受け取る&rウォレット&rにお金を安全に保管してください。後でウォレットをアップグレードして、より多くのお金を保管できるようにしましょう！"
+				""
+				"&r少額のお金を両替する必要がある場合は、ATMを利用できます。&r"
+			]
+			icon: "minecraft:book"
+			id: "04849611F904771C"
+			rewards: [{
+				id: "409F7C072512843C"
+				item: {
+					Count: 1
+					id: "lightmanscurrency:wallet_gold"
+					tag: {
+						AutoConvert: 1b
+					}
+				}
+				title: "財布"
+				type: "item"
+			}]
+			subtitle: "1ページ目"
+			tasks: [{
+				id: "33258148F7D6B004"
+				title: "クリックして読む"
+				type: "checkmark"
+			}]
+			title: "お金"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3059FF2D6DB1AC9F"]
+			description: [
+				"CTE2では、様々な装備品をクラフトしたり入手したりすることができます。これらの装備品は、装備ステータスソウルを適用しない限り、ステータスを付与されません。装備ステータスソウルとは、地雷と斬撃のステータスを付与するものです。"
+				""
+				"ソウルのない装備は、防御にも攻撃にも効果がありません！"
+				""
+				"装備ステータスソウルは、同じタイプの装備であればどれでも使用できます。例えば、アクアカルチャーナイフとファーマーズデライトナイフは「ダガー」タイプです。「ダガー」タイプの装備ステータスソウルを持つアイテムをクリックすることで、ナイフに地雷と斬撃のステータスを付与できます！"
+				""
+				"装備ステータスソウルのクラフト方法についてもっと知りたいですか？「M\\&S 職業」クエストの章をご覧ください！"
+			]
+			icon: "ftbquests:book"
+			id: "289350CF47F41D69"
+			rewards: [
+				{
+					id: "5B729B2C8440BDF5"
+					item: {
+						Count: 1
+						id: "aquaculture:wooden_fillet_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					title: "木製フィレナイフ"
+					type: "item"
+				}
+				{
+					id: "31743DFDD664B202"
+					item: {
+						Count: 1
+						id: "mmorpg:stat_soul"
+						tag: {
+							CustomModelData: 15
+							mmorpg_stat_soul: "{\"tier\":0,\"slot\":\"dagger\",\"rar\":\"common\",\"fam\":\"NONE\",\"uniq\":\"\",\"can_sal\":true}"
+						}
+					}
+					title: "ダガーステータスソウル"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			subtitle: "5bページ"
+			tasks: [{
+				id: "1C99B6F792983F96"
+				title: "クリックして読む"
+				type: "checkmark"
+			}]
+			title: "ギアステータスソウル"
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7B22B96E95E5DA09"]
+			description: [
+				"シールド（防具）、トーテム（回避）、トーム（魔法の盾）は、防御力を高めることができるオフハンドです。"
+				""
+				"戦闘中の防御手段の一つに、ローリング（デフォルト：Alt）があります。これは誰でも使用できます。また、シールドを装備すれば、ダメージをブロックすることもできます。"
+				""
+				"シールドは構えている間エネルギーを消費し、正しい方向を向いている場合は受けるダメージを無効化します。"
+				""
+				"シールドには、回避と同様に、ダメージを無効化するパッシブチャンスがあることをご存知ですか？ ブロックチャンスは装備やタレントツリーから獲得でき、シールドを構えていない時でもダメージを無効化するチャンスを得ることができます。"
+			]
+			icon: "ftbquests:book"
+			id: "119B706F79F22360"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "206EE0F673CCC5EB"
+				table_id: 7401807202655080641L
+				type: "choice"
+			}]
+			shape: "circle"
+			subtitle: "9bページ"
+			tasks: [{
+				id: "0662DB198465C67A"
+				title: "クリックして読む"
+				type: "checkmark"
+			}]
+			title: "ブロッキング"
+			x: -1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1895A7A94BE0A4B6"]
+			description: [
+				"ウェイストーンは世界中に点在しており、発見すると他のウェイストーン、ワープスクロール、またはワープストーンを介してテレポートできます。"
+				""
+				"ウェイストーンはワールド内にランダムに出現しますが、村で見つかることが多いです。ワープスクロールをいくつか持っていけば、発見したウェイストーンに簡単に戻れます！"
+			]
+			icon: "ftbquests:book"
+			id: "19319F327C09E772"
+			rewards: [{
+				count: 8
+				id: "1361F172A8236025"
+				item: "waystones:warp_scroll"
+				type: "item"
+			}]
+			shape: "circle"
+			subtitle: "10cページ"
+			tasks: [{
+				id: "302BF9765FDEFFE8"
+				title: "クリックして読む"
+				type: "checkmark"
+			}]
+			title: "ウェイストーン"
+			x: 3.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["48075B2F138A9C2C"]
+			description: [
+				"不要なプレイヤーから守るために、エリアを「占領」することができます。「黄金の鍬」を使って地面を右クリックし、領有権を主張しましょう。"
+				""
+				"「陽気な協力」の章にある「FLANとの土地占領」クエストで詳細をご確認ください！"
+			]
+			icon: "ftbquests:book"
+			id: "31B023681AC62535"
+			rewards: [{
+				id: "13CF773EDFCB3C2E"
+				item: {
+					Count: 1
+					id: "minecraft:golden_hoe"
+					tag: {
+						Damage: 0
+						display: {
+							Lore: [
+								"{\"text\":\"Right-click to set Claim Point\",\"color\":\"light_purple\",\"italic\":false}"
+								"{\"text\":\"Click separate corners of your Base/Home to setup claim\",\"color\":\"green\",\"italic\":false}"
+								"{\"text\":\"Edit claim permissions by using the command\",\"color\":\"gold\",\"italic\":false}"
+								"{\"text\":\"/flan menu\",\"color\":\"white\",\"italic\":false}"
+							]
+							Name: "{\"text\":\"Claiming Hoe\",\"color\":\"gold\",\"italic\":false}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "circle"
+			subtitle: "2cページ"
+			tasks: [{
+				id: "5848EBF021C0262E"
+				title: "クリックして読む"
+				type: "checkmark"
+			}]
+			title: "土地の主張"
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1895A7A94BE0A4B6"]
+			description: [
+	"旅の途中では「スピリットオーブ」が見つかります。これは「女神像」で「ハートの器」と交換できます。ハートの器1つにつき、体力の基本値が2増加し、最大で200（ハートの器100個）まで増加します。また、「クラフト・トゥ・エグザイル2」のボスからも「ハートの器」を入手できます。"
+]
+			icon: "minecraft:book"
+			id: "1C852F78D386B77E"
+			rewards: [{
+				id: "605680F58634B88E"
+				item: "paraglider:heart_container"
+				type: "item"
+			}]
+			subtitle: "11ページ"
+			tasks: [{
+				id: "5C49990F810F10CF"
+				title: "クリックして読む"
+				type: "checkmark"
+			}]
+			title: "ハートコンテナ"
+			x: 4.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1C852F78D386B77E"]
+			description: [
+				"&eCraft to Exile 2&rには、集めるべき戦利品が山ほどあることにすぐに気づくでしょう。戦利品のほとんどはRPG MOD「&eMine and Slash&r」から来ています。最も面倒なことの一つは、インベントリを整理し、アイテムを拾うための十分なスペースを確保することです。"
+				""
+				"この&eMaster Bag&rは、&eMine and Slash&rからアイテムを&b拾って保管&rし、戦利品の整理に役立ちます。このバッグは骨董品スロットに装着し、「&eAlt + B&r」でアクセスできます！"
+				""
+				"それでも戦利品の量が多すぎて困っている場合は、ハブにある&e自動サルベージ機能&rの使用を検討してみてください。詳しくは&eProfessions Chapter&rをご覧ください。"
+			]
+			icon: "ftbquests:book"
+			id: "351118C34DCDFEB4"
+			rewards: [{
+				id: "76C1849A7E4A48AC"
+				item: "mmorpg:master_bag"
+				type: "item"
+			}]
+			shape: "circle"
+			subtitle: "11bページ"
+			tasks: [{
+				id: "6E5BF0F42C1A3C85"
+				title: "クリックして読む"
+				type: "checkmark"
+			}]
+			title: "在庫管理"
+			x: 4.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["04849611F904771C"]
+			description: [
+				"「Craft to Exile 2」には「カスタムキーバインド」が付属しています。しかしながら、カスタムキーバインドが適用されないケースが発生しています。これはRキーを押して確認することができます。ホイールが表示される場合は、カスタムキーバインドが適用されていません（Hキーのはずです）。"
+				""
+				"この問題を解決するには、Escキーを押して「オプション」>「コントロール」>「キーバインド」に移動し、「キーをリセット」をクリックしてください。"
+			]
+			icon: "ftbquests:book"
+			id: "5CA9B71D52F01485"
+			rewards: [{
+				id: "59679DF2D778DA7F"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			shape: "circle"
+			subtitle: "1bページ"
+			tasks: [{
+				id: "6F2223761F2F7200"
+				title: "クリックして読む"
+				type: "checkmark"
+			}]
+			title: "キーバインド"
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1895A7A94BE0A4B6"]
+			description: [
+				"CTE2では、チャンク内で倒せるMobの数に制限があり、それを超えるとドロップや経験値が得られなくなります。チャンクは時間とともに回復します。"
+				""
+				"これは、自動経験値獲得手段を使う代わりに、移動や探索を促すためです。"
+				""
+				""
+			]
+			icon: "ftbquests:book"
+			id: "151EDFFBB525349E"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give exp @p 50"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "2CD733C2EAA8C466"
+				silent: true
+				title: "経験値50"
+				type: "command"
+			}]
+			shape: "circle"
+			subtitle: "10bページ"
+			tasks: [{
+				id: "321AFA63AEF2B67B"
+				title: "クリックして読む"
+				type: "checkmark"
+			}]
+			title: "反暴徒農場"
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["30403B3DE1E47F33"]
+			description: [
+				"Craft to Exile 2 には VR サポートがバンドルされています！以下のものが必要です。"
+				"- SteamVR"
+				"- VR ヘッドセット"
+				"- Minecraft ウィンドウが PC にフォーカスされている"
+				""
+				"上記の条件を満たしたら、ヘッドセットの電源を入れ、PC に接続してください。メインメニューから VR を有効にできます。一部のキーバインドは既に設定されていますが、Vivecraft 向けに SteamVR 入力を「設定」して、より快適に操作できるようにすることをお勧めします。"
+				""
+				"デフォルトでは、VR ラジアルメニューは、採掘スキルと斬撃スキルのホットキー、その他の重要なメニュー項目に使用されます。ラジアルメニューを表示する際にグリップボタンを押し続けると、2 つ目のオプションセットにアクセスできます。"
+				""
+				"さらに、クラフトテーブルや、没入感のあるスイングや弓の使用など、Minecraft のほとんどの機能が VR 統合に対応しています。移動方法を変更したり、その場で走るように移動したりすることも可能です。"
+				""
+				"GUI の読み込みエラーを防ぐには、以下の操作を実行してください。ゲームを終了する前に、メインメニューで VR をオフにし、その後ログイン時に再度有効にする必要があります。"
+			]
+			icon: "simplehats:goggles"
+			id: "3FD1760A231D429D"
+			rewards: [{
+				id: "08FDBED97918BF5A"
+				item: "simplehats:goggles"
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "7A2278B60D17AB84"
+				title: "クリックして読む"
+				type: "checkmark"
+			}]
+			title: "VRサポート"
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["22EAD61501470768"]
+			description: [
+				"{image:cte2:textures/skill_bar.png width:120 height:120 align:center}"
+				""
+				"ハブから「スキル ホットバー」をクリックすると、スキル ホットバーに割り当てることができます。"
+				""
+				"{image:cte2:textures/skill_hotbar.png width:160 height:120 align:center}"
+				""
+				"スキル ホットバーを移動するには、ESC キーを押します > Mods > Mine and Slash > Config > mine_and_slash-client > General > Overlays > SPELL HOTBAR OVERLAY TYPE を設定して水平/垂直を切り替え、SPELL HOTBAR VERTICAL/HORIZONTAL CONFIG を設定して調整します。"
+			]
+			icon: "ftbquests:book"
+			id: "33E4003EA7B05BA4"
+			rewards: [{
+				count: 5
+				id: "7909F546B1BEADEA"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
+			shape: "circle"
+			subtitle: "8bページ"
+			tasks: [{
+				id: "24E6BC2E8058814E"
+				title: "クリックして読む"
+				type: "checkmark"
+			}]
+			title: "スペルバー"
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1C852F78D386B77E"]
+			description: [
+	"CTE2には膨大な情報量があり、キャンペーン全体に散らばっている場合もあります。情報をまとめて確認したい場合は、「パチュリーのeアドベンチャーハンドブック」をご利用ください。"
+]
+			icon: "ftbquests:book"
+			id: "7343515F10544FDE"
+			rewards: [{
+				id: "416C4B559784D2D8"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "patchouli:CTE2"
+					}
+				}
+				type: "item"
+			}]
+			shape: "circle"
+			subtitle: "11cページ"
+			tasks: [{
+				id: "2D60441D0A153B0F"
+				title: "クリックして読む"
+				type: "checkmark"
+			}]
+			title: "まとめられた情報"
+			x: 4.5d
+			y: 7.0d
+		}
+	]
+	title: "プロローグ"
+}

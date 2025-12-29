@@ -1,0 +1,1198 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "professions"
+	group: "5F2CCE8075FCC994"
+	icon: {
+		Count: 1
+		id: "minecraft:diamond_pickaxe"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "3FD221468FC33E9D"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["5B97985430859986"]
+			description: [
+				"サルベージとは、装備を分解して、職業アイテム、装備、修理に使用できる素材にする作業です。"
+				""
+				"サルベージステーションを使用するには、ステーションの上にホッパーを設置し、サルベージする装備をホッパーに投入する必要があります。ステーションでサルベージを行うと、自動サルベージよりも多くの成果と経験値が得られます。"
+				""
+				"装備がサルベージされ、その出力として素材が手に入ります。サルベージを行うと、様々なレア度の「石」が手に入ります。これらは装備の修理や作成に使用します。また、他のアイテムの作成にも使用できます。石のレア度は、サルベージする装備のレア度によって異なります。"
+				""
+				"ハブの自動サルベージ機能を使用して装備をサルベージすることもできますが、その場合、獲得できる経験値は少なくなります。"
+			]
+			id: "16525899DA8C3A74"
+			rewards: [
+				{
+					count: 10
+					id: "5D27E610193FC88F"
+					item: "mmorpg:stone/1"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "0352A11976D1DDF7"
+					silent: true
+					title: "経験値100×Lv."
+					type: "command"
+				}
+			]
+			subtitle: "M\\&S 職業"
+			tasks: [{
+				id: "0367855050B7E8AC"
+				item: "mmorpg:salvaging_station"
+				type: "item"
+			}]
+			title: "サルベージ"
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["06E3D7523619E263"]
+			description: [
+				"&eクラフト装備ソウル&rは、防具、オフハンド、宝飾品、武器のどれかに使用できます。装備を作成する際には、いくつかの材料が必要です。"
+				""
+				"1. &eティアード鉱石&r - 採掘で獲得できます。作成したいアイテムのレベルに応じて異なります。レベル帯は採掘職で入手できるものと同じです。"
+				""
+				"2. &eストーン（レア度）&r - ストーンによって作成する装備のレア度が決まります。これらのストーンは、サルベージ中に入手できます。必要なストーンの数は、装備のレア度によって異なります。"
+				""
+				"3. &eインゴット + 識別アイテム&r - 防具、オフハンド、宝飾品、武器のどれを作成するかを決定するアイテムです。レシピについては&cJEI&rをご覧ください！"
+				""
+				"4. &eMoney&r"
+				""
+				"&l「eCrafted Gear Soul」に必要なアイテムは、いつでも&cJEI&r &lで確認できます。&r"
+			]
+			id: "66D05E37DC634CC8"
+			rewards: [
+				{
+					id: "3230DF5B7E7AFDEF"
+					item: "lightmanscurrency:coin_emerald"
+					title: "お金"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "3F252D9D1E228D51"
+					silent: true
+					title: "経験値100×Lv."
+					type: "command"
+				}
+				{
+					id: "7381C57602D80F7F"
+					item: "simplehats:hatbag_common"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2B407159F4F31F62"
+					table_id: 8834087311923919794L
+					type: "all_table"
+				}
+			]
+			subtitle: "M\\&S 職業"
+			tasks: [{
+				id: "0BC1B554EEEDFF0E"
+				item: "mmorpg:gear_crafting_station"
+				type: "item"
+			}]
+			title: "ギアクラフト"
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"350315F71B69062F"
+				"5BAFAA732A026ADD"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"満腹度と満腹度を上昇させるだけでなく、ステータスブーストも得られる料理を作ることができます。料理にはいくつかの材料が必要です。"
+				""
+				"1. &eTiered Meat/Produce/Fish&r - 賞金稼ぎ、農作物、釣りで獲得できるアイテムは、作成するアイテムのレベルに基づいています。レベル帯はギャザリングの職業で手に入るものと同じです。使用する料理の種類は、調理する料理によって異なります。"
+				""
+				"&cMeat&r: 体力/魔法シールド回復"
+				"&2Produce&r: マナ/エネルギー回復"
+				"&bFish&r: 経験値/戦利品"
+				""
+				"2. &c1&r &eStone (Rarity)&r - ストーンは作成する装備のレア度を決定します。これらのストーンは、サルベージ中に入手できます。"
+				""
+				"3. &eOther Food Item&r - 通常は追加の材料として使用され、調理する料理の種類も決定します。レシピについては&cJEI&rをご覧ください！"
+				""
+				"4. &eMoney&r"
+				""
+				"&l&cJEI&r &lでいつでも&eCooking&r&lに必要なアイテムを確認できます。&r"
+				""
+				"&e完了するには1つの依存関係が必要です。&r"
+			]
+			id: "0402FA5F0E1D4835"
+			rewards: [
+				{
+					id: "733A740BBD7E157B"
+					item: "lightmanscurrency:coin_emerald"
+					title: "お金"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "2A86C11774E7E94C"
+					silent: true
+					title: "経験値100×Lv."
+					type: "command"
+				}
+				{
+					id: "3F36BD44ADA840B1"
+					item: "simplehats:chefshat"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6D912622A78183E5"
+					table_id: 4000157731876446784L
+					type: "all_table"
+				}
+			]
+			subtitle: "M\\&S 職業"
+			tasks: [{
+				id: "286493E91C2A3DE3"
+				item: "mmorpg:cooking_station"
+				type: "item"
+			}]
+			title: "料理"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4E27A84CE1F030A1"]
+			description: [
+				"体力や資源を回復したり、ステータスを強化したりするポーションを醸造できます。醸造にはいくつかの材料が必要です。"
+				""
+				"1. &eTiered Meat/Produce/Fish&r - 賞金稼ぎ、農作物、釣りで獲得できます。レベルは、ギャザリングの職業で入手できるものと同じです。使用する食料の種類は、醸造するポーションによって異なります。"
+				""
+				"&cMeat&r: 体力/資源ポーション"
+				"&2Produce&r: コアステータスポーション"
+				"&bFish&r: ダメージバフポーション"
+				""
+				"2. &c1&r &eStone (レア度)&r - ストーンは、作成する装備のレア度を決定します。これらのストーンは、サルベージ中に入手できます。"
+				""
+				"3. 1～2 &eOther Food Items&r - 追加の材料として使用します。レシピについては&cJEI&rをご覧ください！"
+				""
+				"4. &eMoney&r"
+				""
+				"&l&cJEI&r &lでいつでも&eAlchemy&r&lに必要なアイテムを確認できます。&r"
+			]
+			id: "69CEB39AA409EB41"
+			rewards: [
+				{
+					id: "45E800C630906FA0"
+					item: "lightmanscurrency:coin_emerald"
+					title: "お金"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "61CF1AA5B0CB52A9"
+					item: "mmorpg:material/fishing/0"
+					type: "item"
+				}
+				{
+					id: "72560260773744C2"
+					item: "minecraft:golden_carrot"
+					title: "ゴールデンキャロット"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "06A71F74FBBAB6B4"
+					item: "minecraft:nether_wart"
+					title: "ネザーウォーツ"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "0AC5084AFE23C772"
+					silent: true
+					title: "経験値100×Lv."
+					type: "command"
+				}
+				{
+					id: "442A185482E51811"
+					item: "simplehats:potionhead"
+					type: "item"
+				}
+			]
+			subtitle: "M\\&S 職業"
+			tasks: [{
+				id: "1E06AAEDAF51CAC4"
+				item: "mmorpg:alchemy_station"
+				type: "item"
+			}]
+			title: "錬金術"
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["06E3D7523619E263"]
+			description: [
+				"&eInfusion&rは、防具、オフハンド、宝飾品、武器のどれかに使用できます。巻物を作成する際には、いくつかの材料が必要です。"
+				""
+				"1. &eTiered Ore&r - 採掘で獲得できます。作成したいアイテムのレベルに応じて異なります。レベル範囲は、採掘職で入手できるものと同じです。"
+				""
+				"2. &eStones (Rarity)&r - 作成する装備のレア度を決定するアイテムです。これらのStonesは、サルベージ中に入手できます。"
+				""
+				"3. &eIngots + Identifier Items&r - 防具、オフハンド、宝飾品、武器のどれを作成するかを決定するアイテムです。レシピについては、&cJEI&rを参照してください。"
+				""
+				"4. &ePaper&r"
+				""
+				"5. &eMoney&r"
+				""
+				"&l&eInfusion&rに必要なアイテムは、いつでも&cJEI&r &lで確認できます。&r"
+			]
+			id: "5DA0A1825512C2E3"
+			rewards: [
+				{
+					id: "1911D5BB40B08AE4"
+					item: "lightmanscurrency:coin_emerald"
+					title: "お金"
+					type: "item"
+				}
+				{
+					count: 6
+					id: "03487D940BB7FF6C"
+					item: {
+						Count: 1
+						id: "mmorpg:enchantment/family/armor/common"
+						tag: {
+							level: 1
+							tier: 0
+						}
+					}
+					title: "一般的な鎧のエンチャント"
+					type: "item"
+				}
+				{
+					id: "54A59A4D3825A0FB"
+					item: "mmorpg:material/mining/1"
+					title: "天界鉱石"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "7C33BF31E52E9AB8"
+					silent: true
+					title: "経験値100×Lv."
+					type: "command"
+				}
+			]
+			subtitle: "M\\&S 職業"
+			tasks: [{
+				id: "4A22DE4DF9A47E2D"
+				item: "mmorpg:enchanting_station"
+				type: "item"
+			}]
+			title: "注入"
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5B97985430859986"]
+			description: [
+				"どの種類の鉱石を採掘しても、採掘経験値を獲得できます。ただし、獲得できる経験値は採掘レベルに応じた量に限られます。"
+				""
+				"&eLv. 1-20&r (&7Tier 0&r): 石炭、鉄、銅"
+				"&eLv. 21-40&r (&aTier 1&r): レッドストーン、ラピスラズリ、金、クォーツ、エメラルド"
+				"&eLv. 41-60&r (&9Tier 2&r): クロッグラム、ダイヤモンド、フロストスチール、ユーセリウム"
+				"&eLv. 61-80&r (&dTier 3&r): レガリウム、ムーンストーン、パイロープ、アキト"
+				"&eLv. 81-100&r (&6Tier 4&r): ファルサイト、ベンティウム、ホリゾンナイト"
+				"&eLv. 100&r (&5Tier 5&r): チャロアイト、ダイオプサイド"
+				""
+				"&cレベル範囲外のアイテムから獲得できる経験値が全くないわけではありません。ただ、経験値が少なくなるだけです。&r"
+				""
+				"採掘中に、Tiered Ore(&7Spiritual&r、&aCelestial&r、&9Emyprean&r、&dAngelic&r、&6Divine&r、&5Godly&r)が見つかります。これらは、採掘する鉱石のレベル範囲と、あなたのレベルに応じて確率でドロップします。この鉱石は他の職業でも使用できます。"
+			]
+			id: "06E3D7523619E263"
+			rewards: [{
+				count: 10
+				id: "328BF723090CE6EC"
+				item: "mmorpg:material/mining/0"
+				type: "item"
+			}]
+			subtitle: "M\\&S 職業"
+			tasks: [{
+				id: "19BB6A94ECC3A565"
+				item: {
+					Count: 1
+					id: "minecraft:iron_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "鉱業"
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5B97985430859986"]
+			description: [
+				"農作物を栽培して収穫すると、農業経験値を獲得できます。ただし、植物から得られる経験値は、農業レベルに応じて最大限に増加します。"
+				""
+				"&eLv. 1-20&r (&7Tier 0&r): 小麦、ビートルート、ニンジン、ジャガイモ"
+				"&eLv. 21-40&r (&aTier 1&r): メロン、カボチャ、亜麻、キャベツ、トマト、タマネギ、カカオ豆"
+				"&eLv. 41-60&r (&9Tier 2&r): トウモロコシ、ギサールグリーン、ネザーウォート、米、グロウムゴード"
+				"&eLv. 61-80&r (&dTier 3&r): マツの実、冬の葉"
+				"&eLv. 81-100&r (&6Tier 4&r): スケールフルーツ、ファイアリービーンズ"
+				"&eLv. 100&r (&5Tier 5&r): クライオルート、ソルナット"
+				""
+				"&cレベル範囲外のアイテムから経験値を獲得できないわけではありません。獲得できる経験値が少なくなるだけです。&r"
+				""
+				"収穫中に、&eTiered Produce&r (&7Spiritual&r、&aCelestial&r、&9Emyprean&r、&dAngelic&r、&6Divine&r、&5Godly&r) が見つかります。これらは、収穫する植物のレベル範囲と、あなたのレベルに応じて確率でドロップします。これらのアイテムは、他の職業で使用できます。"
+			]
+			id: "350315F71B69062F"
+			rewards: [{
+				count: 10
+				id: "4989A75D782C3EC1"
+				item: "mmorpg:material/farming/0"
+				type: "item"
+			}]
+			subtitle: "M\\&S 職業"
+			tasks: [{
+				id: "48940014C4EC1677"
+				item: {
+					Count: 1
+					id: "minecraft:iron_hoe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "農業"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5B97985430859986"]
+			description: [
+				"魚を釣ると釣り経験値を獲得できます。"
+				""
+				"釣りをしていると、レベルに応じて確率でドロップする「階層別魚」（「7霊的魚」「a天上的魚」「9天上的魚」「d天使的魚」「6神的魚」「5神的魚」）が見つかります。例えば、釣りレベルが1～20の間は「7霊的魚」が、釣りレベルが21～40の間は「a天上的魚」がドロップするなどです。これらの魚は他の職業で使用できます。"
+			]
+			id: "5BAFAA732A026ADD"
+			rewards: [{
+				count: 10
+				id: "564B2EEF75A0E3BD"
+				item: "mmorpg:material/fishing/0"
+				type: "item"
+			}]
+			subtitle: "M\\&S 職業"
+			tasks: [{
+				id: "5433C4BA3B7B3B42"
+				item: {
+					Count: 1
+					id: "aquaculture:iron_fishing_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "釣り"
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5B97985430859986"]
+			description: [
+				"&e賞金稼ぎ&rは、豊富な賞金首の任務を完了するごとにレベルアップする、採掘と斬りの職業です。賞金首の任務を完了すると、賞金稼ぎの経験値と&e賞金首票&rを獲得できます！"
+				""
+				"&e賞金首掲示板&rは、完了するための&eランダムな賞金首&rを生成します。掲示板のインターフェースから&e依頼&rを取得し、&e制限時間&r内に完了すると、記載されている報酬を獲得できます。賞金首を完了するにつれて、その賞金首掲示板ブロックに関連付けられた&e評判&rが上がり、報酬のレベルも上がります。強化された賞金首票は、評判が45になると出現し始めます！"
+				""
+				"賞金稼ぎのレベルが上がると、&e職業ショップ&rで購入できる報酬が増えます。このショップのアイテムは&e賞金首票&rで購入できます！ショップへは&eデフォルトキー: P、またはメニューホイール&rでアクセスできます。"
+				""
+				"&e法令&rを作成すると、ランダムに決定される法令の種類ごとに、ボードに新しいクエストタイプを追加できます。"
+				""
+				"賞金稼ぎを通じて、料理に使用できる&eティアードミート&r（&7スピリチュアル&r、&aセレスティアル&r、&9エミプレアン&r、&dエンジェル&r、&6ディバイン&r、&5ゴッドリー&r）を獲得できます。"
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:iron_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "4E27A84CE1F030A1"
+			rewards: [{
+				count: 8
+				id: "3385BEBBDDCFD837"
+				item: "mns_extras:bounty_slip"
+				type: "item"
+			}]
+			subtitle: "M\\&S 職業"
+			tasks: [{
+				id: "3363152CC7556CBC"
+				item: {
+					Count: 1
+					id: "bountiful:bounty"
+					tag: {
+						"bountiful:bounty_data": "{}"
+						"bountiful:bounty_info": "{}"
+					}
+				}
+				title: "コモンバウンティ"
+				type: "item"
+			}]
+			title: "賞金稼ぎ"
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			description: [
+				"Mine and Slash では独自の職業システムが追加されます。職業は3つのカテゴリーに分かれています。"
+				""
+				"&e&lGathering:&r&r"
+				"- &7Mining: 採掘中に素材を集めます。"
+				"- &2Farming: 農作物を収穫する際に素材を集めます。"
+				"- &9Fishing: 釣り中に特別な魚を偶然釣ります。"
+				"- &6Bounty Hunting: 賞金稼ぎのバウンティを完了して報酬を獲得します。"
+				""
+				"&e&lCrafting:&r&r"
+				"- &eGear Crafting: 戦闘で使用する装備を作成します。"
+				"- &Infuser: 装備を強化する巻物を作成します。"
+				"- &cCooking: 食べると一定時間、ステータス、ドロップ、経験値にボーナスを与える料理を作成します。"
+				"- &5Alchemy: 一定時間、ステータスを強化する強力な醸造物を作成します。"
+				""
+				"&e&lその他:&r&r"
+				"- &4サルベージ&r: サルベージステーションで装備をサルベージすると、その装備から資源を抽出します&e(ハブから自動サルベージを有効にすることもできます)&r。"
+				""
+				"&c&l注: 職業は採掘と斬撃のレベルを超えてレベルアップすることはできません!&r&r"
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:diamond_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5B97985430859986"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 250"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "5F6792B593BCCE90"
+				silent: true
+				title: "経験値250×Lv."
+				type: "command"
+			}]
+			subtitle: "M\\&S 職業"
+			tasks: [{
+				id: "3921C843B8906ADB"
+				title: "クリックして読む"
+				type: "checkmark"
+			}]
+			title: "職業概要"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5B97985430859986"]
+			description: [
+				"Craft to Exile 2 のツールは使用することでレベルが上がります。レベルが上がると、様々な強化効果が得られるアフィックスが付与されます！"
+				""
+				"&eTools は20レベルごとにアフィックスが付与されます！&r"
+			]
+			icon: "minecraft:paper"
+			id: "4FC11A47AE877347"
+			rewards: [{
+				id: "1D951C04F12D86AD"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			subtitle: "M\\&S 職業の失われたページ"
+			tasks: [{
+				id: "425830C92EB05E74"
+				title: "クリックして読む"
+				type: "checkmark"
+			}]
+			title: "レベル調整ツール"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["66D05E37DC634CC8"]
+			description: [
+				"&eSharpening Stones&rは装備品に使用することで、その効果を高めることができます。品質の向上は、装備品の基本ステータス（武器ダメージ、装甲値、回避率など）に反映されます。"
+				""
+				"&eSharpening Stones&rは、&eGear Crafting Station&rで石を使って作成できます。よりレア度の高い石を見つけるほど、より高品質な&eSharpening Stones&rを作成できるようになります。"
+				""
+				"これらの&eSharpening Stones&rは、品質を通常の上限である&b20&r以上に高めることができるため、必ず&eSharpening Stones&rの後に使用してください。&eSharpening Stones&rは1つのアイテムに1回しか使用できないためです。"
+			]
+			id: "141FEAAFF05B9AD0"
+			rewards: [
+				{
+					count: 2
+					id: "547E65938CA0A29C"
+					item: "mmorpg:stone/2"
+					title: "希少石"
+					type: "item"
+				}
+				{
+					id: "3D8965F89B3ED0BF"
+					item: "mmorpg:currency/sharpening_stone_1"
+					type: "item"
+				}
+			]
+			subtitle: "M\\&S 職業"
+			tasks: [{
+				id: "0A06314AF113F9B0"
+				item: "mmorpg:currency/sharpening_stone_0"
+				type: "item"
+			}]
+			title: "ギアの品質向上"
+			x: -4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["69CEB39AA409EB41"]
+			description: [
+				"以下の材料でポーションを醸造します："
+				""
+				"&7スピリチュアルミート&r 3個"
+				"&7コモンストーン&r 1個"
+				"調理済みチキン 1個 / リンゴ 3個"
+				"トマト/玉ねぎ 1個"
+				"銅貨 1枚"
+			]
+			id: "50FD77E095AAC45F"
+			rewards: [
+				{
+					count: 15
+					id: "0981A3CD67453EB1"
+					item: "mmorpg:material/meat/1"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 250"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "237FE61CA6C59BC2"
+					silent: true
+					title: "経験値250×Lv."
+					type: "command"
+				}
+			]
+			subtitle: "M\\&S 職業"
+			tasks: [
+				{
+					count: 16L
+					id: "7E723FA212E31E4B"
+					item: {
+						Count: 1
+						id: "mmorpg:potion/health/0"
+						tag: {
+							level: 1
+							tier: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "0120CDCEBB47B1F9"
+					item: {
+						Count: 1
+						id: "mmorpg:potion/resource/0"
+						tag: {
+							level: 1
+							tier: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "回復ポーション"
+			x: 3.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["69CEB39AA409EB41"]
+			description: [
+				"以下の材料でポーションを醸造しましょう："
+				""
+				"&7霊的産物&r 3個"
+				"&7普通石&r 1個"
+				"ジャガイモ/キャベツ/ニンジン 3個"
+				"銅貨 1枚"
+			]
+			id: "53205D57DBDEE858"
+			rewards: [
+				{
+					count: 10
+					id: "50520A4E47D0F85F"
+					item: "mmorpg:material/farming/1"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "15D78B8F7609066A"
+					item: "minecraft:nether_wart"
+					title: "ネザーウォーツ"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 250"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "15C4752FC4CE35F1"
+					silent: true
+					title: "経験値250×Lv."
+					type: "command"
+				}
+			]
+			subtitle: "M\\&S 職業"
+			tasks: [
+				{
+					id: "1673E0EA465EEEFC"
+					item: {
+						Count: 1
+						id: "mmorpg:buff_potion/common_str"
+						tag: {
+							tier: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "73300383E4D249CA"
+					item: {
+						Count: 1
+						id: "mmorpg:buff_potion/common_int"
+						tag: {
+							tier: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "18858219F8B3DD30"
+					item: {
+						Count: 1
+						id: "mmorpg:buff_potion/common_dex"
+						tag: {
+							tier: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "コアバフ"
+			x: 4.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5DA0A1825512C2E3"]
+			description: [
+				"以下の材料で&eアンコモン防具の融合&rを作成しましょう："
+				""
+				"&7霊鉱石&r 3個"
+				"&aアンコモン石&r 1個"
+				"鉄インゴット&r 2個"
+				"革&r 1個"
+				"紙&r 1個"
+				"銅貨&r 5個"
+				""
+				"装備に使用すると、ランダムなステータスがボーナスとして付与される可能性があります。その後、よりレア度の高い融合を適用することで、そのステータスをアップグレードできます。"
+				""
+				"&cこの融合は使用時に失敗する可能性があります&r。成功するとアイテムのツールチップに「融合」と表示されます。&c融合はレア度順に適用する必要があります。&rつまり、アンコモンの融合を適用する前に、まずコモンの融合を成功させる必要があります。コモンの融合が適用されたアイテムにレアの融合を適用することはできません。「融合」ツールチップの色は、融合のレア度を示しています。"
+			]
+			id: "13CE922E843B9A50"
+			rewards: [
+				{
+					count: 4
+					id: "3E9038789F3ED19A"
+					item: "minecraft:paper"
+					title: "紙"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "35DB00B2EE31CADD"
+					item: "mmorpg:stone/2"
+					title: "希少石"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 250"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "7A1D466C1C4DC0B0"
+					silent: true
+					title: "経験値250×Lv."
+					type: "command"
+				}
+			]
+			subtitle: "M\\&S 職業"
+			tasks: [{
+				id: "46602E72F4D06D1C"
+				item: {
+					Count: 1
+					id: "mmorpg:enchantment/family/armor/uncommon"
+					tag: {
+						level: 1
+						tier: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "バニラのエンチャントではない"
+			x: -1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0402FA5F0E1D4835"]
+			description: [
+				"以下の材料で料理を作りましょう："
+				""
+				"スピリチュアルフィッシュ×3"
+				"熱帯魚×3"
+				"コモンストーン×1"
+				"銅貨×1"
+			]
+			id: "29BD14415C264D41"
+			rewards: [
+				{
+					count: 10
+					id: "260E57F5246191D1"
+					item: "mmorpg:material/fishing/1"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 250"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "1874108D1CC5EEE9"
+					silent: true
+					title: "経験値250×Lv."
+					type: "command"
+				}
+			]
+			subtitle: "M\\&S 職業"
+			tasks: [{
+				id: "14728EE82752D08A"
+				item: {
+					Count: 1
+					id: "mmorpg:seafood/common_exp"
+					tag: {
+						tier: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "贅沢なシーフード"
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0402FA5F0E1D4835"]
+			description: [
+				"以下の材料で食品をクラフトしましょう："
+				""
+				"&7スピリチュアルミート/農産物 3個&r"
+				"調理済み魚の切り身 2個/ビートルート 3個"
+				"&7コモンストーン 1個&r"
+				"銅貨 1枚"
+				""
+				"&c材料の順番は問いませんが、ステーションの出力は空である必要があります！&r"
+			]
+			id: "74D3767A981DAE84"
+			rewards: [
+				{
+					count: 10
+					id: "1AFDC3779EB71D22"
+					item: "mmorpg:material/farming/1"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 250"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "303BACA6F3D5CE95"
+					silent: true
+					title: "経験値250×Lv."
+					type: "command"
+				}
+			]
+			subtitle: "M\\&S 職業"
+			tasks: [
+				{
+					id: "0007D7D85660469C"
+					item: {
+						Count: 1
+						id: "mmorpg:food/common_life"
+						tag: {
+							tier: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1D555271425DE10D"
+					item: {
+						Count: 1
+						id: "mmorpg:food/common_mana"
+						tag: {
+							tier: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "健康食品"
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["66D05E37DC634CC8"]
+			description: [
+				"以下の材料で「クラフトされたコモン宝飾品のソウル」を作成しましょう："
+				""
+				"「精霊の鉱石」×3"
+				"「コモンストーン」×2"
+				"「鉄インゴット」×1"
+				"「銅インゴット」×1"
+				"「銅貨」×1"
+				""
+				"「クラフトされた装備のソウル」は、種類が一致するベースアイテムであればどれでも使用できます（指輪のソウルは指輪に使用できます）。"
+			]
+			id: "7C542CE6F026787C"
+			rewards: [
+				{
+					count: 10
+					id: "5D52FE5D16AEAD00"
+					item: "mmorpg:material/mining/1"
+					type: "item"
+				}
+				{
+					id: "76BCE67805EE0024"
+					item: {
+						Count: 1
+						id: "mmorpg:stat_soul/family/armor/rare"
+						tag: {
+							tier: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 250"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "5C53ABEEFE4798DC"
+					silent: true
+					title: "経験値250×Lv."
+					type: "command"
+				}
+			]
+			subtitle: "M\\&S 職業"
+			tasks: [{
+				id: "394F2627DA3AB85C"
+				item: {
+					Count: 1
+					id: "mmorpg:stat_soul/family/jewelry/common"
+					tag: {
+						level: 1
+						tier: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "謙虚な始まり"
+			x: -3.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["69CEB39AA409EB41"]
+			description: [
+				"以下の材料でポーションを調合します："
+				""
+				"&7スピリチュアルフィッシュ&r 1個"
+				"ラピスラズリ5個／金インゴット3個／レッドストーン3個"
+				"&7コモンストーン&r 1個"
+				"銅貨1枚"
+			]
+			id: "609557127CC400F5"
+			rewards: [
+				{
+					count: 10
+					id: "1F5213228CFE8423"
+					item: "mmorpg:material/fishing/1"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "0E3EF56AF97F2452"
+					item: "minecraft:golden_carrot"
+					title: "ゴールデンキャロット"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 250"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "31EDE1FD872C0BB5"
+					silent: true
+					title: "経験値250×Lv."
+					type: "command"
+				}
+			]
+			subtitle: "M\\&S 職業"
+			tasks: [
+				{
+					id: "7A9908F77070FDB2"
+					item: {
+						Count: 1
+						id: "mmorpg:buff_potion/common_arcane"
+						tag: {
+							tier: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "30DDFA1833670A12"
+					item: {
+						Count: 1
+						id: "mmorpg:buff_potion/common_crit"
+						tag: {
+							tier: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0A640BA5924AB2E9"
+					item: {
+						Count: 1
+						id: "mmorpg:buff_potion/common_might"
+						tag: {
+							tier: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "生のダメージ"
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["69CEB39AA409EB41"]
+			description: [
+				"以下の材料でポーションを醸造します。"
+				""
+				"これらのポーションのレシピは少し異なりますので、詳しくは&cJEI&rをご覧ください。"
+			]
+			id: "70D6378FAA39BED0"
+			rewards: [
+				{
+					count: 2
+					id: "15F556C5A1EA7854"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 500"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "3FA933A7A6E67FE4"
+					silent: true
+					title: "経験値500×Lv."
+					type: "command"
+				}
+			]
+			subtitle: "M\\&S 職業"
+			tasks: [
+				{
+					id: "106CA4AA64E1CCEA"
+					item: "mmorpg:potions/reset_points_spell"
+					type: "item"
+				}
+				{
+					id: "406F817BC074EAEB"
+					item: "mmorpg:potions/reset_points_stat"
+					type: "item"
+				}
+				{
+					id: "5C2D308DBBAA24F4"
+					item: "mmorpg:potions/reset_points_talent"
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5B97985430859986"]
+			description: [
+				"各職業の「クラフトステーション」は、それを設置したプレイヤーに紐付けられます。"
+				""
+				"プレイヤーごとに専用のクラフトステーションが必要になります！"
+			]
+			icon: "minecraft:paper"
+			id: "3C7E703FC750E2B3"
+			rewards: [{
+				id: "1D66EBADBC1EE67A"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			subtitle: "M\\&S 職業の失われたページ"
+			tasks: [{
+				id: "6A644AC376F30A75"
+				title: "クリックして読む"
+				type: "checkmark"
+			}]
+			title: "各自の持ち場へ！"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7C542CE6F026787C"]
+			description: [
+				"&eクラフトギアソウル&rを使用すると、いずれかの防具タイプとしてロールされる&cchance&rがあります。このランダム性を回避するには、&eソウル修飾子&rを使用できます。"
+				""
+				"&eクラフトギアソウル&rに&eソウル修飾子&rを直接適用することで、アイテムの素材（プレート、クロス、レザー）の結果が&e保証&rされます。"
+				""
+				"また、様々なハイブリッド防具セットにも&eソウル修飾子&rがあります！"
+				""
+				"&eクラフトギアソウル&rに&eソウル修飾子&rを適用するには、ドラッグ＆ドロップしてください。変更に気付かないかもしれませんが、&eクラフトギアソウル&rを使用すると、そのタイプに属していることがわかります。"
+				""
+				"例えば、&eクラフト防具ソウル&rに&eクロスソウル修飾子&rを適用すると、布製防具が保証されます！"
+			]
+			id: "1F781E29B5ACDD96"
+			rewards: [{
+				count: 2
+				id: "3DDB910D100481C8"
+				item: "mmorpg:stone/2"
+				type: "item"
+			}]
+			subtitle: "M\\&S 職業"
+			tasks: [
+				{
+					id: "742045832B4AD932"
+					item: "mmorpg:currency/force_soul_tag_armor_stat"
+					type: "item"
+				}
+				{
+					id: "7F8B59AA6D45DF34"
+					item: "mmorpg:currency/force_soul_tag_dodge_stat"
+					type: "item"
+				}
+				{
+					id: "74F7F3B44E28B6BD"
+					item: "mmorpg:currency/force_soul_tag_magic_shield_stat"
+					type: "item"
+				}
+			]
+			title: "魂の改造"
+			x: -1.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["7C542CE6F026787C"]
+			description: [
+				"以下の材料を使って「クラフトされたレア武器ソウル」を作成しましょう:"
+				""
+				"「天界鉱石」×3"
+				"「レアストーン」×4"
+				"「エメラルド」×2"
+				"「棒」×1"
+				"「鉄貨」×1"
+			]
+			id: "59FA681B103BE2AB"
+			rewards: [
+				{
+					count: 3
+					id: "14BE255969B2DE09"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 250"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "2FE4467A1FF871D2"
+					silent: true
+					title: "経験値250×Lv."
+					type: "command"
+				}
+			]
+			subtitle: "M\\&S 職業"
+			tasks: [{
+				id: "1A660838036424BB"
+				item: {
+					Count: 1
+					id: "mmorpg:stat_soul/family/weapon/rare"
+					tag: {
+						level: 20
+						tier: 1
+					}
+				}
+				type: "item"
+			}]
+			title: "鍛冶屋のレッスン"
+			x: -3.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5B97985430859986"]
+			description: [
+	"選択した &eクラフト ステーション&r に &e分解学習法&r を挿入すると、作成したアイテムは &e即座に無効&r になりますが、&e職業経験値が 2 倍になります&r。"
+]
+			id: "4C14F8BB015A5892"
+			rewards: [{
+				id: "566A53AA87A4E85F"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			subtitle: "逆アセンブラの学習方法"
+			tasks: [{
+				id: "40C533C34F3858DF"
+				item: "mmorpg:destroy_output_exp"
+				type: "item"
+			}]
+			title: "高速レベリング"
+			x: 0.0d
+			y: 1.5d
+		}
+	]
+	title: "&aM\\&S 職業&r"
+}

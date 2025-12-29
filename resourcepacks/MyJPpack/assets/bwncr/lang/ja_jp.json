@@ -1,0 +1,13 @@
+{
+  "badwithernocookiereloaded.general.tooltip": "キャンセルできるグローバル基本サウンドとイベント",
+  "badwithernocookiereloaded.xtra.tooltip": "キャンセルできる追加のローカライズされたサウンド",
+  "badwithernocookiereloaded.localized settings.silenceus": "例: entity.sheep.step - 他のサウンドには /listen を使用します",
+  "text.autoconfig.bwncr.title": "バッド・ウィザー・ノー・クッキー - リローデッド",
+  "text.autoconfig.bwncr.option.general": "一般的な",
+  "text.autoconfig.bwncr.option.general.silenceWither": "サイレンス・ウィザー",
+  "text.autoconfig.bwncr.option.general.silenceTrader": "サイレンストレーダー",
+  "text.autoconfig.bwncr.option.general.silenceDragon": "サイレンスドラゴン",
+  "text.autoconfig.bwncr.option.general.silenceLightning": "サイレンスライトニング",
+  "text.autoconfig.bwncr.option.general.silenceUs": "沈黙せよ",
+  "text.autoconfig.bwncr.option.general.debugMode": "デバッグモード"
+}

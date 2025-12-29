@@ -1,0 +1,13 @@
+{
+  "emi.category.emitrades.villager_trades": "村人の取引",
+  "emi.emitrades.random_colored": "ランダムに色付け",
+  "emi.emitrades.random_structure": "ランダム構造",
+  "emi.emitrades.random_effect": "ランダムなステータス効果",
+  "emi.emitrades.enchantments.possible": "可能なエンチャント",
+  "emi.emitrades.profession.lvl.1": "初心者",
+  "emi.emitrades.profession.lvl.2": "見習い",
+  "emi.emitrades.profession.lvl.3": "ジャーニーマン",
+  "emi.emitrades.profession.lvl.4": "専門家",
+  "emi.emitrades.profession.lvl.5": "マスター",
+  "emi.emitrades.placeholder.wandering_trader": "放浪商人"
+}

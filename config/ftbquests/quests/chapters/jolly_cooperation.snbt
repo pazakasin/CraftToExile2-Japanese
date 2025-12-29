@@ -1,0 +1,938 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "jolly_cooperation"
+	group: "5C56FC6157E20EBE"
+	icon: "minecraft:rose_bush"
+	id: "05E0BC63F8DC87E2"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&eライトマンの通貨&rでは、通貨としてコインを導入し、様々な交易所、オークションハウスなどが登場します。"
+				""
+				"設置した&eライトマンのトレーダー&rは、あなた自身またはライトマンの&eチームによってのみ変更できます。&rチームアカウントは、インベントリの右上にある小さなスティーブアイコンをクリックして作成できます。トレーダーとチームアカウントのイベントには&e通知&rボタンもあります。チームアカウントは、プレイヤー間で利益と費用を共有するために使用されます。"
+				""
+				"&e通貨&rは、モブを&eキル&rしたり、&e戦利品&r、&eクエスト&rを消費することで入手できます。&r"
+				""
+				"&e/lctrade&rを使用して、近くのプレイヤーと取引しましょう。"
+			]
+			id: "06B577BB603F2F0A"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "374773DC08579C0F"
+				silent: true
+				title: "経験値100×Lv."
+				type: "command"
+			}]
+			subtitle: "自動販売機を1台作る"
+			tasks: [{
+				id: "3A6E6453C16F4C89"
+				item: "lightmanscurrency:vending_machine"
+				type: "item"
+			}]
+			title: "ライトマンの通貨"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["06B577BB603F2F0A"]
+			description: [
+				"ほとんどのアイテムトレーダー ブロックはどのアイテムでも取引できますが、電子書籍やアイテムなどの一部のアイテム タイプには特定の eTraders が必要です。"
+				""
+				"配置したトレーダーを &elink&r するには &eCash Register&r を使用し、右クリックして &ebind&r して &eregister&r にリンクします。レジスタを配置すると、トレーダーで利用可能なすべての取引が &eCash Register インターフェース&r に表示されます。"
+			]
+			id: "64C7494796410D04"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "4A6C9A71A022A0C1"
+				silent: true
+				title: "経験値100×Lv."
+				type: "command"
+			}]
+			subtitle: "レジを1つ作る"
+			tasks: [{
+				id: "2DCBF62C3EC5F4FE"
+				item: "lightmanscurrency:cash_register"
+				type: "item"
+			}]
+			title: "交易所"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["64C7494796410D04"]
+			description: [
+				"&eATM&rは&eお金を保管&r、口座間およびチーム口座間で&e送金&r、そして&e異なる額面のコインを交換&rできます。"
+				""
+				"&e貯金箱&rは、コインを手に持った状態で右クリックすることでコインを保管できます。ただし、現金を引き出すには&e壊す&r必要があります。"
+				""
+				"&eマネーチェスト&rはATMの代替手段ですが、&e現金を保管&rすることしかできません。銀行のATMを&e信頼&rしない場合は、代わりにマネーチェストにコインを保管してください。"
+				""
+				"&e/lcbaltop&rを使用して、誰の銀行口座に最も多くの金額が&restoredされているかを確認できます。"
+			]
+			id: "6C57A4CBA635B27E"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "086A687857069566"
+				silent: true
+				title: "経験値100×Lv."
+				type: "command"
+			}]
+			subtitle: "それぞれ1つずつ作成する"
+			tasks: [
+				{
+					id: "0D6098AA97808306"
+					item: "lightmanscurrency:atm"
+					type: "item"
+				}
+				{
+					id: "37A73CBAF5EED880"
+					item: "lightmanscurrency:piggy_bank"
+					type: "item"
+				}
+				{
+					id: "70503A6E08BBB908"
+					item: "lightmanscurrency:coin_chest"
+					type: "item"
+				}
+			]
+			title: "お金の保管"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6C57A4CBA635B27E"]
+			description: [
+				"&eトレーディングターミナル&rを使用すると、&eグローバルネットワーク&r上の他のトレーダーと取引できます。また、通常のプレイヤーにはアクセスできないサーバーの&eオークションハウス&rにもアクセスできます。"
+				""
+				"&eアイテムネットワークトレーダー&rには&e4&rのティアがあり、トレーディングターミナルからのみ&eアクセス&rできます。"
+				""
+				"&eネットワークアップグレード&rを&eアップグレードスロット&rの1つに配置することで、通常のトレーダーをネットワーク経由でも直接アクセスできるように&eアップグレード&rできます。"
+				""
+				"&eオークションスタンド&rを使用すると、オークション終了前の&e割り当てられた時間&r内にアイテムを&e入札&rできます。"
+			]
+			id: "2BB4B6FE41F4CC58"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "2BD9D6EA6E99502E"
+				silent: true
+				title: "経験値100×Lv."
+				type: "command"
+			}]
+			subtitle: "それぞれ1つずつ作成する"
+			tasks: [
+				{
+					id: "5BE8EC6FBAEA12B4"
+					item: "lightmanscurrency:item_trader_server_sml"
+					type: "item"
+				}
+				{
+					id: "414707595643EEB0"
+					item: "lightmanscurrency:network_upgrade"
+					type: "item"
+				}
+				{
+					id: "01FE70F053D60BE3"
+					item: "lightmanscurrency:auction_stand_oak"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2BB4B6FE41F4CC58"]
+			description: [
+				"&eTicketシステム&rは、指定されたエリアへの入場やレッドストーン装置の起動を有料会員のみに制限するのに最適です。作成した&eMasterチケット&rは誰にも渡さないでください。"
+				""
+				"&eSlotマシン&rを使用すると、有料会員への&eペイアウトウェイトと潜在的な報酬&rを独自に作成できます。"
+			]
+			id: "322F44860B462AEF"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "112776A78DA44E79"
+				silent: true
+				title: "経験値100×Lv."
+				type: "command"
+			}]
+			subtitle: "それぞれ1つずつ作成する"
+			tasks: [
+				{
+					id: "36CBBF5574C67135"
+					item: "lightmanscurrency:ticket_kiosk"
+					type: "item"
+				}
+				{
+					id: "76481E26B68A5DC5"
+					item: "lightmanscurrency:paygate"
+					type: "item"
+				}
+				{
+					id: "656E0AEF24D841CB"
+					item: "lightmanscurrency:ticket_machine"
+					type: "item"
+				}
+				{
+					id: "08328D273151AA2A"
+					item: "lightmanscurrency:slot_machine"
+					type: "item"
+				}
+			]
+			title: "チケットとスロットマシン"
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["322F44860B462AEF"]
+			id: "652C2A6786830558"
+			rewards: [
+				{
+					command: "/mine_and_slash give xp_times_lvl @p 500"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "76F366A39BE3CBF5"
+					silent: true
+					title: "経験値500×Lv."
+					type: "command"
+				}
+				{
+					id: "7421D41C27D9A612"
+					item: "simplehats:halo"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "チャレンジ"
+			tasks: [
+				{
+					count: 4L
+					id: "60D301B383B7C824"
+					item: "lightmanscurrency:coinpile_copper"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "2F2002492C9614D8"
+					item: "lightmanscurrency:coinpile_iron"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "409E4DE17EB4AD7F"
+					item: "lightmanscurrency:coinpile_gold"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "0C83A084CC749C05"
+					item: "lightmanscurrency:coinpile_emerald"
+					type: "item"
+				}
+				{
+					id: "0FB71A19BB5F835D"
+					item: "lightmanscurrency:coinpile_diamond"
+					type: "item"
+				}
+			]
+			title: "ハイローラー"
+			x: 0.0d
+			y: -8.0d
+		}
+		{
+			description: [
+				"&eJoy of Painting&r では、&easel&r に任意のサイズの &ecanvas&r を配置して芸術作品を作成できます。&r 染料を &epalette&r に追加し、混ぜ合わせて独自の色を作成できます。&ePalette&r は &eTrading Terminal&r で購入できます。完成したら、必ず &esign&r して絵を完成させましょう。"
+				""
+				"&ePalette&r を作成するには、板材 3 枚と染料を少なくとも 1 つ必要です。これは動的レシピであるため、JEI には表示されません。"
+			]
+			id: "792587BFEA5FB382"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "0E94772DB7822516"
+				silent: true
+				title: "経験値100×Lv."
+				type: "command"
+			}]
+			subtitle: "それぞれ1つずつ作成する"
+			tasks: [
+				{
+					id: "5D1C69FA31081C44"
+					item: "xercapaint:item_easel"
+					type: "item"
+				}
+				{
+					id: "7924B42762A8EFFC"
+					item: "xercapaint:item_palette"
+					type: "item"
+				}
+				{
+					id: "39A4B0FB7967A97B"
+					item: "xercapaint:item_canvas"
+					type: "item"
+				}
+			]
+			title: "絵を描く喜び"
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			description: [
+				"&eMusical Instrument Minecraft Interface&r を使用すると、&e接続された MIDI デバイス&r からコンピューターに、&eファイル&r から、&eオンラインの直接リンク&r から &eMIDI を&r再生&rできます。"
+				""
+				"完全な mod の &e手順&r は、&emod ガイドブックに記載されています。&r マルチプレイヤー楽器演奏&r などの一部の機能については、ここでは説明しません。"
+				""
+				"まず、インターネットから MIDI 曲を&eダウンロード&rし、&e指定のフォルダ&rに配置します。&r"
+				""
+				"&eTransmitter&r は、MIDI ファイルから MIMI 内の楽器にノートを送信するために使用されます。"
+				""
+				"&eTransmitter&r を使用するには、&eTransmitter&r を作成し、メインハンドまたはオフハンドに装着して、右クリックして送信画面 (後述) を開きます。送信機はエンダーチェストに少し似ており、各プレイヤーが 1 つしか持たず、すべての送信機アイテムはそのプレイヤーに対して同じになります。"
+				""
+				"「&b/mimi config&r」を使用してサウンド出力などを変更できます。"
+			]
+			id: "4EB78B5D6F8061E9"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "554EE015F2507D1C"
+				silent: true
+				title: "経験値100×Lv."
+				type: "command"
+			}]
+			subtitle: "それぞれ1つずつ作成する"
+			tasks: [
+				{
+					id: "4F23B706CC2324EB"
+					item: "mimi:guide"
+					type: "item"
+				}
+				{
+					id: "43B80F923FC3A2CB"
+					item: "mimi:transmitter"
+					type: "item"
+				}
+				{
+					id: "2ED6A543049B0B62"
+					item: "mimi:piano"
+					type: "item"
+				}
+			]
+			title: "ミュージックメーカー"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["309792D482119CAD"]
+			id: "659BC549DBEF88F7"
+			rewards: [
+				{
+					command: "/mine_and_slash give xp_times_lvl @p 525"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "3889F09AFDC21CA0"
+					silent: true
+					title: "経験値525×Lv."
+					type: "command"
+				}
+				{
+					id: "6D212FA3A888DEE3"
+					item: "simplehats:discoball"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "チャレンジ"
+			tasks: [
+				{
+					id: "47AD9E90B03F4DB1"
+					item: "mimi:banjo"
+					type: "item"
+				}
+				{
+					id: "7E41E58B5E74D3B0"
+					item: "mimi:acguitar"
+					type: "item"
+				}
+				{
+					id: "56D43392BB56F7BA"
+					item: "mimi:elecguitar"
+					type: "item"
+				}
+				{
+					id: "785F904C8061C3A3"
+					item: "mimi:bassguitar"
+					type: "item"
+				}
+				{
+					id: "467709160C457369"
+					item: "mimi:violin"
+					type: "item"
+				}
+				{
+					id: "28A00BDFBE87255A"
+					item: "mimi:microphone"
+					type: "item"
+				}
+				{
+					id: "1FB2835B5D6A93BE"
+					item: "mimi:trumpet"
+					type: "item"
+				}
+				{
+					id: "38934E313D24B898"
+					item: "mimi:frenchhorn"
+					type: "item"
+				}
+				{
+					id: "7B4D310CB1E27CFB"
+					item: "mimi:saxophone"
+					type: "item"
+				}
+				{
+					id: "7F0657D7E9DFD8ED"
+					item: "mimi:clarinet"
+					type: "item"
+				}
+				{
+					id: "2BB1616BA365C884"
+					item: "mimi:flute"
+					type: "item"
+				}
+				{
+					id: "2739476A8CEBB15B"
+					item: "mimi:ocarina"
+					type: "item"
+				}
+				{
+					id: "0567DAB0D990E3B6"
+					item: "mimi:synlead"
+					type: "item"
+				}
+				{
+					id: "4D884F1E82BA36FA"
+					item: "mimi:kalimba"
+					type: "item"
+				}
+				{
+					id: "12BE5EA3BE95256F"
+					item: "mimi:bagpipe"
+					type: "item"
+				}
+				{
+					id: "1051698400C45193"
+					item: "mimi:oboe"
+					type: "item"
+				}
+				{
+					id: "2472D4AAC36C0DC2"
+					item: "mimi:accordion"
+					type: "item"
+				}
+				{
+					id: "0C1314DCB6C97BB6"
+					item: "mimi:harmonica"
+					type: "item"
+				}
+				{
+					id: "4936A5A89E23BD80"
+					item: "mimi:handbell"
+					type: "item"
+				}
+				{
+					id: "2C472301BC4C42EE"
+					item: "mimi:glockenspiel"
+					type: "item"
+				}
+				{
+					id: "5CCBD8322359627D"
+					item: "mimi:musicbox"
+					type: "item"
+				}
+				{
+					id: "2BBD7855C228EF2F"
+					item: "mimi:bassoon"
+					type: "item"
+				}
+				{
+					id: "21DA66CBB72A6853"
+					item: "mimi:woodblock"
+					type: "item"
+				}
+				{
+					id: "0D1DF75F16A2F3CF"
+					item: "mimi:bottle"
+					type: "item"
+				}
+				{
+					id: "54B0B2BB73B656CA"
+					item: "mimi:panflute"
+					type: "item"
+				}
+				{
+					id: "4683423FD1BEFEBE"
+					item: "mimi:recorder"
+					type: "item"
+				}
+				{
+					id: "42755B39EF617F8E"
+					item: "mimi:piano"
+					type: "item"
+				}
+				{
+					id: "632BE4A56AB6F421"
+					item: "mimi:drums"
+					type: "item"
+				}
+				{
+					id: "595D576DA1CEB23D"
+					item: "mimi:organ"
+					type: "item"
+				}
+				{
+					id: "30A1D51D610F9BD7"
+					item: "mimi:steeldrum"
+					type: "item"
+				}
+				{
+					id: "28E5DF11B2BAA23A"
+					item: "mimi:xylophone"
+					type: "item"
+				}
+				{
+					id: "32AAD54A012E17CE"
+					item: "mimi:vibraphone"
+					type: "item"
+				}
+				{
+					id: "1B31B9552DC755C0"
+					item: "mimi:marimba"
+					type: "item"
+				}
+				{
+					id: "046909048DB7BF5F"
+					item: "mimi:celesta"
+					type: "item"
+				}
+				{
+					id: "104DE9FDAB590DC7"
+					item: "mimi:tubularbells"
+					type: "item"
+				}
+				{
+					id: "39CF393D39899A9E"
+					item: "mimi:harpsichord"
+					type: "item"
+				}
+				{
+					id: "68DEAB1EDFC98630"
+					item: "mimi:keyboard"
+					type: "item"
+				}
+				{
+					id: "225D7169B6A6FC97"
+					item: "mimi:edrums"
+					type: "item"
+				}
+			]
+			title: "ビッグバンド奏者"
+			x: 2.0d
+			y: -8.0d
+		}
+		{
+			description: [
+	"&eLootr&r は、各ワールドで生成された戦利品チェスト、樽、チェスト付きトロッコを &eplayer-instanced loot&r を持つ特別バージョンにする mod です。"
+]
+			id: "6E3023586AC43198"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "59AE27F4FBAA9B83"
+				silent: true
+				title: "経験値100×Lv."
+				type: "command"
+			}]
+			subtitle: "最初のLootrコンテナを開く"
+			tasks: [{
+				advancement: "lootr:1chest"
+				criterion: ""
+				id: "106E39AB117654B4"
+				type: "advancement"
+			}]
+			title: "ルートル"
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6E3023586AC43198"]
+			id: "193B377248414AFF"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "6700E56A6207ED42"
+				silent: true
+				title: "経験値100×Lv."
+				type: "command"
+			}]
+			subtitle: "Lootrコンテナを10個開ける"
+			tasks: [{
+				advancement: "lootr:10loot"
+				criterion: ""
+				id: "1AA46A7D8EE1171F"
+				type: "advancement"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["193B377248414AFF"]
+			id: "39CC9458268DAF56"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "32D00F66966D0979"
+				silent: true
+				title: "経験値100×Lv."
+				type: "command"
+			}]
+			subtitle: "Lootrコンテナを25個開ける"
+			tasks: [{
+				advancement: "lootr:25loot"
+				criterion: ""
+				id: "75727D55D4BE0E34"
+				type: "advancement"
+			}]
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["082038507F4E98DF"]
+			id: "070790DD12F2C9A6"
+			rewards: [
+				{
+					command: "/mine_and_slash give xp_times_lvl @p 500"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "25E5D3BD5CFDDE5C"
+					silent: true
+					title: "経験値500×Lv."
+					type: "command"
+				}
+				{
+					id: "59D0D1FDEF0E7795"
+					item: "simplehats:doubletake"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "チャレンジ"
+			tasks: [{
+				advancement: "lootr:100loot"
+				criterion: ""
+				id: "2486E63A4C408549"
+				type: "advancement"
+			}]
+			title: "盗賊"
+			x: -2.0d
+			y: -8.0d
+		}
+		{
+			description: [
+				"&eテレパス&rを作成して自分にリンクさせましょう。他のプレイヤーはそのテレパスを使ってあなたに&e瞬時にテレポート&rできます。"
+				""
+				"&eゴールドテレパス&rは&esingly&r使用ですが、&eダイヤモンドテレパス&rは&edurability&rを持っています。どちらも&eenchantment&rできます。"
+			]
+			id: "0152DC99C57C0731"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "0C7EFE6485B640A3"
+				silent: true
+				title: "経験値100×Lv."
+				type: "command"
+			}]
+			subtitle: "ダイヤモンドテレパスを1つ作成する"
+			tasks: [{
+				id: "13F379B253EDA98D"
+				item: {
+					Count: 1
+					id: "telepass:diamond_telepass"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["39CC9458268DAF56"]
+			id: "082038507F4E98DF"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "23A0D529C076FB7E"
+				silent: true
+				title: "経験値100×Lv."
+				type: "command"
+			}]
+			subtitle: "Lootrコンテナを50個開ける"
+			tasks: [{
+				advancement: "lootr:50loot"
+				criterion: ""
+				id: "4B724240CC7B8D95"
+				type: "advancement"
+			}]
+			x: -2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"070790DD12F2C9A6"
+				"652C2A6786830558"
+				"659BC549DBEF88F7"
+			]
+			icon: "alexsmobs:soul_heart"
+			id: "70DA25C53FFEB49F"
+			rewards: [
+				{
+					command: "/tellraw @a {\"text\":\"\",\"color\":\"blue\",\"extra\":[{\"selector\":\"@p\"},{\"text\":\" has achieved Team Player\"}]}"
+					elevate_perms: true
+					icon: "minecraft:cookie"
+					id: "3B58A7BF33FCBB9E"
+					title: "自慢するにはここをクリック"
+					type: "command"
+				}
+				{
+					command: "/mine_and_slash give xp_times_lvl @p 750"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "07421521F3C1CB44"
+					silent: true
+					title: "経験値750×Lv."
+					type: "command"
+				}
+				{
+					count: 6
+					id: "0279EAA6BA4B9D19"
+					item: "lightmanscurrency:coin_diamond"
+					title: "お金"
+					type: "item"
+				}
+				{
+					id: "2E2C8624A41D58EF"
+					item: "simplehats:floatinghearts"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "成果"
+			tasks: [{
+				id: "1C2D9D8441D68E4C"
+				title: "クリックして読む"
+				type: "checkmark"
+			}]
+			title: "チームプレーヤー"
+			x: 0.0d
+			y: -10.0d
+		}
+		{
+			description: [
+				"&eFLAN&rは土地の請求に使用されます。&eGolden Hoe&rで地面を右クリックして請求を開始します。"
+				""
+				"&estick&rで任意の場所を右クリックすると、誰が何を所有しているか、境界線がどこにあるかを確認できます。"
+				""
+				"&e/flan menu&rを使用して請求を編集します。&e/flan delete&rを使用して、現在主張している請求を削除します。&e/flan switchMode&rを使用してサブ請求を作成します。"
+				""
+				"&eGlobal permission&rは、権限グループに&enot&r属していないすべてのユーザーに付与される権限です。"
+				""
+				"&e権限グループを右クリック&rして、個別の権限を設定します。"
+				""
+				"&4&lマルチプレイヤーで、請求権の所有者が90日間何も操作を行わなかった場合、請求権は削除されます。&r&n&r"
+				""
+				"&e請求権ブロック開始数:&r 2000"
+				"&e+1&r ブロック間隔: &e10秒&r"
+				"&e請求権ブロック最大数:&r 25600"
+				"&e最大ブロック数到達までの時間: &r66時間"
+				"&e請求権初期深度:&r 20ブロック"
+				"&e請求権最大数: &r5"
+				""
+				"請求権下で&e建造&rを行うと、請求権深度は&e自動的に&rさらに深くなります。"
+			]
+			id: "447144432E16E12F"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "75FDF97DC42DDF10"
+				silent: true
+				title: "経験値100×Lv."
+				type: "command"
+			}]
+			size: 1.5d
+			subtitle: "それぞれ1つずつ作成する"
+			tasks: [{
+				id: "118E2836C81016A3"
+				item: {
+					Count: 1
+					id: "minecraft:golden_hoe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "土地の主張"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4EB78B5D6F8061E9"]
+			description: [
+	"楽器は「チューニング」することで音色や動作を変更できます。「チューニングテーブル」を作成し、「modガイドブック」の該当章に移動すると、チューニング可能な楽器と使用するアイテムの「完全なリスト」が表示されます。"
+]
+			id: "34D93634E3BD0A59"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "373E7EA816B5F7E0"
+				silent: true
+				title: "経験値100×レベル"
+				type: "command"
+			}]
+			subtitle: "チューニングテーブルを1つ作成する"
+			tasks: [{
+				id: "568DA92753424F60"
+				item: "mimi:tuningtable"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["34D93634E3BD0A59"]
+			description: [
+				"&eMechanical Maestro&r は、&einstrument&r と &eSwitchboard&r が与えられれば、&e 自動的に音楽を再生&r します。&r が機能するには &eredstone 信号&r が必要です。"
+				""
+				"&eListener&r ブロックと Recei&ever&r ブロックは、近くで演奏された &enote&r をリッスンし、フィルター セットに一致すると &eredstone 信号&r を出力します。"
+			]
+			id: "13BFD3FE012DE2AE"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "160744DEF54A6086"
+				silent: true
+				title: "経験値100×レベル"
+				type: "command"
+			}]
+			subtitle: "それぞれ1つずつ作成する"
+			tasks: [
+				{
+					id: "0608E7A2EAE0494D"
+					item: "mimi:mechanicalmaestro"
+					type: "item"
+				}
+				{
+					id: "19DFD7EE72173C45"
+					item: "mimi:listener"
+					type: "item"
+				}
+				{
+					id: "3FDBE267EACCBA27"
+					item: "mimi:receiver"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["13BFD3FE012DE2AE"]
+			description: [
+				"&eServer Transmitter&rはブロック状のTransmitterで、プレイヤーがMIDIファイルを再生するために持つ必要はありません。ただし、サーバー側で提供された曲のみ再生できます。MIDIファイルは、MIMI configフォルダ内の「server_midi_files」フォルダ（シングルプレイヤーおよびLAN内のホストでも使用可能）に配置し、リロードボタンをクリックすることで、サーバー側Transmitterに追加できます。"
+				""
+				"設定がプレイヤーごとに保存されるハンドヘルド型Transmitterとは異なり、&eServer Transmitter&rの設定はブロックごとに個別に保存されます。曲を再生している間、サーバー側Transmitterブロックはレッドストーン信号を発します。"
+			]
+			id: "309792D482119CAD"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "251B7685E57F4467"
+				silent: true
+				title: "経験値100×レベル"
+				type: "command"
+			}]
+			subtitle: "それぞれ1つずつ作成する"
+			tasks: [{
+				id: "60B81DC36D3F79DE"
+				item: "mimi:transmitterblock"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -6.0d
+		}
+		{
+			description: [
+	"DPSオーバーレイで自分のDPSを確認できます。&eShift + ]&rで表示し、&eShift + [&rで移動できます。"
+]
+			icon: "born_in_chaos_v1:evilometer"
+			id: "41B73C0882D4CAA4"
+			rewards: [{
+				id: "7F0E7DA137959919"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			subtitle: "DPSチェック！"
+			tasks: [{
+				id: "54512F768D4A938F"
+				title: "クリックして読む"
+				type: "checkmark"
+			}]
+			title: "ダメージメーター"
+			x: -3.5d
+			y: 1.5d
+		}
+	]
+	title: "陽気な協力"
+}

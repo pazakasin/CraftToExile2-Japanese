@@ -1,0 +1,1751 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "epilogue"
+	group: "1E3C4B5FFAE48A39"
+	icon: "bosses_of_mass_destruction:blazing_eye"
+	id: "5A7D6B87115D3B91"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["6149D163ABF06A15"]
+			description: [
+				"ついに…数々の冒険の記録が、あなたを「向こう側」へと導きました。"
+				""
+				"「上界」でのつつましい始まりから、「ネザー」と「アンダーダーク」を巡る危険な旅、「エバーブライト」と「エバードーン」での邂逅、そして「ジ・エンド」での危機一髪を経て、あなたは今、悪の根源と信じる場所に辿り着きました。"
+				""
+				"村の研究者はそれを何と呼んだでしょうか？「原始の巨人」同士の「争い」でしょうか？研究者によると、「ジ・エンド」と「向こう側」に生息する4体のエレメンタルクリーチャーを倒すだけで十分なようです。"
+				""
+				"さあ、最後の冒険へと出発しましょう！奴らを倒しても、戻ってくるはずがありませんよね…？"
+			]
+			icon: "minecraft:paper"
+			id: "749D138B0222E744"
+			rewards: [{
+				id: "6222458583FAAFB2"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "最後の失われたページ"
+			tasks: [{
+				id: "67B1853D30A8EE31"
+				title: "クリックして読む"
+				type: "checkmark"
+			}]
+			title: "原始的な悪"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["749D138B0222E744"]
+			description: [
+				"&eナイトリッチ&rは、&eジ・エンド&rの&eクリスタル・クラッグ&rにある&eリッチタワー&rに生息しています。この建造物を見つけるには、&eソウルスター&rを作成できます。&eソウルスター&rを使用すると、それが消費され、最寄りの&eリッチタワー&rの方向を示します！"
+				""
+				"&cナイトリッチはレベル90以上、レア度はミシックで出現します。&r"
+				""
+				"ナイトリッチの特徴："
+				"&b物理→冷気ダメージ+50%&r"
+				"&b凍結確率+50%&r"
+				"&b粉砕確率+25%&r"
+				"&b属性耐性+50%&r"
+				"&aシド・ルーンドロップ確率+15%&r"
+			]
+			id: "07EBFDA1B8808DAF"
+			rewards: [
+				{
+					id: "21701E1566499449"
+					item: "dungeon_realm:uber_fragment"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					icon: "ftb_ph:ascend"
+					id: "591C192B05D51076"
+					title: "アセンダント（1/4）"
+					type: "custom"
+				}
+			]
+			size: 1.25d
+			subtitle: "寒い"
+			tasks: [{
+				entity: "bosses_of_mass_destruction:lich"
+				icon: "bosses_of_mass_destruction:ancient_anima"
+				id: "0A39027CB9F70D32"
+				type: "kill"
+				value: 1L
+			}]
+			title: "凍った塔"
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["749D138B0222E744"]
+			description: [
+				"&eネザー・ガントレット&rは、&eThe Otherside&rの&eBlooming Caverns&rバイオームにある&eガントレット・アリーナ&rで入手できます。"
+				""
+				"&cネザー・ガントレットはレベル90以上、レア度はミシックで出現します。&r"
+				""
+				"ネザー・ガントレットの特徴:"
+				"&b物理ダメージから火炎ダメージへの変化+50%&r"
+				"&b燃焼確率+75%&r"
+				"&b回避+40%&r"
+				"&b火炎耐性+75%&r"
+				"&aシド・ルーンドロップ確率+15%&r"
+			]
+			id: "005E75571665043C"
+			rewards: [
+				{
+					id: "100B3BFFAADCD105"
+					item: "dungeon_realm:uber_fragment"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					icon: "ftb_ph:ascend"
+					id: "656169856B5F549C"
+					title: "アセンダント（1/4）"
+					type: "custom"
+				}
+			]
+			size: 1.255d
+			subtitle: "火"
+			tasks: [{
+				entity: "bosses_of_mass_destruction:gauntlet"
+				icon: "bosses_of_mass_destruction:blazing_eye"
+				id: "67B908871A5282C2"
+				type: "kill"
+				value: 1L
+			}]
+			title: "熱烈な深淵"
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["749D138B0222E744"]
+			description: [
+				"&eヴォイド・ブロッサム&rは&eThe Otherside&rの&eEchoing Forests&rで見つかります。&eVoid Lilies&rを使って、これらの&eVoid Blossoms&rへの方向を示すことができます。"
+				""
+				"&cヴォイド・ブロッサムはレベル90以上、レア度はMythicで出現します。&r"
+				""
+				"ヴォイド・ブロッサムには以下の効果があります。"
+				"&b物理ダメージをカオスダメージに+100%&r"
+				"&b毒発生率を+33%&r"
+				"&b毎秒体力回復+1%&r"
+				"&bカオス耐性+75%&r"
+				"&c火炎耐性-25%&r"
+				"&aシド・ルーンドロップ確率15%&r"
+			]
+			id: "56B2B51011037E61"
+			rewards: [
+				{
+					id: "15F97D81BF787C79"
+					item: "dungeon_realm:uber_fragment"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					icon: "ftb_ph:ascend"
+					id: "78E77C83F56373C6"
+					title: "アセンダント（1/4）"
+					type: "custom"
+				}
+			]
+			size: 1.25d
+			subtitle: "カオス"
+			tasks: [{
+				entity: "bosses_of_mass_destruction:void_blossom"
+				icon: "bosses_of_mass_destruction:void_lily"
+				id: "507D5A8FDD10ECE3"
+				type: "kill"
+				value: 1L
+			}]
+			title: "広がるブドウ畑"
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["749D138B0222E744"]
+			description: [
+				"&eオブシディリス&rは、&eジ・エンド&rの&e原始の池&rにある&eオブシディリス・アリーナ&rに存在します。"
+				""
+				"&cオブシディリスはレベル90以上、レア度はミシックで出現します。&r"
+				""
+				"オブシディリスの特徴:"
+				"&b物理ダメージ+100%&r"
+				"&b感電確率+50%&r"
+				"&bショック確率+25%&r"
+				"&bアーマー+100%&r"
+				"&b雷撃耐性+50%&r"
+				"&aシド・ルーンドロップ確率+15%&r"
+			]
+			id: "6B2C722AC00A07C0"
+			rewards: [
+				{
+					id: "631C758E74857E09"
+					item: "dungeon_realm:uber_fragment"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					icon: "ftb_ph:ascend"
+					id: "4253CD136D9F9A5E"
+					title: "アセンダント（1/4）"
+					type: "custom"
+				}
+			]
+			size: 1.25d
+			subtitle: "稲妻"
+			tasks: [{
+				entity: "bosses_of_mass_destruction:obsidilith"
+				icon: "bosses_of_mass_destruction:obsidian_heart"
+				id: "32DF2007C57A60F9"
+				type: "kill"
+				value: 1L
+			}]
+			title: "ガルバニック要塞"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["749D138B0222E744"]
+			description: [
+	"あなたが到着する前に、誰かがすでに建造物を一掃していましたか？ &eBrimstone Nectar&r を &bPrimal Titans の建造物&r に使用すれば、それらをリセットできます！"
+]
+			id: "71F71326D81053D9"
+			rewards: [{
+				id: "1E5C69E4282912F2"
+				item: "bosses_of_mass_destruction:brimstone_nectar"
+				type: "item"
+			}]
+			subtitle: "ボス構造のリセット"
+			tasks: [{
+				id: "6BA69F80620210D3"
+				item: "bosses_of_mass_destruction:brimstone_nectar"
+				type: "item"
+			}]
+			title: "彼らが帰ってきた！"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["749D138B0222E744"]
+			description: [
+				"マップを次々と進んでいくと、別の&eリッチ&rのこだまが聞こえてきます…それは&e黄昏の森&rで見つかるものです。新しいポータルが現れ、そこを進むと全く新しい次元が待っています。"
+				""
+				"黄昏の森に入るには、&e向こう側&rの草地に、植物や葉で囲まれた2x2の浅い水たまりを作る必要があります。草は持参する必要があるかもしれません。そこにダイヤモンドを投げ入れると、ポータルが形成されます。"
+				""
+				"&l&c黄昏の森のモブは最低レベル90で出現します！&r&r"
+			]
+			id: "77E6AE329E337151"
+			rewards: [
+				{
+					count: 3
+					id: "0D4BA9A55B97BA9E"
+					item: "mmorpg:currency/affix_common_reroll"
+					type: "item"
+				}
+				{
+					id: "1488B29B5798BA1F"
+					item: "mmorpg:stone/4"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "エピローグ"
+			tasks: [{
+				dimension: "twilightforest:twilight_forest"
+				icon: "twilightforest:twilight_portal_miniature_structure"
+				id: "51F52DF9B052A4B9"
+				title: "トワイライトフォレストを訪れる"
+				type: "dimension"
+			}]
+			title: "未知の世界"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["77E6AE329E337151"]
+			description: [
+				"「黄昏の森」の小さな空き地に点在する「生垣迷路」は、この次元を初めて訪れる探検家にとって、興味深い光景です。風景に点在する崩れかけた立石や記念碑、その他のランドマークと同様に、これらの迷路がなぜ作られたのかについては、数え切れないほどの憶測が飛び交っていますが、未だに答えは見つかっていません。"
+				""
+				"典型的な迷路の壁は生垣ブロックで、冒険者が曲がりくねった通路をただ切り倒して進んでいくのを防ぐため、密生したとげのある葉が生い茂っています。蛍やジャック・オー・ランタンもよく見られ、他の薄暗い光とは対照的に、迷路を明るく照らしています。キャノピーツリーは迷路の中に時折見られ、生垣の壁に沿って高い支柱のような形をしています。"
+				""
+				"生垣迷路に共通するもう一つの特徴は、迷路の中にある小さな「部屋」です。これらの部屋には、魔法のスポナー、1～2個のチェスト、そして複数のジャック・オー・ランタンが必ず配置されていることが分かっています。通常、これらは「敵対的なオオカミ、群れ蜘蛛、またはヘッジスパイダー」を生成しますが、他の場所にあるスポナーとは異なり、明るい光によって機能が妨げられることはありません。"
+			]
+			id: "54B478D596CE17D6"
+			rewards: [
+				{
+					count: 2
+					id: "2D561080DD23BA36"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
+					id: "3C2A412FD724071E"
+					item: "mmorpg:currency/upgrade_common_affix"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "エピローグ"
+			tasks: [{
+				icon: "twilightforest:hedge"
+				id: "01A930C680639445"
+				structure: "twilightforest:hedge_maze"
+				title: "生垣迷路を探す"
+				type: "structure"
+			}]
+			title: "自然迷路"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["54B478D596CE17D6"]
+			description: [
+	"「敵対的なオオカミ」は「生垣の迷路」でのみ見られる奇妙なオオカミです。伝説によると、このオオカミは人間の宝物を盗むので、人間を憎んでいるそうです。残念ながら、このオオカミを飼いならすことはできません。"
+]
+			icon: "doggytalents:dog_plushie_toy_item"
+			id: "2BE20402219A9B78"
+			rewards: [
+				{
+					count: 3
+					id: "5B3AB3D09BD7747A"
+					item: "mmorpg:material/meat/4"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "2D1C81F8C6BAB0D7"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+			]
+			subtitle: "夕暮れの森"
+			tasks: [{
+				entity: "twilightforest:hostile_wolf"
+				icon: "ftb_ph:hostile_wolf"
+				id: "4C5ACBBF6C6B901D"
+				type: "kill"
+				value: 10L
+			}]
+			title: "抑えきれない攻撃性"
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["54B478D596CE17D6"]
+			description: [
+	"&eヘッジスパイダー&rは、特徴的な緑色を除けば、通常のオーバーワールドのスパイダーとほぼ同じです。この種とオーバーワールドのスパイダーとの唯一の違いは、明るい光が当たる&eヘッジ迷路&rに出現できることです。伝説によると、これらのスパイダーは探検家から宝物を守るほど勇敢です。"
+]
+			icon: "chipped:stringy_cobweb"
+			id: "039BE2259D553B13"
+			rewards: [
+				{
+					count: 3
+					id: "22076FAC6370473E"
+					item: "mmorpg:material/farming/4"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "0D037E40BE697582"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+			]
+			subtitle: "夕暮れの森"
+			tasks: [{
+				entity: "twilightforest:hedge_spider"
+				icon: "ftb_ph:hedge_spider"
+				id: "793117DC4193D9C8"
+				type: "kill"
+				value: 10L
+			}]
+			title: "閉じ込められた"
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["77E6AE329E337151"]
+			description: [
+				"&eTwilight Forest&r の平坦な地形から聳え立つ &eHollow Hills&r は、鍾乳石や石筍がぎっしり詰まった広大な空洞の洞窟を覆い隠す、人目を引く土の丘です。その一部は貴重な鉱石や鉱物で形成されています。探検家たちは、これらのドーム型の丘を 3 つの異なる大きさで発見しました。これらの丘は、&eMagic Map&r 上に検出してマークできるほどの大きさで、適切なアイコンで大きさが示されます。丘の中には、別の洞窟や峡谷が切り込んでいるものもあるため、地下を掘る冒険者は、探索中にこれらの丘の中に迷い込む可能性があります。"
+				""
+				"小さな丘は直径約 30 メートルで、通常は石炭、鉄などの基本的な鉱物が含まれており、レッドストーンやグロウストーンも時折見つかります。探検家は、食料、矢、はしご、たいまつなどの一般的なツールやアイテムが入った宝箱をいくつか見つけることができるでしょう。しかし、稀に、ダイヤモンドや「鉄の葉」とともに貴重な「鉱石磁石」が見つかることもあります。これらの丘には、「スウォーム スパイダー」、「レッドキャップ ゴブリン」、「コボルド」が生息しており、オーバーワールドでよく見られる他の生き物も生息しています。"
+			]
+			id: "75103126CFA64857"
+			rewards: [
+				{
+					count: 2
+					id: "1C323A27F2B1118B"
+					item: "mmorpg:material/mining/4"
+					type: "item"
+				}
+				{
+					id: "111D5F6783D074B7"
+					item: "mmorpg:stone/4"
+					type: "item"
+				}
+			]
+			subtitle: "夕暮れの森"
+			tasks: [{
+				icon: "twilightforest:hollow_twilight_oak_log"
+				id: "54592C0A736AE877"
+				structure: "twilightforest:small_hollow_hill"
+				title: "小さな窪地を見つける"
+				type: "structure"
+			}]
+			title: "小さな塚"
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["54B478D596CE17D6"]
+			description: [
+				"&eナーガの中庭&rは、様々な種類の石材とナーガストーンで造られた、壁で囲まれた巨大な建造物です。ナーガの中庭には、トワイライトオークの葉で作られた様々な生垣、研磨された安山岩とエッチングされたナーガストーンの柱、そしてその他の装飾が施されています。建造物の中央には、&eナーガ&rを収容するボススポナーがあります。"
+				""
+				"ナーガを倒すと、次の建造物である&eリッチタワー&rがアンロックされ、建造物の保護が解除されます。"
+				""
+				"&cナーガはミシックレアリティで出現します。&r"
+				""
+				"ナーガは以下の特性を持っています："
+				"&b物理ダメージ+100%&r"
+				"&b毒発生率+40%&r"
+				"&bカオス貫通+30%&r"
+				"&b冷気耐性+50%&r"
+				"&bカオス耐性+50%&r"
+			]
+			id: "09AFF8CC33BD244B"
+			rewards: [
+				{
+					auto: "enabled"
+					icon: {
+						Count: 1
+						id: "minecraft:written_book"
+						tag: {
+							author: "Unknown"
+							generation: 3
+							pages: [
+								"{\"text\":\"Entry #12\n\nLast afternoon, Captain Cornelia went to the seabed in search of any additional resources. There are rumors among the crew that the real subject of her expedition is something else.\"}"
+								"{\"text\":\"More than a day has passed since the captain's dive. She was wearing the only diving suit we had, so we couldn't help her in any way. Worst of all, she had the master key with her. As our hopes of rescue dwindle, the threat of rebellion grows.\"}"
+							]
+							resolved: 1b
+							title: "略奪船の航海日誌"
+						}
+					}
+					id: "23AD45244978A5A3"
+					title: "スキルポイント2"
+					type: "custom"
+				}
+				{
+					id: "37776D6144DBDA7D"
+					item: "mmorpg:potions/full_reset_talent"
+					type: "item"
+				}
+				{
+					id: "529776CB2E015F07"
+					item: "mmorpg:potions/full_reset_spell"
+					type: "item"
+				}
+				{
+					id: "1F4F10A8BE8F9410"
+					item: "mmorpg:potions/full_reset_passive"
+					type: "item"
+				}
+				{
+					id: "59E013EF3A97101E"
+					item: "mmorpg:potions/full_reset_ascendancy"
+					type: "item"
+				}
+				{
+					id: "3CEAB295D78E83AA"
+					item: "mmorpg:potions/full_reset_stat"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "5D51EB762212D5EC"
+					item: "mmorpg:currency/socket_adder"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "エピローグ"
+			tasks: [{
+				consume_items: true
+				id: "5408016296E2B4E9"
+				item: "twilightforest:naga_trophy"
+				type: "item"
+			}]
+			title: "スナキュラーのみ"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["09AFF8CC33BD244B"]
+			description: [
+				"&eリッチタワー&rは中央に1つの尖塔があり、そこから多数の小さな塔と部屋が無秩序に突き出ており、隣の塔に直接、または橋で繋がっています。"
+				""
+				"リッチタワーには多数の敵対モブが通常またはスポナーを介して出現します。通常のバニラモブは自然に出現します。&eデス・トーム&rもリッチタワーに出現し、このモブを見つけることができる唯一の建造物です。"
+				""
+				"リッチタワーをアンロックするには、&eナーガ&rを倒す必要があります。"
+				""
+				"リッチタワーは、他の3つのバイオームと建造物のアンロックにも重要です。"
+				""
+				"- &eトワイライト・スワンプ&r周辺の蚊の大群を退治し、&eラビリンス&rへの探索を可能にします。"
+				"- &eダーク・フォレスト&rを覆う暗闇を退治し、&eゴブリンナイト要塞&rへの探索を可能にします。"
+				"- 「雪の森」の吹雪を消し、「イエティの洞窟」への進入を可能にします。"
+			]
+			id: "05E813C595DBC7AB"
+			rewards: [
+				{
+					count: 5
+					id: "550F848D0AFF9FDF"
+					item: "mmorpg:material/mining/4"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "7AC5E8E78128C2BA"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "エピローグ"
+			tasks: [{
+				icon: "twilightforest:lich_tower_miniature_structure"
+				id: "41B2B655D8ABB2AF"
+				structure: "twilightforest:lich_tower"
+				title: "リッチタワーを見つける"
+				type: "structure"
+			}]
+			title: "パワータワー"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["05E813C595DBC7AB"]
+			description: [
+				"&e死の書&rは、リッチタワーの階段や図書館に浮かぶ危険な書物です。命中したクリーチャーを一時的に減速させる弾を発射します。死の書は命中すると稀にページを失うことがあります。"
+				""
+				"また、死の書は死亡時に&e魔法マップフォーカス&rを落とすこともあります。"
+				""
+				"死の書には以下の効果があります："
+				"&b物理ダメージから雷撃ダメージへの+50%&r"
+				"&b物理ダメージから混沌ダメージへの+50%&r"
+			]
+			icon: "mca:book_death"
+			id: "7CEF2BA760AB0B2E"
+			rewards: [
+				{
+					count: 2
+					id: "14CD63892C5E3F41"
+					item: "mmorpg:currency/socket_adder"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "3E5F010430704713"
+					item: "mmorpg:currency/affix_tier_up_down"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "5CB516DD49306C90"
+					item: "mmorpg:currency/enchant_reroll"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "792CBFC517AE25A6"
+					item: "mmorpg:currency/unique_reroll"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "30AE5F37C62C7EB7"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+			]
+			subtitle: "夕暮れの森"
+			tasks: [{
+				entity: "twilightforest:death_tome"
+				icon: "ftb_ph:death_tome"
+				id: "154CA20889C9EDB5"
+				type: "kill"
+				value: 10L
+			}]
+			title: "魔法の図書館"
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["05E813C595DBC7AB"]
+			description: [
+				"&eTwilight Lich&r（単に&eLich&rとも呼ばれる）は、&eLich Tower&rの頂上に棲息しています。紫色のマントと大きな金の王冠を被った、背の高い人型の骸骨の姿で現れます。周囲にはシールドの壁が張り巡らされており、あらゆるダメージから身を守っていますが、破壊される可能性もあります。"
+				""
+				"冒険者たちの報告によると、適切なタイミングで振り下ろせば、リッチの弾丸を跳ね返すことができるそうです。プレイヤーがリッチの弾丸を跳ね返すたびに、リッチはシールドを1枚ずつ解除します。"
+				""
+				"&cリッチはミシックレアリティで出現します。&r"
+				""
+				"リッチの能力:"
+				"&b物理ダメージ+100%（雷撃ダメージ）&r"
+				"&b感電確率+50%（雷撃確率）&r"
+				"&b雷撃貫通+25%（雷撃貫通確率）&r"
+				"&b属性耐性+75%（エレメンタル耐性）&r"
+				"&bカオス耐性+50%（カオス耐性）&r"
+				"&6このクエストをクリアすると、キャンペーンショップに新しいショップがアンロックされます。"
+				""
+				"&6This Quest Unlocks New Shops In the Campaign Shop."
+			]
+			id: "1F3C2718AE550D5C"
+			rewards: [
+				{
+					auto: "enabled"
+					icon: {
+						Count: 1
+						id: "minecraft:written_book"
+						tag: {
+							author: "Unknown"
+							generation: 3
+							pages: [
+								"{\"text\":\"Entry #12\n\nLast afternoon, Captain Cornelia went to the seabed in search of any additional resources. There are rumors among the crew that the real subject of her expedition is something else.\"}"
+								"{\"text\":\"More than a day has passed since the captain's dive. She was wearing the only diving suit we had, so we couldn't help her in any way. Worst of all, she had the master key with her. As our hopes of rescue dwindle, the threat of rebellion grows.\"}"
+							]
+							resolved: 1b
+							title: "略奪船の航海日誌"
+						}
+					}
+					id: "78E598DDB8CEEE03"
+					title: "スキルポイント2"
+					type: "custom"
+				}
+				{
+					id: "15E955610563E40C"
+					item: "dungeon_realm:uber_fragment"
+					type: "item"
+				}
+				{
+					id: "41295C50FCBC7A5D"
+					item: "mmorpg:gems/topaz/6"
+					type: "item"
+				}
+				{
+					id: "44C98A1EC1B45829"
+					item: "simplehats:toy_story_alien"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "エピローグ"
+			tasks: [{
+				consume_items: true
+				id: "5156617EB99C3B38"
+				item: "twilightforest:lich_trophy"
+				type: "item"
+			}]
+			title: "マスターマスターマインド"
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1F3C2718AE550D5C"]
+			description: [
+				"「ホロウ ヒルズ」は採掘できる鉱石や略奪できる宝物の宝庫で、大きな丘ほど価値の高い戦利品が含まれています。見つかる宝物は、暗闇に潜む危険な生き物によって守られていることが多く、不注意な探検家を簡単に破滅に導く可能性があります。残念ながら、丘が大きいほど、そこに住む生き物の数も増えるようです。探検家は洞窟探検の基本ルールを覚えておく必要があります。ホロウ ヒルズに直接トンネルを掘ってはいけません。代わりに側面から近づき、隅々にさまざまなスポナーがあるため、内部を照らすための光源を十分に持参してください。"
+				""
+				"中くらいの丘は直径約 60 メートルで、中央部の高さは 25 メートル以上です。内部は広くなりますが、その分、より多くの危険な生き物も集まります。ここでは金やラピスラズリが見つかり、ダイヤモンドやエメラルドもまれに見られます。鉱石の価値が上がるにつれて、宝物も増えます。中くらいの丘では、通常最大 6 個の宝箱が見つかり、その中には「鉄木のインゴットと変身の粉」のほか、ムーンワーム クイーンや孔雀の羽根扇などのユニークなアーティファクトも入っています。中くらいの丘には、小さな丘で見られるものに加えて、「ファイア ビートル」や「レッドキャップ サッパー」も生息しています。"
+			]
+			id: "2820ABD72802B6F2"
+			rewards: [
+				{
+					count: 4
+					id: "4B00DACD9470CF87"
+					item: "mmorpg:material/mining/4"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "4A53AC07D15CF95F"
+					item: "mmorpg:stone/4"
+					type: "item"
+				}
+			]
+			subtitle: "夕暮れの森"
+			tasks: [{
+				icon: "twilightforest:hollow_time_log"
+				id: "583B2BF97EA1E832"
+				structure: "twilightforest:medium_hollow_hill"
+				type: "structure"
+			}]
+			title: "中くらいの塚"
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1F3C2718AE550D5C"]
+			description: [
+	"&eラビリンス&rは、Progressionに関連する主要なランドマークです。&eトワイライト・スワンプ&rにある、一見すると目立たない小さな丘のように見えますが、その先には広大な迷路状の通路が広がる地下構造への入り口があります。ラビリンスの深層には、柵で囲まれた部屋に、&eミノシュルーム&rを備えたボススポナーがあります。"
+]
+			id: "1C58F38B9890D6BA"
+			rewards: [
+				{
+					count: 2
+					id: "68678804DB1B0A4A"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
+					id: "6B43C3B5A633A10F"
+					item: "mmorpg:gems/opal/5"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "エピローグ"
+			tasks: [{
+				icon: "twilightforest:maze_map"
+				id: "3E00882F2A14F4C6"
+				structure: "twilightforest:labyrinth"
+				title: "迷路を見つける"
+				type: "structure"
+			}]
+			title: "魔法の迷路"
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1C58F38B9890D6BA"]
+			description: [
+				"&eミノシュルーム&rは、&e迷宮&rの奥深くに潜むミニボスです。&eミノシュルーム&rは、ムーシュルームとミノタウロスが融合した奇妙な生物です。"
+				""
+				"ミノシュルームの特徴："
+				"&b+10 アーマー貫通力（鱗）&r"
+				"&b+50% 命中率&r"
+				"&b+30% 物理耐性&r"
+				"&b+20% 体力回復&r"
+			]
+			icon: "twilightforest:minoshroom_trophy"
+			id: "78EB450B57F9B7E7"
+			rewards: [
+				{
+					count: 3
+					id: "19BA04335CBBAEF0"
+					item: "mmorpg:stone/4"
+					type: "item"
+				}
+				{
+					id: "4D369FC4FA80DC2F"
+					item: "mmorpg:currency/upgrade_common_affix"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "02C4B1A5FC2F4BF9"
+					item: "mmorpg:currency/level_up_orb"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "エピローグ"
+			tasks: [{
+				consume_items: true
+				id: "5BBA7A672D914F6C"
+				item: "twilightforest:minoshroom_trophy"
+				type: "item"
+			}]
+			title: "モーーーーー"
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1C58F38B9890D6BA"]
+			description: [
+				"&e迷路スライム&rは、オーバーワールドスライムの&eトワイライトフォレスト&r版です。灰色で、&e迷宮&rに出現します。"
+				""
+				"迷路スライムの特徴:"
+				"&b防御力+25%&r"
+				"&b物理耐性+25%&r"
+				"&b雷撃耐性+50%&r"
+			]
+			id: "26D545606AA14974"
+			rewards: [
+				{
+					id: "3C9B5B2C5838A9E2"
+					item: "mmorpg:stone/3"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "1D7B27AF6930907B"
+					item: "mmorpg:currency/orb_of_quality"
+					type: "item"
+				}
+			]
+			subtitle: "夕暮れの森"
+			tasks: [{
+				entity: "twilightforest:maze_slime"
+				icon: "twilightforest:mazestone"
+				id: "5F809DB4B920DBD2"
+				type: "kill"
+				value: 10L
+			}]
+			title: "コンクリート…スライム？"
+			x: 10.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["78EB450B57F9B7E7"]
+			description: [
+	"巨大な「空洞の丘」を思わせる「ヒドラの巣穴」は、平坦な沼地から突き出ており、「炎の沼」の中心に位置する多頭のヒドラにとって天然の巣窟となっている。「ヒドラ」は丘自体をくり抜いて隠れ家としており、挑発する者は正面から近づかざるを得ない状況となっている。ヒドラに面したエリアには植生も遮蔽物もほとんどなく、隠れる場所など存在しない。"
+]
+			id: "1A2A1F3575A8159B"
+			rewards: [
+				{
+					count: 2
+					id: "4E1C822C955889FC"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
+					id: "1829DFB6A35F0F6B"
+					item: "mmorpg:gems/topaz/5"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "エピローグ"
+			tasks: [{
+				icon: "twilightforest:hydra_chop"
+				id: "10F427A4198C5961"
+				structure: "twilightforest:hydra_lair"
+				title: "ヒドラの巣を見つける"
+				type: "structure"
+			}]
+			title: "隠れ家"
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1A2A1F3575A8159B"]
+			description: [
+				"&eヒドラ&rは、&e炎の沼&rにある、ひび割れた&eヒドラの巣&rで見つけることができます。ヒドラは巨大な生物で、2本のずんぐりとした脚が幅広の鱗に覆われた体を支えています。複数の蛇のような首の先には、エンダードラゴンに似た頭部が伸びています。全身は青緑色と濃紺色の鱗で覆われています。"
+				""
+				"&cヒドラはミシックレアリティで出現します。&r"
+				""
+				"ヒドラの特徴："
+				"&b物理攻撃から火属性へのダメージ+100%&r"
+				"&b燃焼確率+60%&r"
+				"&b火炎貫通+40%&r"
+				"&bダメージ軽減+25%&r"
+				"&b雷属性耐性+35%&r"
+			]
+			id: "18C4B8D73A50CFAC"
+			rewards: [
+				{
+					auto: "enabled"
+					icon: {
+						Count: 1
+						id: "minecraft:written_book"
+						tag: {
+							author: "Unknown"
+							generation: 3
+							pages: [
+								"{\"text\":\"Entry #12\n\nLast afternoon, Captain Cornelia went to the seabed in search of any additional resources. There are rumors among the crew that the real subject of her expedition is something else.\"}"
+								"{\"text\":\"More than a day has passed since the captain's dive. She was wearing the only diving suit we had, so we couldn't help her in any way. Worst of all, she had the master key with her. As our hopes of rescue dwindle, the threat of rebellion grows.\"}"
+							]
+							resolved: 1b
+							title: "略奪者の船の航海日誌"
+						}
+					}
+					id: "43D1F2E8681A6250"
+					title: "スキルポイント2"
+					type: "custom"
+				}
+				{
+					id: "06CDDFAA60B2313C"
+					item: "dungeon_realm:uber_fragment"
+					type: "item"
+				}
+				{
+					id: "442655A6C145A711"
+					item: "mmorpg:gems/emerald/6"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "エピローグ"
+			tasks: [{
+				consume_items: true
+				id: "1A83F081741ED7A4"
+				item: "twilightforest:hydra_trophy"
+				type: "item"
+			}]
+			title: "多頭獣"
+			x: 13.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["78EB450B57F9B7E7"]
+			description: [
+				"&eミーフ・ストロガノフ&rは非常に満腹感があり、どんな冒険者でも一杯食べただけで、最も暑いバイオームさえも探索できるほどのエネルギーを与えてくれます。"
+				""
+				"&eミーフ・ストロガノフ&rを摂取すると、プレイヤーは&eファイア・スワンプ&rと&eヒドラ&rの両方にアクセスできるようになります。"
+			]
+			id: "7187E491F0DB8671"
+			rewards: [
+				{
+					count: 2
+					id: "5C46D448EFC87623"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "4E328E95911DAEA1"
+					item: "mmorpg:currency/affix_tier_up_down"
+					type: "item"
+				}
+				{
+					id: "58D2C2F14A786F55"
+					item: "mmorpg:material/farming/4"
+					type: "item"
+				}
+				{
+					id: "7275AB1F3B39A5DF"
+					item: "mmorpg:material/meat/4"
+					type: "item"
+				}
+			]
+			subtitle: "夕暮れの森"
+			tasks: [{
+				id: "3D81F5F7AA614C5D"
+				item: "twilightforest:meef_stroganoff"
+				type: "item"
+			}]
+			title: "ボリュームたっぷりの食事"
+			x: 12.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1F3C2718AE550D5C"]
+			description: [
+				"「暗い森」は、樹木が密生したバイオームで、厚い樹冠が林床からの光をほぼ全て遮っています。このバイオームではダークウッドツリーが最も多く生育し、背の高い草や花などの小さな植物が草を覆っています。時折、マッシュグルームが生育し、かすかな光源を提供します。"
+				""
+				"暗闇にもかかわらず、ゾンビやスケルトンなどのモンスターは地上に出現しません。しかし、「ミストウルフ」や「キングスパイダー」などのモンスターは出現するため、暗い森の通行はより危険になります。"
+			]
+			id: "7E14A7756FB4B78B"
+			rewards: [
+				{
+					id: "7B40532F3F039222"
+					item: "mmorpg:material/farming/4"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "666D99C820AFA04B"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
+					id: "53505C138F5F5996"
+					item: "mmorpg:gems/tourmaline/5"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "エピローグ"
+			tasks: [{
+				biome: "twilightforest:dark_forest"
+				icon: "twilightforest:canopy_sapling"
+				id: "3B00F80F4C4025E2"
+				title: "暗い森を訪ねる"
+				type: "biome"
+			}]
+			title: "闇に目がくらむ"
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7E14A7756FB4B78B"]
+			description: [
+				"&eミストウルフ&rは&eダークフォレスト&rに出現する謎のモンスターです。これらのモンスターは森の暗闇の中で獲物を待ち伏せします。暗闇では透明になり、明るい場所でのみ固体となります。暗闇でプレイヤーを攻撃した場合、その攻撃でプレイヤーの目をくらませることができますが、この効果は光源の近くでは発生しないようです。"
+				""
+				"ミストウルフの特徴："
+				"&b物理→カオスダメージ+50%&r"
+				"&b回避率+30%&r"
+				"&b呪文回避率+30%&r"
+				"&b属性耐性+25%&r"
+			]
+			icon: "outer_end:ender_roots"
+			id: "700E3C92E9C27B04"
+			rewards: [
+				{
+					count: 2
+					id: "63E33F53FF3193C1"
+					item: "mmorpg:gems/azurite/5"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "58F31A094952CF4B"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+			]
+			subtitle: "夕暮れの森"
+			tasks: [{
+				entity: "twilightforest:mist_wolf"
+				icon: "ftb_ph:mist_wolf"
+				id: "493B46FB942D8A16"
+				type: "kill"
+				value: 10L
+			}]
+			title: "霧の中に隠れて"
+			x: 9.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7E14A7756FB4B78B"]
+			description: [
+				"&eキングスパイダー&rは&eダークフォレスト&rでのみ出現し、その最初の兆候は通常、暗闇の中で光る赤い目です。彼らは通常のクモの2倍の大きさ、速度、そして頑丈さを持ち、背中には&eスケルトンドルイド&rが乗っているため、対処するには手強い敵です。"
+				""
+				"キングスパイダーは以下の効果を持ちます："
+				"&b物理ダメージからカオスダメージに+100%&r"
+				"&bカオス貫通+30%&r"
+			]
+			icon: "born_in_chaos_v1:spider_mandible"
+			id: "67CCD11ABBB75DF3"
+			rewards: [
+				{
+					id: "2404378E98FDF0DD"
+					item: "mmorpg:gems/emerald/5"
+					type: "item"
+				}
+				{
+					id: "499095977A582D7B"
+					item: "mmorpg:gems/garnet/5"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "547FDEA4C9F24547"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+			]
+			subtitle: "夕暮れの森"
+			tasks: [{
+				entity: "twilightforest:king_spider"
+				icon: "ftb_ph:king_spider"
+				id: "315594F7D6D8B953"
+				type: "kill"
+				value: 5L
+			}]
+			title: "恐怖を誘うクモ"
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7E14A7756FB4B78B"]
+			description: [
+	"古き良き「ゴブリンナイトの要塞」は、「暗黒の森」の不自然なほどに密集した樹冠の中に佇んでいます。暗闇の中、地上には壊れた壁とひび割れたレンガしか残っておらず、見つけるのは困難です。しかし、地下には広大な部屋、廊下、そして墓が広がっています。"
+]
+			id: "11768894E8B672B5"
+			rewards: [
+				{
+					count: 2
+					id: "5F891BF39E8515BC"
+					item: "mmorpg:material/mining/4"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "1A8290CD9BB7C782"
+					item: "mmorpg:material/farming/4"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "4972BFCA3275C5DA"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "エピローグ"
+			tasks: [{
+				icon: "twilightforest:stronghold_shield"
+				id: "54FDAF28D194B2C1"
+				structure: "twilightforest:knight_stronghold"
+				title: "ゴブリンナイトストロングホールドを見つける"
+				type: "structure"
+			}]
+			title: "ゴブリンの簒奪者"
+			x: 7.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["11768894E8B672B5"]
+			description: [
+				"&eナイトファントム&rは&eゴブリンナイト要塞&rのレンガ積みの部屋に生息しています。彼らは幽霊のようなファントムアーマーの姿で現れ、攻撃時には不気味な幽霊のような姿をしています。"
+				""
+				"&e6体のナイトファントム&rを倒すとダークフォレストフェーズが進行し、&eダークフォレストセンター&rの防御が解除され、&eウル・ガスト&rとその&eダークタワー&rにアクセスできるようになります。"
+				""
+				"ナイトファントムは以下の効果を持ちます："
+				"&b物理ダメージ+100%&r"
+				"&bクリティカルヒット+25%&r"
+				"&b回避率+50%&r"
+				"&b呪文回避率+50%&r"
+			]
+			id: "42922690F74AC7FE"
+			rewards: [
+				{
+					count: 3
+					id: "5D5B35924A7177B3"
+					item: "mmorpg:stone/4"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "5E60295E386C4F31"
+					item: "mmorpg:currency/affix_tier_up_down"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "501346F0CBF0B449"
+					item: "mmorpg:gems/opal/5"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "エピローグ"
+			tasks: [{
+				consume_items: true
+				id: "70290AE8EF83F6A1"
+				item: "twilightforest:knight_phantom_trophy"
+				type: "item"
+			}]
+			title: "呪われた騎士たち"
+			x: 7.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["42922690F74AC7FE"]
+			description: [
+				"「ダークフォレスト」に不気味にそびえ立つのは、畏怖の念を抱かせる「ダークタワー」です。空を貫くほど高くそびえるこれらの巨大な建造物には、様々なユニークな部屋、障害物、宝物、そしてモンスターが潜んでおり、頂上を目指す壮大な旅路の途中で探索と戦闘が繰り広げられます。ダークタワーは通常、「ダークフォレスト」のまさに中心に位置し、鬱蒼と茂った葉は、おそらく「ダークタワー」の邪悪な影響により、秋のような奇妙な色合いに染まります。"
+				""
+				"「カルミナイト」のクリーチャーは主に火属性のダメージを与えます。"
+			]
+			id: "0E85C58F1DA0564C"
+			rewards: [
+				{
+					count: 2
+					id: "411163FE27556CEA"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
+					id: "0DA6290C80A32C41"
+					item: "mmorpg:gems/ruby/5"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "エピローグ"
+			tasks: [{
+				icon: "born_in_chaos_v1:spawn_structures_dark_tower"
+				id: "03F883F2D01DF89A"
+				structure: "twilightforest:dark_tower"
+				title: "ダークタワーを見つける"
+				type: "structure"
+			}]
+			title: "ダークスパイア"
+			x: 9.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["0E85C58F1DA0564C"]
+			description: [
+				"&eウル・ガスト&rは、巨大な&eダークタワー&rの頂上を飛び回っています。巨大な触手を多数持つ、巨大な超自然的な生物の姿で現れます。冒険者たちが血か、あるいはカルミニットではないかと恐れるその体で覆われています。この生物は、プレイヤーを尾行する能力を持つカルミニット・ガストガードや、ネザー限定のガストに似ていますが、はるかに大きく、はるかに危険です。"
+				""
+				"&cウル・ガストはミシックレアリティで出現します。&r"
+				""
+				"ウル・ガストは以下の特性を持っています。"
+				"&b物理攻撃に対する火炎ダメージ+100%&r"
+				"&b燃焼確率+25%&r"
+				"&b燃焼ダメージ+100%&r"
+				"&b最大火炎耐性+5%&r"
+				"&b火炎耐性+100%&r"
+			]
+			id: "5BB55F41502BE69C"
+			rewards: [
+				{
+					auto: "enabled"
+					icon: {
+						Count: 1
+						id: "minecraft:written_book"
+						tag: {
+							author: "Unknown"
+							generation: 3
+							pages: [
+								"{\"text\":\"Entry #12\n\nLast afternoon, Captain Cornelia went to the seabed in search of any additional resources. There are rumors among the crew that the real subject of her expedition is something else.\"}"
+								"{\"text\":\"More than a day has passed since the captain's dive. She was wearing the only diving suit we had, so we couldn't help her in any way. Worst of all, she had the master key with her. As our hopes of rescue dwindle, the threat of rebellion grows.\"}"
+							]
+							resolved: 1b
+							title: "略奪船の航海日誌"
+						}
+					}
+					id: "26A037B5BB43D730"
+					title: "スキルポイント2"
+					type: "custom"
+				}
+				{
+					id: "70D77D8F4DC32B5F"
+					item: "dungeon_realm:uber_fragment"
+					type: "item"
+				}
+				{
+					id: "4AC6E089CE9FA0A2"
+					item: "mmorpg:gems/ruby/6"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "エピローグ"
+			tasks: [{
+				consume_items: true
+				id: "1484F0626CF00EDA"
+				item: "twilightforest:ur_ghast_trophy"
+				type: "item"
+			}]
+			title: "血か、それともカルミニットか？"
+			x: 10.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1F3C2718AE550D5C"]
+			description: [
+				"「雪の森」バイオームは、黄昏の森のディメンションの他の多くの地域とは著しく対照的な、異常に寒いバイオームです。探検家たちはオーバーワールドの雪のタイガバイオームとの多くの類似点に気づいています。通常のキャノピーツリーの代わりに生えている大きなトウヒの木々の間の地面は雪に覆われており、中にはそれと同じくらいの大きさに成長しているものもあります。なぜこのような氷河のような気候が、主に温暖で湿潤なディメンションに存在するのかは謎ですが、モミの木々の間にひっそりと佇む巨大な「氷河」が何らかの関係があるのではないかと考える人もいます。"
+				""
+				"これらの地域をトレッキングする際は注意が必要です。「冬のオオカミ」が危険な「イエティ」とともに徘徊しているからです。これらの生き物には慎重に近づく必要があります。特に「イエティの洞窟」を探検する際は、数十匹ものイエティが氷の洞窟に生息しているため、慎重に近づく必要があります。同族に対する支配権を主張する「アルファ イエティ」は、好奇心旺盛な者や愚かな者からの侵入を快くは受け止めません。"
+			]
+			id: "15B1E394B4FBB981"
+			rewards: [
+				{
+					id: "0B1583B14CE6405B"
+					item: "mmorpg:material/farming/4"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "0CAE6DB8E7EDB259"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
+					id: "00866B8B5706A607"
+					item: "mmorpg:gems/azurite/5"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "エピローグ"
+			tasks: [{
+				biome: "twilightforest:snowy_forest"
+				icon: "blue_skies:snowbloom"
+				id: "7ED21F382B9E41B3"
+				title: "雪の森を訪ねる"
+				type: "biome"
+			}]
+			title: "雪に閉じ込められて"
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["15B1E394B4FBB981"]
+			description: [
+				"&eウィンターウルフ&rは、&eスノーフォレスト&rに生息する青みがかった白い大型のイヌ科モンスターです。このモンスターは&eダークフォレスト&rの仲間に似ていますが、白い毛皮を持っています。縄張り内でプレイヤーを追いかけて攻撃し、噛みつき攻撃と、スロー効果を与える凍結ブレス攻撃の両方で攻撃します。"
+				""
+				"ウィンターウルフの特徴："
+				"&b物理ダメージ+100%&r"
+				"&b冷気貫通+30%&r"
+				"&b冷気耐性+30%&r"
+			]
+			icon: "born_in_chaos_v1:fangofthe_hound_leader"
+			id: "38BFA9B6AC5CBD12"
+			rewards: [
+				{
+					id: "477E6F483D6AABCD"
+					item: "mmorpg:currency/sharpening_stone_3"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "6C66DC9E98CDE941"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+			]
+			subtitle: "夕暮れの森"
+			tasks: [{
+				entity: "twilightforest:winter_wolf"
+				icon: "ftb_ph:winter_wolf"
+				id: "4BF835E79D59F65E"
+				type: "kill"
+				value: 10L
+			}]
+			title: "ゾッとする「アウー」"
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["15B1E394B4FBB981"]
+			description: [
+				"&eイエティ&rは、&e雪の森&rまたは&eイエティの洞窟&rに生息する、大きくて白い塊状の生き物です。彼らは半ば受動的で、約4ブロック以内に移動するプレイヤーにのみ興味を持ちます。直接ダメージを与える攻撃はありません。代わりに、対象を持ち上げてランダムな方向に投げ飛ばします。冒険者はイエティから直接ダメージを受けることはありませんが、落下ダメージは痛いです。攻撃を受けると、彼らは攻撃的になり、対象を追いかけます。"
+				""
+				"イエティの特徴："
+				"&b毎秒の体力回復+0.5%&r"
+				"&b耐寒性+30%&r"
+			]
+			icon: {
+				Count: 1
+				id: "twilightforest:yeti_helmet"
+				tag: {
+					Damage: 0
+					Enchantments: [{
+						id: "minecraft:protection"
+						lvl: 2s
+					}]
+				}
+			}
+			id: "10B572A9358F338B"
+			rewards: [
+				{
+					count: 5
+					id: "021419E747103F83"
+					item: "mmorpg:stone/3"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "7661B1B922262EAF"
+					item: "mmorpg:material/meat/4"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "20201B9A398A123F"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+			]
+			subtitle: "夕暮れの森"
+			tasks: [{
+				entity: "twilightforest:yeti"
+				icon: "ftb_ph:yetitwilight"
+				id: "0C5B0388632D3E64"
+				type: "kill"
+				value: 10L
+			}]
+			title: "イエティ"
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4B93763BFB5F5E0D"]
+			description: [
+				"恐ろしい「アルファ・イエティ」は、群れの他のイエティよりもはるかに大きく、6本の大きな青い角を持ち、プレイヤーに対して常に攻撃的な態度を見せます。"
+				""
+				"「アルファ・イエティ」を倒すと「氷河」の防御が解除され、「雪の女王」とその「オーロラの宮殿」にアクセスできるようになります。"
+				""
+				"アルファ・イエティの特徴："
+				"「物理→冷気ダメージ+50%」"
+				"「装甲貫通力（鱗）」+8"
+				"「冷気貫通力+30%」"
+				"「物理耐性+25%」"
+				"「冷気耐性+50%」"
+			]
+			id: "44B4EC276B4CD776"
+			rewards: [
+				{
+					count: 3
+					id: "2BA208A9FDAC9C96"
+					item: "mmorpg:stone/4"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "79ACA445473BD88D"
+					item: "mmorpg:material/meat/4"
+					type: "item"
+				}
+				{
+					id: "26B9B73CD18DC085"
+					item: "mmorpg:gems/amethyst/5"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "エピローグ"
+			tasks: [{
+				consume_items: true
+				id: "04298BD3152A19E7"
+				item: "twilightforest:alpha_yeti_trophy"
+				type: "item"
+			}]
+			title: "アルファ・イエティ"
+			x: 7.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["44B4EC276B4CD776"]
+			description: [
+				"荒涼とした「氷河」を見下ろす「オーロラ宮殿」は、黄昏の森を冒険する者にとって、息を呑むほど美しい光景です。その壁は絶えず様々な色に変化し、空へと伸びていきます。しかし、残念ながらその美しさは表面だけのもので、その内部には、魔法の住処を守るためにためらうことのない危険が潜んでいます。"
+				""
+				"「アルファ・イエティ」を倒した冒険者は、そのふわふわの毛皮に触れるだけで、毛皮の魔力の一部が自身に移り、風を消し去り、宮殿を探検者にとって開かれた空間へと変えることができることに気づくでしょう。"
+			]
+			icon: "twilightforest:blue_castle_door"
+			id: "2FDCA05F4CD502C8"
+			rewards: [
+				{
+					count: 2
+					id: "591FB17C2BAA0199"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
+					id: "2F9DB93942234A2C"
+					item: "mmorpg:gems/sapphire/5"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "エピローグ"
+			tasks: [
+				{
+					icon: "twilightforest:aurora_pillar"
+					id: "3E8D88BC87345DAC"
+					structure: "twilightforest:aurora_palace"
+					title: "オーロラパレスを探す"
+					type: "structure"
+				}
+				{
+					id: "3F7D90DB38D24943"
+					item: "twilightforest:alpha_yeti_fur"
+					type: "item"
+				}
+			]
+			title: "美の宮殿"
+			x: 9.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2FDCA05F4CD502C8"]
+			description: [
+				"&e雪の女王&rは、&eオーロラ宮殿&rの頂上付近にある氷で覆われた部屋で見つかります。彼女は黄昏の森で遭遇する生き物の中でおそらく最も人間に近い存在で、女性に似ていますが、大きな紫色の目と薄い青色の肌をしています。彼女は近くに侵入者がいるとすぐに敵対的な態度を取り、3つの主な攻撃パターンのいずれかを素早く開始します。"
+				""
+				"雪の女王は、魔法の氷ブロックでできた皿型のそりに乗って飛行します。このそりは強力な防御力を発揮し、女王を上空に移動させて近距離攻撃の射程外に追い出すと同時に、下からの遠距離攻撃を&eブロック&rします。雪の女王を攻撃するには、彼女の動きを予測し、氷のそりを回避できるほど近くに来た時にのみ攻撃する必要があります。"
+				""
+				"&c雪の女王はミシックレアリティで出現します。&r"
+				""
+				"雪の女王は以下の効果を持ちます:"
+				"&b物理ダメージ→冷気ダメージ+100%&r"
+				"&b凍結確率+80%&r"
+				"&b粉砕確率+25%&r"
+				"&b冷気貫通+30%&r"
+				"&bダメージ軽減+30%&r"
+			]
+			id: "1E2D94E70E2A1134"
+			rewards: [
+				{
+					auto: "enabled"
+					icon: {
+						Count: 1
+						id: "minecraft:written_book"
+						tag: {
+							author: "Unknown"
+							generation: 3
+							pages: [
+								"{\"text\":\"Entry #12\n\nLast afternoon, Captain Cornelia went to the seabed in search of any additional resources. There are rumors among the crew that the real subject of her expedition is something else.\"}"
+								"{\"text\":\"More than a day has passed since the captain's dive. She was wearing the only diving suit we had, so we couldn't help her in any way. Worst of all, she had the master key with her. As our hopes of rescue dwindle, the threat of rebellion grows.\"}"
+							]
+							resolved: 1b
+							title: "略奪船の航海日誌"
+						}
+					}
+					id: "7EF3ECDA9B97A8F7"
+					title: "スキルポイント2"
+					type: "custom"
+				}
+				{
+					id: "1DC1DDFC5481AC98"
+					item: "dungeon_realm:uber_fragment"
+					type: "item"
+				}
+				{
+					id: "13F0A36E7B35C9D3"
+					item: "mmorpg:gems/sapphire/6"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "エピローグ"
+			tasks: [{
+				consume_items: true
+				id: "30915EF9976C000F"
+				item: "twilightforest:snow_queen_trophy"
+				type: "item"
+			}]
+			title: "氷の女王"
+			x: 10.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["09AFF8CC33BD244B"]
+			description: [
+				"&eNaga&rを倒すと、&eRespawn Monument&rが出現します。このブロックを起動してボスを復活させるには、&eBlocks of Ironwood&rを以下のように記念碑の周囲に円状に配置します。"
+				""
+				"{image:cte2:textures/Naga-Respawn.png width:160 height:140 align:center}"
+				""
+				"次に、記念碑の上に&eWither Skeleton Skull&rを&eNorth&rに向けて配置します。&c必ず北を向いてください！&r"
+			]
+			id: "249CFC4219E590E5"
+			rewards: [{
+				count: 5
+				id: "1F089CDD411E7807"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "リスポーン"
+			tasks: [{
+				advancement: "dimasic_server:nagaresp"
+				criterion: ""
+				id: "4443B8B332438AA1"
+				type: "advancement"
+			}]
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1F3C2718AE550D5C"]
+			description: [
+				"&eリッチ&rを倒すと、&eリスポーンモニュメント&rが出現します。このブロックを起動してボスをリスポーンさせるには、モニュメントの周りに&e金ブロック&rを円形に配置します。例："
+				""
+				"{image:cte2:textures/Lich_respawn.png width:160 height:140 align:center}"
+				""
+				"次に、モニュメントの上に&eウィザースケルトンスカル&rを&e北&rに向けて配置します。&c必ず北を向いてください！&r"
+			]
+			id: "478246DF0A50447C"
+			rewards: [{
+				count: 5
+				id: "53945B5AF1249FE5"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "リスポーン"
+			tasks: [{
+				advancement: "dimasic_server:lichresp"
+				criterion: ""
+				id: "46647FC4FDDBF7CE"
+				type: "advancement"
+			}]
+			x: 9.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5BB55F41502BE69C"]
+			description: [
+				"&eUr-Ghast&rを倒すと、&eRespawn Monument&rが出現します。&eCrying Obsidian&rを以下のように記念碑の周囲に円形に配置することで、ブロックを起動してボスを復活させることができます。"
+				""
+				"{image:cte2:textures/Ur-Ghast_Respawn.png width:160 height:140 align:center}"
+				""
+				"次に、記念碑の上に&eWither Skeleton Skull&rを&eNorth&rに向けて配置します。&c必ず北を向いてください！&r"
+			]
+			id: "52FABBC48E005524"
+			rewards: [{
+				count: 5
+				id: "1FED6032BF28DDCD"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "リスポーン"
+			tasks: [{
+				advancement: "dimasic_server:urghastresp"
+				criterion: ""
+				id: "16328367B255603E"
+				type: "advancement"
+			}]
+			x: 10.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1E2D94E70E2A1134"]
+			description: [
+				"&e雪の女王&rを倒すと、&e復活のモニュメント&rが出現します。このブロックを起動してボスを復活させるには、モニュメントの周りに&eラピスラズリのブロック&rを以下のように円形に配置します。"
+				""
+				"{image:cte2:textures/Snow-Queen_Respawn.png width:160 height:140 align:center}"
+				""
+				"次に、モニュメントの上に&eウィザースケルトンの頭蓋骨&rを&e北&rに向けて配置します。&c必ず北を向いてください！&r"
+			]
+			id: "15CD2A688D39C87D"
+			rewards: [{
+				count: 5
+				id: "3467E2DEDB8FA565"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "リスポーン"
+			tasks: [{
+				advancement: "dimasic_server:snawqueenresp"
+				criterion: ""
+				id: "4F68D5C6E346A550"
+				type: "advancement"
+			}]
+			x: 10.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["18C4B8D73A50CFAC"]
+			description: [
+				"&eHydra&rを倒すと、&eRespawn Monument&rが出現します。このブロックを起動してボスを復活させるには、以下のように&eAncient Debris&rをモニュメントの周囲に円形に配置します。"
+				""
+				"{image:cte2:textures/Hydra_Respawn.png width:160 height:140 align:center}"
+				""
+				"次に、モニュメントの上に&eWither Skeleton Skull&rを&eNorth&rに向けて配置します。&c必ず北を向いてください！&r"
+			]
+			id: "1DD47026109BE225"
+			rewards: [{
+				count: 5
+				id: "6A599A8C876376B3"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "リスポーン"
+			tasks: [{
+				advancement: "dimasic_server:hydraresp"
+				criterion: ""
+				id: "5757A2AFA61E5A7F"
+				type: "advancement"
+			}]
+			x: 13.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"5BB55F41502BE69C"
+				"1E2D94E70E2A1134"
+				"18C4B8D73A50CFAC"
+				"1F3C2718AE550D5C"
+				"09AFF8CC33BD244B"
+			]
+			description: [
+	"エピローグで「黄昏の森」のボスを全て倒すと、この実績を達成できます。新しい帽子をかぶって、自慢しましょう！"
+]
+			hide_dependency_lines: true
+			icon: "simplehats:pog"
+			id: "481C3C4D8D5AF5B8"
+			rewards: [
+				{
+					id: "6350309B873FAF80"
+					item: "simplehats:pog"
+					type: "item"
+				}
+				{
+					id: "675B5B35C383CF3D"
+					item: "lightmanscurrency:coin_netherite"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					icon: "ftb_ph:passive"
+					id: "3C311586BF920909"
+					title: "4 パッシブポイント"
+					type: "custom"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "成果"
+			tasks: [{
+				id: "4405B159442E256A"
+				title: "クリックして読む"
+				type: "checkmark"
+			}]
+			title: "黄昏の森のボスを全て倒せ！"
+			x: 13.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["15B1E394B4FBB981"]
+			description: [
+	"「雪の森」の丘とモミの木々に囲まれた「イエティの洞窟」は、四角い丘のように見えます。4つの入り口から氷に覆われた内部へと続いており、鍾乳石から垂れ下がる氷が床を覆っています。多くの獰猛な「イエティ」が、この極寒の洞窟を住みかとし、その支配者を「アルファ・イエティ」が務めています。"
+]
+			id: "4B93763BFB5F5E0D"
+			rewards: [
+				{
+					count: 3
+					id: "1F78FFBE5A9A85B2"
+					item: "mmorpg:material/fishing/4"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "56F92CFDECE8EB68"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "エピローグ"
+			tasks: [{
+				icon: "blue_skies:snowcap_mushroom_block"
+				id: "0A566E2109FCE4C5"
+				structure: "twilightforest:yeti_cave"
+				title: "イエティの洞窟を見つける"
+				type: "structure"
+			}]
+			title: "冷たく質素な住まい"
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["77E6AE329E337151"]
+			description: [
+				"特定の構造物を見つけてボスを倒す？簡単そうに思える…探検家のコンパスを取り出して…えっ？使えないの？"
+				""
+				"トワイライトフォレストでは、ナビゲーションスキルに頼る必要があります。トワイライトフォレストの「マップフォーカス」に頼るしかありません！"
+			]
+			icon: "twilightforest:magic_map"
+			id: "5081032C6E395EA9"
+			rewards: [{
+				id: "0AE3865B01EA1ACD"
+				item: "twilightforest:raven_feather"
+				type: "item"
+			}]
+			subtitle: "エピローグ"
+			tasks: [{
+				id: "2BF7F6856AC56540"
+				title: "クリックして読む"
+				type: "checkmark"
+			}]
+			title: "遊牧民の旅"
+			x: 3.0d
+			y: 1.5d
+		}
+	]
+	subtitle: [
+	"レベル90"
+]
+	title: "エピローグ"
+}

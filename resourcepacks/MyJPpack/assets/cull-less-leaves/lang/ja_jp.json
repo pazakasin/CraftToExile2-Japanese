@@ -1,0 +1,9 @@
+{
+  "cull-less-leaves.title": "葉を減らす",
+  "cull-less-leaves.option.enabled": "有効",
+  "cull-less-leaves.option.depth": "深さ",
+  "cull-less-leaves.option.depth.tooltip": "葉の内側が除去される前の葉の層数。\n1 \u003d 最も高速ですが、見た目は最も劣ります。\n2 \u003d 推奨。\n4 \u003d 最も低速ですが、見た目は最も良好です。",
+  "cull-less-leaves.sodium.option.enabled": "葉を切る",
+  "cull-less-leaves.sodium.option.enabled.description": "Cull Less Leaves モッドを有効にします。",
+  "cull-less-leaves.sodium.option.depth": "葉の除去深度"
+}

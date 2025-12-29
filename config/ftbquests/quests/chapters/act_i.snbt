@@ -1,0 +1,2385 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "act_i"
+	group: "1E3C4B5FFAE48A39"
+	icon: {
+		Count: 1
+		id: "minecraft:iron_sword"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "6F8D9CB650A8A0C6"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0CDFB8E5BB59B981"]
+			description: [
+				"偵察報告によると、邪悪な村人の活動が増加しているようです。死霊術師の活動も増加しているという報告もあります！"
+				""
+				"周辺にアンデッドのクリーチャーがいないか確認し、&ekill&rしてください。"
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:wooden_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "313921A7833269CF"
+			rewards: [
+				{
+					id: "523A80564F5B3B6A"
+					item: {
+						Count: 1
+						id: "gateways:gate_pearl"
+						tag: {
+							gateway: "gateways:basic/zombie"
+						}
+					}
+					title: "ゾンビゲートウェイ"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 125"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "72B420BFEB4D2F50"
+					silent: true
+					title: "125 経験"
+					type: "command"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "メインクエスト"
+			tasks: [
+				{
+					entity: "minecraft:zombie"
+					icon: "ftb_ph:zombie"
+					id: "1CF03CBB118CB4BD"
+					type: "kill"
+					value: 5L
+				}
+				{
+					entity: "minecraft:skeleton"
+					icon: "ftb_ph:skeleton"
+					id: "6912869AEEF02CF4"
+					type: "kill"
+					value: 5L
+				}
+			]
+			title: "トレーニングアーク"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["313921A7833269CF"]
+			description: [
+				"前回戦ったクリーチャーが作った「ゾンビゲートウェイ」を発見しました。奇妙なことに、そこから不快なエネルギーが発せられているのを感じます。"
+				""
+				"もしかしたら、これがアンデッドクリーチャーの大量発生の原因なのでしょうか？調べてみる価値はあります。村から離れた場所で真珠を使ってみてください。使うとポータルが開くかもしれません…"
+			]
+			icon: {
+				Count: 1
+				id: "gateways:gate_pearl"
+				tag: {
+					gateway: "gateways:basic/zombie"
+				}
+			}
+			id: "4956C0B5633CE91E"
+			rewards: [
+				{
+					id: "1397C9FF3BAFD9BD"
+					item: {
+						Count: 1
+						id: "gateways:gate_pearl"
+						tag: {
+							gateway: "gateways:basic/witch"
+						}
+					}
+					title: "魔女のゲートウェイ"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 250"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "602249117C6F72CE"
+					silent: true
+					title: "経験値250"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					icon: "ftb_ph:talent"
+					id: "34AE80E5F42D3E80"
+					title: "1 タレントポイント"
+					type: "custom"
+				}
+			]
+			subtitle: "レベルメソッド"
+			tasks: [
+				{
+					entity: "minecraft:zombie"
+					icon: "ftb_ph:zombie"
+					id: "3A09F9D7E19A7E9E"
+					type: "kill"
+					value: 20L
+				}
+				{
+					entity: "minecraft:husk"
+					icon: "ftb_ph:husk"
+					id: "0081A1F923E703C9"
+					type: "kill"
+					value: 4L
+				}
+			]
+			title: "空気の乱れ"
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			can_repeat: false
+			dependencies: ["313921A7833269CF"]
+			description: [
+				"偵察隊が新たな報告を持って戻ってきました！オーバーワールドの各地で、とてつもなく巨大なゾンビ、スケルトン、クリーパーが目撃されています。"
+				""
+				"これは「魔女」の仕業に違いありません。魔女を見つけて尋問し、怪しいアイテムがあれば回収してください。"
+			]
+			icon: "minecraft:cauldron"
+			id: "0388547EAFE52B5F"
+			rewards: [
+				{
+					count: 4
+					id: "5E5370AF7FBC8339"
+					item: {
+						Count: 1
+						id: "minecraft:splash_potion"
+						tag: {
+							Potion: "mutantmonsters:chemical_x"
+						}
+					}
+					title: "ケミカルXのスプラッシュポーション"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 150"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "44AC5FC2AAB8AE3B"
+					silent: true
+					title: "150 経験値"
+					type: "command"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "40C763D5F39FDA94"
+					table_id: 3790783906717981347L
+					type: "choice"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "メインクエスト"
+			tasks: [{
+				entity: "minecraft:witch"
+				icon: "ftb_ph:witch"
+				id: "02C46D668A930502"
+				type: "kill"
+				value: 3L
+			}]
+			title: "醸造所の問題"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0388547EAFE52B5F"]
+			description: [
+				"魔女が怪しい薬を調合しているようです。ラベルには「ケミカルX」と書いてあります。どんな効果が出るか見てみるといいかもしれません。巨大な生き物の元凶かもしれません。"
+				""
+				"これを普通のスケルトンに投げつけてどうなるか見てみましょう。運が悪ければ、ミュータントスケルトンに遭遇するかもしれません。"
+				""
+				"ミュータントゾンビに遭遇した場合、燃え尽きない限り最大4回まで復活します！"
+			]
+			icon: {
+				Count: 1
+				id: "mutantmonsters:mutant_skeleton_skull"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5FCA8577C7DB792D"
+			rewards: [
+				{
+					id: "004160CB2EF9E66B"
+					item: "mmorpg:currency/level_up_orb"
+					title: "無限のオーブ"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 250"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "2E30BFE015E9A7C4"
+					silent: true
+					title: "経験値250"
+					type: "command"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "53538166A40324CB"
+					table_id: 8277515430762442209L
+					type: "choice"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "メインクエスト"
+			tasks: [{
+				entity: "mutantmonsters:mutant_skeleton"
+				icon: {
+					Count: 1
+					id: "mutantmonsters:mutant_skeleton_skull"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "1D20D3BF3B9BD554"
+				type: "kill"
+				value: 1L
+			}]
+			title: "失敗した実験"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5FCA8577C7DB792D"]
+			dependency_requirement: "one_completed"
+			description: [
+				"魔女たちがケミカルXのポーションを調合し、オーバーワールドのクリーチャーを恐ろしい怪物へと変えていたことが確認されました。"
+				""
+				"しかし、彼女たちがこぞってケミカルXを調合し始めたのには、きっと何か理由があるのでしょう…そろそろ自分で偵察してみるべき時かもしれません。あなたの直感は、卑劣な「邪悪な村人」を指し示しています。"
+				""
+				"もしかしたら、邪悪な村人が何をしているのか偵察できるかもしれません。彼らは過去に、ポーションの作成を魔女に委託していたことが知られています。「略奪者」は、オーバーワールドに頻繁に出現する「バニラの略奪者前哨基地」で見つけることができます。"
+				""
+				"&o&7完了すると、「繰り返し可能」チャプターで繰り返し可能なクエストが解除されます！&r&r"
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:splash_potion"
+				tag: {
+					Potion: "goblintraders:absorption"
+				}
+			}
+			id: "783CA457464E8E3D"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 250"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "55703D37D362DFBB"
+					silent: true
+					title: "経験値250"
+					type: "command"
+				}
+				{
+					id: "39BEDAFB0052494D"
+					item: "mmorpg:currency/upgrade_common_affix"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "メインクエスト"
+			tasks: [
+				{
+					entity: "minecraft:pillager"
+					icon: "ftb_ph:pillager"
+					id: "14618CB75F8DA2F8"
+					type: "kill"
+					value: 12L
+				}
+				{
+					entity: "minecraft:vindicator"
+					icon: "ftb_ph:vindicator"
+					id: "7BD8E97358F51C77"
+					type: "kill"
+					value: 6L
+				}
+			]
+			title: "調査"
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["783CA457464E8E3D"]
+			description: [
+				"この「邪悪な村人」たちは悪事を働いています。村を襲撃し、「オーバーワールドの構造物」でもよく見かけます。"
+				""
+				"敵対的な生き物の増加の背後に誰がいるのかが分かったので、いよいよ彼らに「戦いを挑む」時です。"
+			]
+			icon: "simplehats:hockeymask"
+			id: "56FF2D399F956629"
+			rewards: [
+				{
+					id: "354515A8CAD6A367"
+					item: {
+						Count: 1
+						id: "mmorpg:chest/rare_gear"
+						tag: {
+							mmorpg_loot_chest: "{\"num\":5,\"rar\":\"rare\",\"lvl\":5,\"id\":\"gear\",\"key\":\"\"}"
+						}
+					}
+					title: "レアギア戦利品宝箱（レベル5）"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 500"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "2DA88FAF6ABE615D"
+					silent: true
+					title: "500経験値"
+					type: "command"
+				}
+			]
+			subtitle: "邪悪な者のアーク"
+			tasks: [
+				{
+					entity: "illagerinvasion:basher"
+					icon: "ftb_ph:basher"
+					id: "111624BAC6AD7E0E"
+					type: "kill"
+					value: 4L
+				}
+				{
+					entity: "illagerinvasion:marauder"
+					icon: "ftb_ph:savager"
+					id: "416E99E238B786D4"
+					type: "kill"
+					value: 4L
+				}
+				{
+					entity: "illagerinvasion:provoker"
+					icon: "ftb_ph:provoker"
+					id: "40CF23F638C07E93"
+					type: "kill"
+					value: 4L
+				}
+			]
+			title: "拡散防止"
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["783CA457464E8E3D"]
+			description: [
+	"これらの邪悪な村人は、強制的に「侵入者のゲートウェイ」を通過することでのみ簡単に見つけることができます。"
+]
+			icon: {
+				Count: 1
+				id: "minecraft:iron_axe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "67D7938E14CD96D4"
+			rewards: [
+				{
+					id: "322956878C8086DC"
+					item: {
+						Count: 1
+						id: "mmorpg:chest/currency"
+						tag: {
+							mmorpg_loot_chest: "{\"num\":5,\"rar\":\"common\",\"lvl\":5,\"id\":\"currency\",\"key\":\"\"}"
+						}
+					}
+					title: "共通通貨戦利品宝箱（レベル5）"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 500"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "332F58B90C64735B"
+					silent: true
+					title: "500経験値"
+					type: "command"
+				}
+				{
+					id: "6F15877F9B2450C1"
+					item: "lightmanscurrency:coin_emerald"
+					type: "item"
+				}
+			]
+			subtitle: "邪悪な者のアーク"
+			tasks: [
+				{
+					entity: "illagerinvasion:archivist"
+					icon: "ftb_ph:archivist"
+					id: "48EB8067150A2569"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "illagerinvasion:sorcerer"
+					icon: "ftb_ph:sorcerer"
+					id: "3466BA58F158032F"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "襲撃隊"
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["783CA457464E8E3D"]
+			dependency_requirement: "one_completed"
+			description: [
+				"どうやらあなたの疑念は正しかったようです。尋問の結果、邪悪な計画の黒幕はイリジャーの「インヴォーカー」であることが分かりました。"
+				""
+				"インヴォーカーを追跡し、彼の邪悪な計画を阻止しましょう。彼らは「森の屋敷」にいると聞きましたが…どうやら強制的に「侵略者の門」を通れば遭遇できるようです。"
+				""
+				"インヴォーカーは最低レベル15で出現します。"
+				""
+				"インヴォーカーの能力："
+				"属性耐性+20%"
+				"オールドルーンドロップ率10%"
+			]
+			icon: "simplehats:crown"
+			id: "3E1EC6A042CC9310"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 2500"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "61C78A9757B59F10"
+					silent: true
+					title: "2500 経験値"
+					type: "command"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "708A11185AA6E12C"
+					table_id: 847184936680359530L
+					type: "choice"
+				}
+				{
+					id: "4DE8F79CE150A66E"
+					item: "simplehats:crown"
+					title: "クラウン"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					icon: "ftb_ph:talent"
+					id: "3AE054E2C8C68607"
+					title: "2 タレントポイント"
+					type: "custom"
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "メインクエスト"
+			tasks: [{
+				entity: "illagerinvasion:invoker"
+				icon: "ftb_ph:invoker"
+				id: "25E3A4A8CE375525"
+				type: "kill"
+				value: 1L
+			}]
+			title: "首謀者"
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["783CA457464E8E3D"]
+			description: [
+	"&eイリュージョナー&rは欺瞞的で狡猾です。彼らがインヴォーカーの右腕である邪悪な村人であることは驚くべきことではありません。彼らは&eイリュージョナータワー&rで見つけることができます。また、強制的に&eレイダーの門&rを通じて遭遇することも可能です。"
+]
+			icon: {
+				Count: 1
+				id: "mmorpg:weapon/staff/iron"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "35796166DD6A69CE"
+			rewards: [
+				{
+					id: "6AFB125691B58647"
+					item: {
+						Count: 1
+						id: "mmorpg:chest/common_gear"
+						tag: {
+							mmorpg_loot_chest: "{\"num\":5,\"rar\":\"common\",\"lvl\":5,\"id\":\"rune\",\"key\":\"\"}"
+						}
+					}
+					title: "コモンルーン戦利品チェスト（レベル5）"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 750"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "5D215F1369125AE0"
+					silent: true
+					title: "750 経験値"
+					type: "command"
+				}
+				{
+					id: "0BD1A1A9272CE58B"
+					item: {
+						Count: 1
+						id: "gateways:gate_pearl"
+						tag: {
+							gateway: "gateways:basic/enderman"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "邪悪な者のアーク"
+			tasks: [{
+				entity: "minecraft:illusioner"
+				icon: "ftb_ph:illusioner"
+				id: "2BE997397056C5BC"
+				type: "kill"
+				value: 1L
+			}]
+			title: "邪悪なアドバイザー II"
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["783CA457464E8E3D"]
+			description: [
+				"&e審問官&rはインヴォーカーの右腕である邪悪な村人です。彼を倒せば、インヴォーカーの軍勢に大きな打撃を与えることができます。"
+				""
+				"審問官は&e邪悪な村人の要塞&rで見つけることができます。また、強制的に&e襲撃者の門&rを通じて遭遇することも可能です。"
+			]
+			icon: {
+				Count: 1
+				id: "mmorpg:weapon/staff/wood"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "664D834AA6B16719"
+			rewards: [
+				{
+					id: "2043E25FA87E8E56"
+					item: {
+						Count: 1
+						id: "mmorpg:chest/rare_gear"
+						tag: {
+							mmorpg_loot_chest: "{\"num\":5,\"rar\":\"rare\",\"lvl\":10,\"id\":\"gem\",\"key\":\"\"}"
+						}
+					}
+					title: "レアギア戦利品宝箱（レベル10）"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 750"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "78A0C5335BFD302F"
+					silent: true
+					title: "750 経験値"
+					type: "command"
+				}
+				{
+					id: "73D187CA3C9EC9E3"
+					item: {
+						Count: 1
+						id: "gateways:gate_pearl"
+						tag: {
+							gateway: "gateways:basic/slime"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "邪悪な者のアーク"
+			tasks: [{
+				entity: "illagerinvasion:inquisitor"
+				icon: "ftb_ph:inquisitor"
+				id: "2CB01FCE39A1B730"
+				type: "kill"
+				value: 1L
+			}]
+			title: "邪悪な村人アドバイザー I"
+			x: 9.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["727ADA9C4F420BDC"]
+			description: [
+				"イリジャー・インヴォーカーを倒しました…しかし、オーバーワールドはまだ安全ではありません。"
+				""
+				"イリジャーの活動により、オーバーワールドに異次元への裂け目が開いています。各次元に入り、次元間の接続を安定させる必要があります。さもないと、オーバーワールドはいずれ異世界の生き物で溢れかえってしまうかもしれません！"
+				""
+				"さあ、炎に包まれた地獄のような世界、ネザーへ向かう時が来ました。黒曜石のポータルを設置することでそこへ行けます。火打ち石と打ち金を使ってポータルを起動すれば、ネザーへ入ることができます。"
+				""
+				"{image:cte2:textures/nether_portal.png width:160 height:128 align:1}"
+			]
+			icon: "minecraft:nether_star"
+			id: "18E09A4B9FC1B43F"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give exp @p 1000"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "28B6646CDD4EB2CA"
+				silent: true
+				title: "1000経験"
+				type: "command"
+			}]
+			shape: "rsquare"
+			subtitle: "メインクエスト"
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				icon: "minecraft:nether_star"
+				id: "1E9044A8D48D9197"
+				title: "ネザーを訪れる"
+				type: "dimension"
+			}]
+			title: "未踏の領域"
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3E1EC6A042CC9310"]
+			description: [
+				"CTE2のキャンペーンクエストラインは複数の幕に分かれており、各幕はそれぞれ異なる次元に関連付けられており、その前には（既にお馴染みの）プロローグクエストラインがあります。"
+				""
+				"メインクエストを完了すると、より多くのサイドクエストが展開されます。メインクエストライン（通常5～7クエスト）を完了すると、次の幕/次元へ進むためのクエストが与えられます。"
+				""
+				"次元から次元へと移動するにつれて、モブは強くなり、戦利品の品質も向上します。モブはプレイヤーレベルに応じてレベルアップしますが、各次元で上限が設定されているため、苦戦している次元では「オーバーレベル」することが可能です。"
+				""
+				"&6このクエストは、キャンペーンショップで新しいショップをアンロックします。"
+			]
+			icon: "minecraft:paper"
+			id: "727ADA9C4F420BDC"
+			rewards: [
+				{
+					count: 50
+					id: "0416D44C116837AA"
+					item: "lightmanscurrency:coin_iron"
+					title: "お金"
+					type: "item"
+				}
+				{
+					id: "09AB98FCA60D923A"
+					item: "mmorpg:potions/full_reset_talent"
+					type: "item"
+				}
+				{
+					id: "28DCAFAF13E5B4B4"
+					item: "mmorpg:potions/full_reset_spell"
+					type: "item"
+				}
+				{
+					id: "322B2479DC5B0063"
+					item: "mmorpg:potions/full_reset_passive"
+					type: "item"
+				}
+				{
+					id: "4109830D72D5DC3B"
+					item: "mmorpg:potions/full_reset_stat"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "失われたページ"
+			tasks: [{
+				id: "6FA3A47AFDD25C96"
+				title: "クリックして読む"
+				type: "checkmark"
+			}]
+			title: "行為"
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["15C2A55BAFCA5084"]
+			description: [
+				"地下には光る生き物が潜んでいて、注目を集めようとしています。「グロースケルトン」を見つけて倒し、深淵の探索を続けましょう。"
+				""
+				"&o&7クリアすると、「リピート可能」チャプターのリピートクエストが解除されます！&r&r"
+			]
+			icon: {
+				Count: 1
+				id: "twilightforest:skeleton_skull_candle"
+				tag: {
+					BlockEntityTag: {
+						CandleAmount: 1
+						CandleColor: 0
+					}
+				}
+			}
+			id: "0D9B68F2990B8E94"
+			rewards: [
+				{
+					count: 5
+					id: "1A0A49388DA210A9"
+					item: "lightmanscurrency:coin_iron"
+					title: "お金"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 150"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "7C2C1418BEA78297"
+					silent: true
+					title: "150 経験値"
+					type: "command"
+				}
+			]
+			subtitle: "地下"
+			tasks: [{
+				entity: "monsterplus:glow_skeleton"
+				icon: "ftb_ph:glow_skeleton"
+				id: "60852F7DA78E9C10"
+				type: "kill"
+				value: 8L
+			}]
+			title: "暗闇で光る問題"
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["051DB401E3A08D89"]
+			description: [
+				"そもそも、なぜスケルトンは光っているのでしょうか？スケルトンの元となった生物は暗闇で光るはずがありません…"
+				""
+				"この潜在的な骨変異を調査するには、&e隠遁者アビスウォーカー&rを見つけてください。&eオーバーワールドの夜の門&rから見つけられるそうです。"
+				""
+				"戦闘中に様々な呪文を唱えたり、手下を召喚したりできるので注意してください。"
+				""
+				"隠遁者アビスウォーカーの特徴："
+				"&b アーマー+30%&r"
+				"&a オールドルーンを落とす確率5%&r"
+			]
+			icon: {
+				Count: 1
+				id: "monsterplus:darkstar"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "152D52A88F776A70"
+			rewards: [
+				{
+					id: "0579BD5D35950F36"
+					item: {
+						Count: 1
+						id: "mmorpg:chest/rare_gear"
+						tag: {
+							mmorpg_loot_chest: "{\"num\":5,\"rar\":\"rare\",\"lvl\":10,\"id\":\"gem\",\"key\":\"\"}"
+						}
+					}
+					title: "レアギア戦利品宝箱（レベル10）"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 750"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "2B3FC6937853FEFE"
+					silent: true
+					title: "750 経験値"
+					type: "command"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "71705EA50FC99C7F"
+					table_id: 6943149240522624098L
+					type: "choice"
+				}
+				{
+					auto: "enabled"
+					icon: "ftb_ph:talent"
+					id: "63D9C567E093E023"
+					title: "1 タレントポイント"
+					type: "custom"
+				}
+			]
+			shape: "diamond"
+			subtitle: "地下"
+			tasks: [{
+				entity: "monsterplus:abyssologer"
+				icon: {
+					Count: 1
+					id: "monsterplus:darkstar"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "60D90D429BE94FBC"
+				type: "kill"
+				value: 1L
+			}]
+			title: "変異原源"
+			x: 6.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0D9B68F2990B8E94"]
+			description: [
+	"地下に棲む「ゴブリン」や「コボルド」の物語は数多く耳にしたことがあるでしょう。ある物語では、これらの生き物は攻撃的で、決して軽視すべきではないとされています。しかし、コボルドとゴブリンは地下に棲む生き物の中で最も友好的だとする説もあります…ただし、少しの「金」さえあればの話ですが。"
+]
+			icon: "mmorpg:loot_table_chest"
+			id: "6FF06A68E8DA88F2"
+			rewards: [{
+				id: "0266EEA438D94B03"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "地下"
+			tasks: [{
+				id: "749BBB5B3A9895C3"
+				item: "lightmanscurrency:coin_emerald"
+				type: "item"
+			}]
+			title: "隠れたトレーダー"
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["15C2A55BAFCA5084"]
+			description: [
+				"&経験値ブロック&rは、作成して設置できるブロックです。これにより、任意の&バニラ経験値&rをブロックに蓄えることができます。"
+				""
+				"使用方法:"
+				"- 空手でスニーク+右クリックすると、現在の経験値がすべてブロックに加算されます。"
+				"- 右クリックすると、ブロックのレベルが1つ下がり、経験値バーに加算されます。"
+				""
+				"&cオフハンドは空である必要があります！&r"
+			]
+			id: "6286EB870319776D"
+			rewards: [
+				{
+					id: "397DC27BBDC43B1B"
+					item: "minecraft:emerald"
+					title: "エメラルド"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 125"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "25DDEDBC06834D92"
+					silent: true
+					title: "125 経験"
+					type: "command"
+				}
+			]
+			subtitle: "特典"
+			tasks: [{
+				id: "36690510781ADE4D"
+				item: "globalxp:xp_block"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4956C0B5633CE91E"]
+			description: [
+				"CTE2には様々なカスタム武器タイプがあります。以下に全武器タイプのリストを示します。カスタム武器は&yellow&rでハイライト表示されています。"
+				""
+				"剣、斧、弓、クロスボウ、&e杖、短剣、槍、ハンマー、大剣、鎌、ガントレット&r。"
+				""
+				"これらの武器を作成する際は、地雷と斬撃のステータスを付与するためにギアステータスソウルが必要になることに注意してください。"
+				""
+				"CTE2では&e両手武器&rも装備できます。現時点では、&e槍、大剣、鎌&rは両手武器です。"
+				""
+				"また、&e片手武器を両手持ち&rすることも可能です！オフハンドの武器は、そのステータスの&e25%&rを提供します。"
+			]
+			icon: "minecraft:paper"
+			id: "1367285A94791954"
+			rewards: [
+				{
+					id: "4DA65E4DA5733C27"
+					item: {
+						Count: 1
+						id: "roe_weapons:hammer_1"
+						tag: {
+							Damage: 0
+							mmorpg_gear: "{\"baseStats\":{\"p\":68},\"imp\":{\"p\":22,\"imp\":\"cleric_staff\"},\"affixes\":{\"suf\":[{\"p\":28,\"id\":\"of_vampirism\",\"rar\":\"common\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":37,\"id\":\"heal_crit_prefix\",\"rar\":\"uncommon\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":2,\"rw\":\"\",\"rp\":0},\"rar\":\"uncommon\",\"lvl\":5,\"gtype\":\"hammer\"}"
+							mmorpg_potential: "{\"potential\":10}"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3EAFA2F1B038FF69"
+					item: {
+						Count: 1
+						id: "roe_weapons:spear_1"
+						tag: {
+							Damage: 0
+							mmorpg_gear: "{\"baseStats\":{\"p\":23},\"imp\":{\"p\":69,\"imp\":\"war_spear\"},\"affixes\":{\"suf\":[{\"p\":38,\"id\":\"of_vampirism\",\"rar\":\"uncommon\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":16,\"id\":\"catalyzing\",\"rar\":\"uncommon\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":2,\"rw\":\"\",\"rp\":0},\"rar\":\"uncommon\",\"lvl\":5,\"gtype\":\"spear\"}"
+							mmorpg_potential: "{\"potential\":10}"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1A5D7C2FB9AF7997"
+					item: {
+						Count: 1
+						id: "roe_weapons:dagger_1"
+						tag: {
+							Damage: 0
+							mmorpg_gear: "{\"baseStats\":{\"p\":93},\"imp\":{\"p\":91,\"imp\":\"imp_dagger\"},\"affixes\":{\"suf\":[{\"p\":27,\"id\":\"of_devastation\",\"rar\":\"uncommon\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":33,\"id\":\"wep_item_flat\",\"rar\":\"uncommon\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":0,\"rw\":\"\",\"rp\":0},\"rar\":\"uncommon\",\"lvl\":5,\"gtype\":\"dagger\"}"
+							mmorpg_potential: "{\"potential\":10}"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4C9C6B58399AD149"
+					item: {
+						Count: 1
+						id: "roe_weapons:gauntlet_1"
+						tag: {
+							Damage: 0
+							mmorpg_gear: "{\"baseStats\":{\"p\":54},\"imp\":{\"p\":22,\"imp\":\"ceremonial_gauntlet\"},\"affixes\":{\"suf\":[{\"p\":20,\"id\":\"of_vampirism\",\"rar\":\"uncommon\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":25,\"id\":\"warlords\",\"rar\":\"uncommon\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":2,\"rw\":\"\",\"rp\":0},\"rar\":\"uncommon\",\"lvl\":5,\"gtype\":\"gauntlet\"}"
+							mmorpg_potential: "{\"potential\":10}"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "171773CCFD2DABA4"
+					item: {
+						Count: 1
+						id: "roe_weapons:scythe_1"
+						tag: {
+							Damage: 0
+							mmorpg_gear: "{\"baseStats\":{\"p\":60},\"imp\":{\"p\":3,\"imp\":\"rusted_scythe\"},\"affixes\":{\"suf\":[{\"p\":36,\"id\":\"of_devastation\",\"rar\":\"uncommon\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":19,\"id\":\"wep_item_perc\",\"rar\":\"common\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":1,\"rw\":\"\",\"rp\":0},\"rar\":\"uncommon\",\"lvl\":5,\"gtype\":\"scythe\"}"
+							mmorpg_potential: "{\"potential\":10}"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2DED2F461AED8A69"
+					item: {
+						Count: 1
+						id: "roe_weapons:greatsword_1"
+						tag: {
+							Damage: 0
+							mmorpg_gear: "{\"baseStats\":{\"p\":64},\"imp\":{\"p\":81,\"imp\":\"broad_greatsword\"},\"affixes\":{\"suf\":[{\"p\":30,\"id\":\"of_sweeping\",\"rar\":\"uncommon\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":29,\"id\":\"physical_wep_dmg\",\"rar\":\"uncommon\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":0,\"rw\":\"\",\"rp\":0},\"rar\":\"uncommon\",\"lvl\":5,\"gtype\":\"greatsword\"}"
+							mmorpg_potential: "{\"potential\":10}"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "失われたページ"
+			tasks: [{
+				id: "3C66E63FF35763F6"
+				title: "クリックして読む"
+				type: "checkmark"
+			}]
+			title: "その他の武器の種類、両手武器、二刀流"
+			x: 3.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0D9B68F2990B8E94"]
+			description: [
+				"「キャンペーン」クエストラインでは、クエストの種類に応じて背景の図形が異なります。"
+				""
+				"「角丸四角形」：メインクエスト"
+				"「円」：サイドクエスト"
+				"「ギア」：繰り返しプレイ可能なクエスト"
+				"「ダイヤモンド」：ミニボス"
+				"「八角形」：ショップ"
+				"「六角形」：実績"
+				""
+				"さらに、「紙のアイコン」が付いた「失われたページ」があります。これらはクリックするだけで完了できるクエストで、追加情報も表示されます。"
+			]
+			icon: "minecraft:paper"
+			id: "051DB401E3A08D89"
+			rewards: [{
+				id: "123F37A228E151D5"
+				item: "farmersdelight:cake_slice"
+				type: "item"
+			}]
+			subtitle: "失われたページ"
+			tasks: [{
+				id: "14B3CF645A1BD777"
+				title: "クリックして読む"
+				type: "checkmark"
+			}]
+			title: "クエストシェイプ"
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["313921A7833269CF"]
+			description: [
+				"旅の途中で、より強力なギアを探すことになるでしょう。ギアのパワーは主に3つの方法で評価できます。"
+				""
+				"1. ギアの&elevel&r。ギアのステータスの強さを決定します。ギアのレベルは通常、倒したモブのレベルによって決まります。"
+				""
+				"2. ギアの&erarity&r。ステータスをいくつ、いくつまで上げられるか、そしていくつのソケットを持つことができるかを決定します。ドロップ可能なレア度は7つあります。&7Common&r、&aUncommon&r、&9Rare&r、&dEpic&r、&4Legendary&r、&5Mythic&r、&cUnique&rです。ユニークギアは、ロールされたステータスが事前に決定されているという点で特別です。強力で、時には特別なプレイスタイルを可能にすることもあります。"
+				""
+				"3. ギアの&equality&r。これにより、ギアのパワーがわずかに向上します。"
+				""
+				"これらの特性の一部は、採掘と斬りの通貨で変更できます。例えば、装備のレベルを上げることができる「インフィニティのオーブ」などです。さらに、一部の通貨は採掘と斬りの職業システムで作成でき、装備をさらに強化することができます。"
+			]
+			icon: "minecraft:paper"
+			id: "6A8C03172A7F61C3"
+			rewards: [
+				{
+					id: "12EB15177FBCDD7B"
+					item: "mmorpg:currency/level_up_orb"
+					title: "無限のオーブ"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "1BEC2669FFDBCD9F"
+					item: "mmorpg:currency/sharpening_stone_0"
+					type: "item"
+				}
+				{
+					id: "402AFECF820302A3"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								Items: [ ]
+								SelectedSlot: 0
+								Size: 6
+							}
+						}
+						id: "supplementaries:quiver"
+					}
+					title: "クイーバー"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			subtitle: "失われたページ"
+			tasks: [{
+				id: "0E7658B0923F7FFA"
+				title: "クリックして読む"
+				type: "checkmark"
+			}]
+			title: "ギアの改良"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["313921A7833269CF"]
+			description: [
+				"好意は、プレイヤーが生き延びることで得られる報酬システムです。毎分、少量の好意が蓄積されます。好意の上限は1000です。ただし、宝箱を開けることでこの好意の上限を超えることができます。"
+				""
+				"{image:cte2:textures/favor.png width:140 height:100 align:1}"
+				""
+				"好意が250以上になると、戦利品のドロップ率が2%上昇します。好意が上がるにつれて、戦利品のドロップ率も上昇します。"
+				""
+				"上限の2500に達すると、戦利品と経験値が25%上昇します！"
+				""
+				"一部のレアリティは、レベル制限を満たしたプレイヤーのみが出現します。"
+				""
+				"エピック：10以上"
+				"レジェンダリー：25以上"
+				"ミシック：50以上"
+				""
+				"ただし、死亡すると500の好意を失うので注意してください！"
+			]
+			icon: "minecraft:paper"
+			id: "0B7C635945E7F3AA"
+			rewards: [{
+				id: "4A985BD8BB918BA2"
+				item: "mmorpg:currency/level_up_orb"
+				title: "無限のオーブ"
+				type: "item"
+			}]
+			shape: "circle"
+			subtitle: "失われたページ"
+			tasks: [{
+				id: "562B84F769A52A5D"
+				title: "クリックして読む"
+				type: "checkmark"
+			}]
+			title: "好意"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"1367285A94791954"
+				"051DB401E3A08D89"
+				"6A8C03172A7F61C3"
+				"727ADA9C4F420BDC"
+				"0B7C635945E7F3AA"
+				"2C9B55C8C05E20E2"
+				"5DA2E0EE110431E0"
+				"4AF5F24C4B770EA5"
+				"2FC973866E3F8A8A"
+			]
+			description: [
+	"第1幕の「失われたページ」をすべて読んでこの実績を達成しましょう。そして、新しい帽子でそれを披露しましょう！"
+]
+			hide_dependency_lines: true
+			icon: "simplehats:rabbitears"
+			id: "245FE9BAB6F6F545"
+			rewards: [
+				{
+					id: "64F19AB06C8D2784"
+					item: "simplehats:rabbitears"
+					title: "うさぎの耳"
+					type: "item"
+				}
+				{
+					id: "662036FEEC802916"
+					item: "lightmanscurrency:coin_gold"
+					title: "お金"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "成果"
+			tasks: [{
+				id: "1FEDB2A08602B52A"
+				title: "クリックして読む"
+				type: "checkmark"
+			}]
+			title: "第 1 幕の失われたページをすべて読んでください。"
+			x: 12.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["727ADA9C4F420BDC"]
+			description: [
+	"&eComforts&rは、冒険中に使える&esleepings bag&rを追加します。かさばるベッドを持ち運ぶ代わりに、寝袋を敷いて&erest!&rしましょう。"
+]
+			id: "76483BF6DF35C463"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give exp @p 750"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "66A431F69E17BCEF"
+				silent: true
+				title: "750 経験値"
+				type: "command"
+			}]
+			subtitle: "快適さ"
+			tasks: [{
+				id: "43A73897ACED59B9"
+				item: "comforts:sleeping_bag_white"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["313921A7833269CF"]
+			description: [
+				"&e`&r キーを押し続けると、&eUltiminer&r が起動します。これは &eveinmining&r の高度な機能です。採掘するブロックのアウトラインが表示されます。Shift + ` キーを押し続けると、階段状の採掘を行う Mining Tunnel などの &epattern&r を選択します。&eShapeless パターンのみが鉱脈採掘&r され、残りはパターンに沿って採掘されます。"
+				""
+				"Ultiminer を使用するには、&e追加の耐久度と飢餓&r が必要になり、適切なツールも必要になります。"
+			]
+			id: "15C2A55BAFCA5084"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give exp @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "598543904735A2F9"
+				silent: true
+				title: "経験値100"
+				type: "command"
+			}]
+			subtitle: "効率"
+			tasks: [{
+				id: "4DB46C0682811F67"
+				item: {
+					Count: 1
+					id: "minecraft:iron_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "FTBアルティマイン"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5FCA8577C7DB792D"]
+			description: [
+	"「エクスプローラーのコンパス」では「構造物」を、「ネイチャーのコンパス」では「特定のバイオーム」を見つけることができます。探しているものを見つけるには、場所を変更する必要があるかもしれません。"
+]
+			id: "472D5441B6FCD6EC"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give exp @p 250"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "76647498F1F2AB21"
+				silent: true
+				title: "経験値250"
+				type: "command"
+			}]
+			subtitle: "特典"
+			tasks: [
+				{
+					id: "5AC3D8ABA379DF8D"
+					item: {
+						Count: 1
+						id: "explorerscompass:explorerscompass"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "72F9B32EEF288BE1"
+					item: {
+						Count: 1
+						id: "naturescompass:naturescompass"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["727ADA9C4F420BDC"]
+			description: [
+				"&e竹の棘&rは、踏んだものすべてにダメージを与えます。また、&eポーション効果&rを適用することもできます。"
+				""
+				"&eフルート&rは、迷子になった&etamed mob&rを引き寄せるために演奏できます。フルートでmobを右クリックすると、そのペットとフルートがリンクされます。"
+				""
+				"&eケージ&rは、特に飼いならされたmobを&e掴んで&r輸送するために使用できます。"
+				""
+				"&e掲示板&rは、書かれた本のテキストを表示できます。"
+				""
+				"&e補助瓶&rには、バニラ液体（蜂蜜、牛乳、溶岩、ポーション、スープ、ドラゴンブレス、経験値など）を4つのバケツまたは&e12&r瓶、そしてホタルを保管できます。瓶にはスライムやハチなどの小型mobも保管できます。ヴェックスやエンダーマイトを&e捕獲&rするには、色付きの瓶を使用する必要があります。 &eShift 右クリック&r で、Mob を解放する代わりに、Mob ジャーを配置します。"
+			]
+			id: "44B1B924A5A4D16F"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give exp @p 250"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "20F3E066F9F557B2"
+				silent: true
+				title: "経験値250"
+				type: "command"
+			}]
+			subtitle: "特典"
+			tasks: [
+				{
+					id: "2111C6DB7FD6A0F3"
+					item: "supplementaries:bamboo_spikes"
+					type: "item"
+				}
+				{
+					id: "508D00FB1DD255C8"
+					item: {
+						Count: 1
+						id: "supplementaries:flute"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6BD689A99314A241"
+					item: "supplementaries:jar"
+					type: "item"
+				}
+				{
+					id: "7DC6717C3A2C5AB8"
+					item: "supplementaries:notice_board"
+					type: "item"
+				}
+				{
+					id: "07731E16BE8F3E4E"
+					item: "supplementaries:cage"
+					type: "item"
+				}
+			]
+			title: "サプリメントのユーティリティ"
+			x: 12.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5FCA8577C7DB792D"]
+			description: [
+	"この&e\"化学X\"&rは進化的突然変異を激しく引き起こしているようです。&e豚&rは単純で弱いので、この物質の実験には簡単で&e安全&rな動物に違いありません。豚に&e発酵したクモの目&rを与え、&e化学X&rを投げつけてください。この処理は失敗する可能性があり、&e取引端末/物々交換掲示板&rで追加の&e化学X&rを購入できます。"
+]
+			id: "65D73BD10CCCD984"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 350"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "033A0EE9F9202F38"
+					silent: true
+					title: "350 経験"
+					type: "command"
+				}
+				{
+					count: 3
+					id: "1C1C2E212F58C7DA"
+					item: "lightmanscurrency:coin_gold"
+					title: "お金"
+					type: "item"
+				}
+			]
+			subtitle: "自分だけのラボ"
+			tasks: [{
+				entity: "mutantmonsters:spider_pig"
+				icon: { Count: 2, id: "simplehats:pighead" }
+				id: "13735D779752C9AC"
+				type: "kill"
+				value: 2L
+			}]
+			title: "どれほどひどいのでしょうか?"
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["727ADA9C4F420BDC"]
+			description: [
+				"走り回るのは疲れるでしょう... そろそろ &emount&r の出番かもしれません。&r &eChocopedia&r を作成して、チョコボの &ebreeding&r と &etaming&r について学んでください。&efl 能力を持つ特別なチョコボを繁殖させることさえできます!&r"
+				""
+				"&eTransport&r あらゆる種類のマウントやペットを &eWaystone&r を通して &eCage&r に入れるか、&eLead につないでおくことができます。&r ケージやリードがなくても、Waystone を通して一緒にテレポートできます!"
+			]
+			id: "730BE78211A1573B"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 250"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "400C5F606A015EFD"
+					silent: true
+					title: "経験値250"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					icon: "ftb_ph:talent"
+					id: "7A7B4EE2BBE28627"
+					title: "1 タレントポイント"
+					type: "custom"
+				}
+			]
+			subtitle: "野生のチョコボ"
+			tasks: [{
+				id: "7280DA5550AACF38"
+				item: "chococraft:chocopedia"
+				type: "item"
+			}]
+			title: "チョコクラフトとマウント"
+			x: 10.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5FCA8577C7DB792D"]
+			description: [
+				"錬金術職のポーションは、回復やバフなどの効果をもたらします。これらのポーションの作り方については、「錬金術職のポーション」の章で詳しく説明しています。また、職に興味がない場合は、様々な商人（村人、ゴブリン商人）からこれらのポーションを購入することもできます。"
+				""
+				"ポーションをクイック使用するには、Y! を押してください。"
+				""
+				"以下の材料で「珍しい体力ポーション」を調合します。"
+				""
+				"「精霊の肉」×3"
+				"「普通の石」×1"
+				"「調理済み鶏肉」×1"
+				"「トマト」×1"
+				"「銅貨」×5"
+			]
+			id: "044F1A64E4751E01"
+			rewards: [
+				{
+					count: 8
+					id: "309303AF9483B825"
+					item: {
+						Count: 1
+						id: "mmorpg:potion/health/2"
+						tag: {
+							level: 1
+							tier: 0
+						}
+					}
+					title: "レア回復ポーション"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 250"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "0860A55C77EDCD28"
+					silent: true
+					title: "経験値250"
+					type: "command"
+				}
+			]
+			subtitle: "M\\&S 職業"
+			tasks: [{
+				count: 4L
+				id: "7FEE130B9F995355"
+				item: {
+					Count: 1
+					id: "mmorpg:potion/health/1"
+					tag: {
+						level: 1
+						tier: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "仕事を引き受ける"
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["472D5441B6FCD6EC"]
+			description: [
+				"&eウェイストーン&rを使用すると、アンロックした各ウェイストーン間でテレポートできます。グローバル・ウェイストーンは次元を超えて使用できます。"
+				""
+				"&eワープ・ストーン&rを使用すると、アンロックした任意のウェイストーンにテレポートできますが、クールダウンがあります。"
+				""
+				"また、&e単発ワープ・ストーン&rとして、または&e特定のウェイストーン&rにテレポートするために使用できる&enumable scrolls&rも多数作成できます。"
+			]
+			id: "749948B3A454617E"
+			rewards: [
+				{
+					count: 4
+					id: "28EFCAAD2342E7CA"
+					item: "waystones:warp_scroll"
+					title: "ワープスクロール"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 250"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "608D719FC25BE82F"
+					silent: true
+					title: "経験値250"
+					type: "command"
+				}
+			]
+			subtitle: "特典"
+			tasks: [{
+				id: "65C065AB07D8CE15"
+				item: {
+					Count: 1
+					id: "waystones:warp_stone"
+					tag: {
+						Damage: 0
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			title: "ワープアラウンド"
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["152D52A88F776A70"]
+			description: [
+				"Craft to Exile 2では、装備に装着したり、強力なルーンワードを作成したりできる「次元固有のルーン」を見つけることができます。"
+				""
+				"これらのルーンは合計で7個あり、インヴォーカーやエンドドラゴンなどの次元ボスからのみ入手できます。"
+				""
+				"&c------------------------------&r"
+				""
+				"&eオールドルーン&r - ハーミット・アビスウォーカー(&b5%&r)、インヴォーカー(&b10%&r)、フロストモー(&b15%&r)、グリムリーパー(&b10%&r)"
+				"&eネットルーン&r - ワープド・モスコ(&b10%&r)、ワイルドファイア(&b5%&r)、マザー・ラヴァ・スクイッド(&b5%&r)、ウィザー(&b10%&r)、オーフル・ガスト(&b15%&r)、ネザーキーパー(&b15%&r)"
+				"&eアンダーンルーン&r - フェロウス・ロウトノート(&b10%&r)、ウムヴシ(&b10%&r)、彫刻家トンビ(&b10%&r)、忘れられた守護者(&b10%&r)、イール(&b15%&r)迷路の母 (&b50%&r)、キャプテン・コーネリアの亡霊 (&b10%&r)"
+				"&eブリ・ルーン&r - 召喚師 (&b10%&r)、スターリット・クラッシャー (&b25%&r)"
+				"&eドー・ルーン&r - 錬金術師 (&b10%&r)、アラクナーク (&b25%&r)"
+				"&eエンド・ルーン&r - エンダードラゴン (&b7.5%&r)、ヴォイド・ワーム (&b5%&r)、シェルタラー (&b15%&r)"
+				"&eシド・ルーン&r - ウォーデン (&b10%&r)、ナイトリッチ (&b15%&r)、ネザー・ガントレット (&b15%&r)、ヴォイド・ブロッサム (&b15%&r)、オブシディリス (&b15%&r)"
+			]
+			icon: "minecraft:paper"
+			id: "2C9B55C8C05E20E2"
+			rewards: [
+				{
+					id: "0B08CCCE242A1619"
+					item: "mmorpg:runes/owd"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5D11A9399E68F7CA"
+					table_id: 385353338452370382L
+					type: "choice"
+				}
+			]
+			subtitle: "失われたページ"
+			tasks: [{
+				id: "78F79A58FE29C912"
+				title: "クリックして読む"
+				type: "checkmark"
+			}]
+			title: "次元ルーン"
+			x: 7.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0388547EAFE52B5F"]
+			description: [
+	"パラグライダーは、十分に高い地点から出発すれば、広大な範囲を簡単に移動することができます。火源を使って上昇風を発生させ、上昇飛行することも可能です。"
+]
+			id: "4A46491D07C3EED0"
+			rewards: [
+				{
+					id: "50A326F655E21EFF"
+					item: "paraglider:heart_container"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 75"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "50EBE487632EBE6A"
+					silent: true
+					title: "75 経験"
+					type: "command"
+				}
+			]
+			subtitle: "宇宙を横断する"
+			tasks: [{
+				id: "540B918DC067979F"
+				item: "paraglider:paraglider"
+				type: "item"
+			}]
+			title: "パラグライダー"
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["051DB401E3A08D89"]
+			description: [
+				"&e変身台&rは作成することで、アイテムの外観を変更できます。"
+				""
+				"この台をワールド内に設置し、右クリックしてください。スロットは左から右の順に以下のようになっています。"
+				"1. &e燃料スロット&r - アメジストの破片で燃料を供給します。"
+				"2. &eターゲットスロット&r - ここに設置したアイテムの外観が変更されます。"
+				"3. &e外観スロット&r - ここに設置したアイテムの外観がターゲットにコピーされます。ここに設置したアイテムは、外観変更時に消費されません！"
+				""
+				"さらに、&e虚空の破片&rを外観スロットに設置することで、アイテムを非表示にすることができます！"
+			]
+			id: "5883B9DEF98B079F"
+			rewards: [
+				{
+					count: 3
+					id: "1AB0EB102E137C29"
+					item: "minecraft:amethyst_shard"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 750"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "1606255B78C8641A"
+					silent: true
+					title: "750 経験値"
+					type: "command"
+				}
+			]
+			subtitle: "特典"
+			tasks: [{
+				id: "06F088656E20DBC2"
+				item: "transmog:transmogrification_table"
+				type: "item"
+			}]
+			title: "よりクールに見える"
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5FCA8577C7DB792D"]
+			description: [
+				"&5ウォーロック&r、&2ハンター&r、&9エレメンタリスト&rでプレイしていますか？これらのクラスは召喚獣を使用できることをご存知でしたか？"
+				""
+				"採掘と斬撃ハブ（左下）の&e特徴&rタブで、召喚獣の挙動を設定できます。召喚獣を攻撃的または受動的にすることができます。受動的に設定した場合、召喚獣は攻撃した対象にのみ攻撃します。"
+				""
+				"さらに、召喚解除キーバインド（デフォルト：&eDelete&r）を使えば、いつでも召喚獣を&eunsummon&rできます！"
+			]
+			icon: "minecraft:paper"
+			id: "5DA2E0EE110431E0"
+			rewards: [{
+				count: 8
+				id: "429A832BAB3604F6"
+				item: {
+					Count: 1
+					id: "mmorpg:potion/health/0"
+					tag: {
+						level: 1
+						tier: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "失われたページ"
+			tasks: [{
+				id: "13B1D70D3301273C"
+				title: "クリックして読む"
+				type: "checkmark"
+			}]
+			title: "召喚クラス"
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0388547EAFE52B5F"]
+			description: [
+				"生き残るのが難しいですか？"
+				""
+				"「Spice of Life: Onion Edition」では、すべての食べ物に「多様性」という要素が与えられます。多様な食べ物を食べると「利点」が得られ、限られた食べ物に固執すると利点が得られません。「MineMenu」（デフォルト：H）の「Food Book」で、現在の「多様性」と「利点」を確認してください。様々な食べ物を食べ続けることで、体力、ブロック到達距離、移動速度などが向上します！"
+				""
+				"「ランチバッグ」は、手に持った状態で「しゃがみながら右クリック」し、右クリックで食べることで、クラフトとアップグレードが可能になり、「すべての食べ物」を一度に収納できます。"
+			]
+			icon: "minecraft:paper"
+			id: "4AF5F24C4B770EA5"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 50"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "1EDD4D6B60F3D507"
+					silent: true
+					title: "経験値50"
+					type: "command"
+				}
+				{
+					id: "238CA135B4FDF78D"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								Items: [ ]
+								Size: 5
+							}
+						}
+						id: "solonion:lunchbag"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "失われたページ"
+			tasks: [{
+				id: "109366712B105500"
+				title: "クリックして読む"
+				type: "checkmark"
+			}]
+			title: "人生のスパイス：オニオン編"
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["313921A7833269CF"]
+			description: [
+				"&e落ち着きのない精霊&rは夜に出現する怒りに満ちた精霊です。どこにでも出現します。"
+				""
+				"落ち着きのない精霊には以下の特性があります:"
+				"&b回避率+30%&r"
+			]
+			hide_dependency_lines: true
+			icon: "mca:book_supporters"
+			id: "1DEC808C04130184"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "786CEB796300A021"
+				silent: true
+				title: "経験値100×Lv."
+				type: "command"
+			}]
+			subtitle: "墓地"
+			tasks: [{
+				entity: "born_in_chaos_v1:restless_spirit"
+				icon: "ftb_ph:restless_spirit"
+				id: "630C5043103095CC"
+				type: "kill"
+				value: 15L
+			}]
+			title: "動物寓話集 II"
+			x: 3.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["313921A7833269CF"]
+			description: [
+				"&eスピリットガイド&rは&edryとhot biomes&rで見つかります。帽子をかぶっているため、太陽に焼けることはありません。戦闘中は味方に援軍を要請します。"
+				""
+				"&cスピリットガイドはレベル10以上で出現します。&r"
+				""
+				"スピリットガイドの能力："
+				"&bダメージ抑制確率+10%&r"
+				"&b属性耐性+40%&r"
+			]
+			hide_dependency_lines: true
+			hide_text_until_complete: false
+			icon: "mca:book_supporters"
+			id: "39A431C3F5565DCC"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 150"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "659249CB38D17C7E"
+				silent: true
+				title: "経験値150×Lv."
+				type: "command"
+			}]
+			subtitle: "Lv. 10 - スピリチュアルガイダンス"
+			tasks: [{
+				entity: "born_in_chaos_v1:spirit_guide"
+				icon: "ftb_ph:spirit_guide"
+				id: "21E70282049DD20C"
+				type: "kill"
+				value: 10L
+			}]
+			title: "動物寓話集 III"
+			x: 4.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["313921A7833269CF"]
+			description: [
+				"&eドアナイト&rと&eスケルトンスラッシャー&rは防御型のアンデッドモブです。どこにでも出現する可能性があります。これらのタスクを完了するには、野生のアンデッドを見つける必要があります。"
+				""
+				"ドアナイトの能力："
+				"&b+40% アーマー&r"
+				""
+				"スケルトンスラッシャーの能力："
+				"&b+100% アーマー&r"
+				"&b+25% 属性耐性&r"
+			]
+			hide_dependency_lines: true
+			icon: "mca:book_supporters"
+			id: "761BC90863C35627"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 150"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "0A9CB394B575F1E7"
+				silent: true
+				title: "経験値150×Lv."
+				type: "command"
+			}]
+			subtitle: "アンデッドガーディアン"
+			tasks: [
+				{
+					entity: "born_in_chaos_v1:door_knight"
+					icon: "ftb_ph:door_knight"
+					id: "7900CC0A0431834E"
+					type: "kill"
+					value: 15L
+				}
+				{
+					entity: "born_in_chaos_v1:skeleton_thrasher"
+					icon: "ftb_ph:skeleton_thrasher"
+					id: "2C3E695872E63BE2"
+					type: "kill"
+					value: 5L
+				}
+			]
+			title: "動物寓話集 IV"
+			x: 6.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["313921A7833269CF"]
+			description: [
+				"&eMissionary&rは、見た目以上に強力なアンデッドクリーチャーです。どこにでも出現します。戦闘になると、自身を支援するアンデッドクリーチャーを召喚し始めます。"
+				""
+				"Missionaryの特徴："
+				"&b物理ダメージ→冷気ダメージ+100%&r"
+				"&b凍結確率+25%&r"
+				"&b属性耐性+50%&r"
+			]
+			hide_dependency_lines: true
+			icon: "mca:book_supporters"
+			id: "58995DE0C6EBA1AB"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 200"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "4FB3264B31FDBA13"
+				silent: true
+				title: "経験値200×Lv."
+				type: "command"
+			}]
+			subtitle: "ミッション5"
+			tasks: [{
+				entity: "born_in_chaos_v1:missioner"
+				icon: "ftb_ph:missioner"
+				id: "4C85300D7B4ECA09"
+				type: "kill"
+				value: 5L
+			}]
+			title: "動物寓話集 V"
+			x: 7.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["75454F0A3C4C3596"]
+			description: [
+				"&e&oAct IVの「ジ・エンド」を完了する必要があります。&r&r"
+				""
+				"&eフロストモー&rは雪原バイオームに生息する古代の生物です。その巨大な体躯、驚異的なスピード、そして強力な氷のブレスにより、フロストモーはほぼ手ごわい敵です。"
+				""
+				"&cフロストモーはレベル50以上で出現します。&r"
+				""
+				"フロストモーの特徴："
+				"&b体力+20%&r"
+				"&b物理-冷気ダメージ+100%&r"
+				"&b凍結確率+33%&r"
+				"&b属性耐性+50%&r"
+				"&bカオス耐性+30%&r"
+				"&aオールドルーンドロップ確率+15%&r"
+			]
+			hide_dependency_lines: true
+			icon: "mca:book_supporters"
+			id: "0CE7FFFDD4066916"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give exp @p 16000"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "428905CD2D70AC2E"
+				silent: true
+				title: "16000 経験値"
+				type: "command"
+			}]
+			subtitle: "Lv. 50 - 極寒の荒野"
+			tasks: [{
+				entity: "mowziesmobs:frostmaw"
+				icon: "ftb_ph:frostmaw"
+				id: "3C5F14EBFB344FB5"
+				type: "kill"
+				value: 2L
+			}]
+			title: "動物寓話集 VII"
+			x: 10.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["313921A7833269CF"]
+			description: [
+				"&eSpiders Mother&rは&eCaves&rで見られる大型の捕食性クモです。戦闘を助けるため、小型のクモを召喚することができます。"
+				""
+				"Spiders Motherの特徴："
+				"&b物理ダメージからカオスダメージへのダメージ+100%&r"
+				"&b毒発生率+33%&r"
+				""
+				"&e&oBestiaryは、Actsを進めることでアンロックされます。&r&r"
+			]
+			hide_dependency_lines: true
+			icon: "mca:book_supporters"
+			id: "7032850A1F1FFF32"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "6FF4F59F68177438"
+				silent: true
+				title: "経験値100×Lv."
+				type: "command"
+			}]
+			subtitle: "腐敗した土地"
+			tasks: [{
+				entity: "born_in_chaos_v1:mother_spider"
+				icon: "ftb_ph:mother_spider"
+				id: "20AB098D30A443A3"
+				type: "kill"
+				value: 5L
+			}]
+			title: "動物寓話集 I"
+			x: 1.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["4956C0B5633CE91E"]
+			description: [
+	"冒険に合わせて装備をクラフトできます。詳しくは「M&S職業」の章をご覧ください！"
+]
+			id: "4C68E7AC4C59F2EB"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give exp @p 350"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "50ED13731B6C4940"
+				silent: true
+				title: "350 経験"
+				type: "command"
+			}]
+			subtitle: "M\\&S 職業"
+			tasks: [{
+				id: "5F2746C9F73F6032"
+				item: {
+					Count: 1
+					id: "mmorpg:stat_soul/family/armor/uncommon"
+					tag: {
+						tier: 0
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "スーツアップII"
+			x: 4.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4956C0B5633CE91E"]
+			description: [
+				"&e修理キット&rは、装備しているギアやツールを10秒ごとに自動的に修理します。修理量はキットのランクによって異なります。"
+				""
+				"キットには使用回数制限があり、チャージ数で表示されます。&e採掘石とスラッシュストーン&rを投入することでキットを満タンにできます！"
+			]
+			icon: {
+				Count: 1
+				id: "auto_repair_kit:leather_kit"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "60D950E97EA8E2B7"
+			rewards: [
+				{
+					id: "7E70520E2DA233F8"
+					item: {
+						Count: 1
+						id: "auto_repair_kit:leather_kit"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 250"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "6745F9E1DFB1E3DF"
+					silent: true
+					title: "経験値250"
+					type: "command"
+				}
+			]
+			subtitle: "ギア保持"
+			tasks: [{
+				count: 8L
+				id: "7773BDB87F5C4B52"
+				item: { Count: 8, id: "minecraft:leather" }
+				type: "item"
+			}]
+			title: "自動修理"
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["313921A7833269CF"]
+			description: [
+				"&eサー・パンプキンヘッド&rは10月に出現する謎の精霊です… また、ワールド内で見つかるろうそくに囲まれた&especial pumpkin&rを破壊することでも召喚できます。"
+				""
+				"サー・パンプキンヘッドの特徴:"
+				"&b+30% アーマー&r"
+				"&b+30% 属性耐性&r"
+				"&b+30% カオス耐性&r"
+			]
+			hide_dependency_lines: true
+			icon: "mca:book_supporters"
+			id: "0D04908025368D7B"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 200"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "13D41258E79CCB8D"
+				silent: true
+				title: "経験値200×Lv."
+				type: "command"
+			}]
+			subtitle: "パンプキング"
+			tasks: [{
+				entity: "born_in_chaos_v1:sir_the_headless"
+				icon: "ftb_ph:lord_of_pumpkin"
+				id: "55A5454CCB82C6A1"
+				type: "kill"
+				value: 1L
+			}]
+			title: "動物寓話集 VI"
+			x: 9.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["0D04908025368D7B"]
+			description: [
+				"&eロード・パンプキンヘッド&rは&eサー・パンプキンヘッド&rの強化版であり、最終形態です。召喚することで戦うことができます。&e変成エリクサー&rを使用して作成または発見した&e地獄の邪悪なパンプキン&rを右クリックしてください。"
+				""
+				"&e変成エリクサー&rの材料の一つである&eカオス成分&rは、&e醸造台&rを使用して&e水の瓶&rで&eカオスの種&rを醸造することで作成できます。"
+				""
+				"&cロード・パンプキンヘッドは最低レベル60、レア度はミシックで出現します。&r"
+				""
+				"ロード・パンプキンヘッドの特徴："
+				"&b+50% アーマー&r"
+				"&b+50% 属性耐性&r"
+				"&b+50% カオス耐性&r"
+			]
+			icon: "mca:book_supporters"
+			id: "32228E2B053EF761"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give exp @p 16000"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "7591A16B2A0D894F"
+				silent: true
+				title: "16000 経験値"
+				type: "command"
+			}]
+			subtitle: "Lv. 60 - パンプキング II"
+			tasks: [{
+				entity: "born_in_chaos_v1:lord_the_headless"
+				icon: "ftb_ph:lord_of_pumpkin"
+				id: "45B7B9E1EFF6B3F1"
+				type: "kill"
+				value: 1L
+			}]
+			title: "動物寓話集 VIb"
+			x: 9.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["1DEC808C04130184"]
+			description: [
+				"&eゾンビピエロ&rは動きが遅く、密度の高い敵です。攻撃時に「酔わせる飲み物」を付与します。&eピエロキャラバン&rで見つかります。"
+				""
+				"ゾンビピエロの特徴："
+				"&b物理ダメージ+25%&r"
+				"&bカオス耐性+75%&r"
+			]
+			icon: "mca:book_supporters"
+			id: "4E589D39C44CAAD2"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 120"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "04E41165D049095A"
+				silent: true
+				title: "経験値120×Lv."
+				type: "command"
+			}]
+			subtitle: "冗談でしょ！"
+			tasks: [{
+				entity: "born_in_chaos_v1:zombie_clown"
+				icon: "ftb_ph:zombie_clown"
+				id: "0229F6B999DF46D0"
+				type: "kill"
+				value: 30L
+			}]
+			title: "動物寓話集 IIb"
+			x: 3.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["749948B3A454617E"]
+			description: [
+	"テレポート先の「eWaystone」は自分で作成したり見つけたりできます。比較的高価ですが、間違いなく価値があります！"
+]
+			id: "4BA92370D0D0DC32"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 500"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "597C6F3B17BA40CF"
+					silent: true
+					title: "500経験値"
+					type: "command"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2D408A43E66CF473"
+					table_id: 385353338452370382L
+					type: "choice"
+				}
+			]
+			subtitle: "特典"
+			tasks: [{
+				id: "4A411B6E171AC9B2"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "waystones:waystone"
+							}
+							{
+								Count: 1b
+								id: "waystones:mossy_waystone"
+							}
+							{
+								Count: 1b
+								id: "waystones:sandy_waystone"
+							}
+						]
+					}
+				}
+				title: "ウェイストーン"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7032850A1F1FFF32"]
+			description: [
+				"&eダイアハウンドリーダー&rは、&b夜&rの様々なバイオームを徘徊する大型のハウンドです。小型のダイアハウンドを召喚して戦闘を補助します。"
+				""
+				"ダイアハウンドリーダーの特徴:"
+				"&b回避率+30%&r"
+				"&b出血率+60%&r"
+			]
+			icon: "mca:book_supporters"
+			id: "6F1CBC071DD2414C"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 120"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "3F5DE85074BA9ED5"
+				silent: true
+				title: "経験値120×Lv."
+				type: "command"
+			}]
+			subtitle: "ハウリングハウンド"
+			tasks: [{
+				entity: "born_in_chaos_v1:dire_hound_leader"
+				icon: "ftb_ph:direhound_leader"
+				id: "377631AE3921C331"
+				type: "kill"
+				value: 6L
+			}]
+			title: "動物寓話集 Ib"
+			x: 1.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["761BC90863C35627"]
+			description: [
+				"&e堕ちた混沌の騎士&rは、混沌に屈した誇り高き騎士です。&b夜&rに出現します。"
+				""
+				"堕ちた混沌の騎士の特徴："
+				"&b防御力+50%&r"
+				"&b混沌に対する物理ダメージ+100%&r"
+			]
+			icon: "mca:book_supporters"
+			id: "16739950F16AB006"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 150"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "2FE4336CA3038867"
+				silent: true
+				title: "経験値150×Lv."
+				type: "command"
+			}]
+			subtitle: "堕落した騎士たち"
+			tasks: [{
+				entity: "born_in_chaos_v1:fallen_chaos_knight"
+				icon: "ftb_ph:fallen_chaos_knight"
+				id: "029D495A65716B1F"
+				type: "kill"
+				value: 5L
+			}]
+			title: "動物寓話集 IVb"
+			x: 6.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["0D9B68F2990B8E94"]
+			description: [
+				"旅の途中、宝箱から「オベリスクの地図」が見つかることがあります。これは「オベリスク」で使用すると、ウェーブベースのインスタンス戦闘を開始できます！"
+				""
+				"出現するモブは、マップ自体のモディファイアの影響を受けます。これらのモディファイアは戦闘の難易度を上げますが、報酬も増加します。"
+				""
+				"オベリスク戦闘で出現するモブは、プレイヤーのレベルに応じて変化します。"
+			]
+			id: "7BE77FBF663D995C"
+			rewards: [{
+				id: "45AB4D5BADF27EBE"
+				item: "ancient_obelisks:obelisk_map"
+				type: "item"
+			}]
+			subtitle: "ウェーブベースのインスタンス"
+			tasks: [{
+				id: "2E5E647AF53CF519"
+				item: "ancient_obelisks:obelisk"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["044F1A64E4751E01"]
+			description: [
+				"「賞金稼ぎ」は、豊富な賞金首の依頼を完了するごとにレベルアップする、採掘と斬りの職業です。賞金首の依頼を完了すると、賞金稼ぎの経験値と「賞金首票」を獲得できます！"
+				""
+				"「賞金掲示板」は、ランダムに「賞金首」を生成します。掲示板のインターフェースから「依頼」を選択し、「制限時間」内に完了すると、記載されている報酬を獲得できます！"
+				""
+				"「賞金掲示板」は、自分で作成することも、世界中の村などでランダムに見つけることもできます。"
+				""
+				"詳しくは以下をご覧ください。"
+				"{ \"text\": \"Bounty Hunting\", \"color\": \"yellow\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4E27A84CE1F030A1\" } }"
+			]
+			id: "0726C033448D45CE"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give exp @p 500"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "10A31C7272F8C27A"
+				silent: true
+				title: "500経験値"
+				type: "command"
+			}]
+			subtitle: "M\\&S 職業"
+			tasks: [
+				{
+					id: "164D7BC468D2116C"
+					item: "bountiful:bountyboard"
+					type: "item"
+				}
+				{
+					id: "264FCC3C7B7531D6"
+					item: {
+						Count: 1
+						id: "bountiful:decree"
+						tag: {
+							"bountiful:decree_data": "{}"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "豊富なボード"
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6FF06A68E8DA88F2"]
+			description: [
+				"装飾品は防具に装着することで、様々な効果をもたらします。様々な装飾品があり、それぞれ異なる効果があります。装飾品を装着するには「鍛冶台」が必要です。"
+				""
+				"「コボルドの鍛冶テンプレート」は防具に以下のボーナスを与えます。例："
+				""
+				"「ヘルメット」：モブを倒した際に得られるバニラ経験値が増加します。"
+				"「チェストプレート」：不適切な道具、または道具を装備していない場合でも、ブロック破壊速度が速くなります。"
+				"「レギンス」：アクション実行時の満腹度減少が遅くなります。"
+				"「ブーツ」：農地を踏みつぶされなくなります。"
+				""
+				"他の装飾品を見つけて、装備をカスタマイズしましょう！"
+			]
+			id: "40803605D59A3AE1"
+			rewards: [
+				{
+					count: 4
+					id: "7DEF1F37A42B4449"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					id: "60D76996779B5FEE"
+					item: "minecraft:wayfinder_armor_trim_smithing_template"
+					type: "item"
+				}
+			]
+			subtitle: "地下"
+			tasks: [{
+				id: "3002A87574C474C4"
+				item: "kobolds:kobold_template"
+				type: "item"
+			}]
+			title: "無料トリミング"
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["727ADA9C4F420BDC"]
+			description: [
+				"Craft to Exile の Mob にはステータスがあり、一部の Mob はランダムに生成されるステータスに加えて、特定のステータスで出現します。特定のクエストでは、関連する Mob がどのようなステータスで出現するかが言及されることがあります。例えば、Act II では、クエストで言及されるほとんどの Mob が何らかの &cFire&r 修飾子を持っていることに気づくでしょう。"
+				""
+				"また、「&e=&r」と入力することで、表示している Mob の正確なステータスを確認することもできます。"
+			]
+			icon: "minecraft:paper"
+			id: "2FC973866E3F8A8A"
+			rewards: [{
+				id: "428CC4A744D4C7B9"
+				item: "mmorpg:currency/gear_rarity_random"
+				type: "item"
+			}]
+			subtitle: "失われたページ"
+			tasks: [{
+				id: "2D89449C24CD6554"
+				title: "クリックして読む"
+				type: "checkmark"
+			}]
+			title: "モンスターのステータス"
+			x: 12.0d
+			y: -1.5d
+		}
+	]
+	subtitle: [
+	"レベル1～15"
+]
+	title: "第1幕"
+}

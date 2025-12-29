@@ -1,0 +1,21 @@
+{
+  "config.jade.plugin_botania_editor.botania_flower": "ボタニアフラワー",
+  "config.jade.plugin_botania_editor.botania_spreader": "ボタニアスプレッダー",
+  "config.jade.plugin_botania_editor.botania_spreader_advanced": "ボタニアスプレッダーアドバンス",
+  "config.jade.plugin_botania_editor.botania_mana": "ボタニア・マナ",
+  "botania_editor.mana_display": "マナ: %d / %d",
+  "botania_editor.burst_info": "各バーストのマナ: %d",
+  "botania_editor.loss_info": "毎ティックのマナ損失: %d",
+  "botania_editor.orechid_stats": "各ブロックのコスト: %d / 各ブロックの遅延: %d",
+  "botania_editor.orechid_range": "水平範囲: %d、垂直範囲 %d",
+  "botania_editor.prod": "生産量 / ティック: %d",
+  "botania_editor.decay": "減衰: %d ティック",
+  "botania_editor.prodOrb": "生産 / オーブ使用回数: %d",
+  "botania_editor.prodExp": "生産 / プレイヤー経験値: %d",
+  "botania_editor.prodExplosion": "生産/爆発: %d",
+  "botania_editor.prodSlice": "生産 / スライス: %d",
+  "botania_editor.prodMult": "生産乗数: %dx",
+  "botania_editor.prodSheep": "生産量 / 羊: %d",
+  "botania_editor.prodBabySheep": "生産 / 子羊: %d",
+  "botania_editor.prodItem": "生産量 / 品目: %d"
+}

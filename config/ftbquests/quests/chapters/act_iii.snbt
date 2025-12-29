@@ -1,0 +1,1465 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "act_iii"
+	group: "1E3C4B5FFAE48A39"
+	icon: "undergarden:catalyst"
+	id: "31B544F80AB89D6E"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2AFB98683E249B7D"]
+			description: [
+	"どうやら腐った生き物は「腐った生き物」だけではないようです。様々な種類が存在します。"
+]
+			icon: "minecraft:rotten_flesh"
+			id: "5E98541EEB25174A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "58382CF9AB2A0A3E"
+					table_id: 1433159522818962256L
+					type: "choice"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 6000"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "1206AB15279F8FA5"
+					silent: true
+					title: "6000経験"
+					type: "command"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "メインクエスト"
+			tasks: [
+				{
+					entity: "undergarden:rotbeast"
+					icon: "ftb_ph:rotbeast"
+					id: "2C4A8A938CB95DE1"
+					type: "kill"
+					value: 12L
+				}
+				{
+					entity: "undergarden:rotwalker"
+					icon: "ftb_ph:rotwalker"
+					id: "03FF1260F86F8A4E"
+					type: "kill"
+					value: 12L
+				}
+			]
+			title: "腐った生き物"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["18D44E8B9226FB02"]
+			description: [
+	"この次元は湿っぽくてじめじめしていると聞いていたが、まさか腐敗しているとは思わなかっただろう。あなたを攻撃し続ける厄介な「腐敗者」どもを倒せ。どうやら腐敗の原因は彼らのようだ。"
+]
+			icon: "alexsmobs:cockroach_wing_fragment"
+			id: "2AFB98683E249B7D"
+			rewards: [
+				{
+					count: 2
+					id: "5DCBFD4165D4B05B"
+					item: "lightmanscurrency:coin_gold"
+					title: "お金"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 5000"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "495F3EA9B5202D6E"
+					silent: true
+					title: "5000経験値"
+					type: "command"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "メインクエスト"
+			tasks: [{
+				entity: "undergarden:rotling"
+				icon: "ftb_ph:rotling"
+				id: "5C9A9DA8C7B9EEFC"
+				type: "kill"
+				value: 6L
+			}]
+			title: "外国の敵"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5C25A5681CC704B8"]
+			description: [
+				"準備が整いましたので、海の異常現象の原因を突き止めましょう。「オーバーワールドの氷の迷路」で何かが動いているのに気づきましたね…調べてみる価値はあるかもしれません。これらの氷の迷路は、「深海凍土」の近くの「海面」にあります。"
+				""
+				"「氷の迷路」の「海底」には、「オキシゲリウム」と呼ばれる珍しい植物が見つかるそうです。また、「拷問された魂」からも見つけられます。「拷問された魂」が見つからない場合は、「氷の迷路の入り口」に挑戦してみましょう！"
+				""
+				"寒さに耐えるには「ボルトアーマー」が必要です。クラフトで作成できます。"
+				""
+				"「アクアミラエ」のモブはレベル35以上で出現します！"
+				""
+				"「すべての条件を満たす必要があります」"
+			]
+			icon: "minecraft:ice"
+			id: "217637D12CF3011E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6A6264B5A2D68399"
+					table_id: 5102974831465220002L
+					type: "choice"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 7250"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "513C3E0F390949B6"
+					silent: true
+					title: "7250 経験"
+					type: "command"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "メインクエスト"
+			tasks: [
+				{
+					icon: "minecraft:ice"
+					id: "7D9182428353834C"
+					structure: "aquamirae:ice_maze/common"
+					title: "氷の迷路を見つける"
+					type: "structure"
+				}
+				{
+					id: "66A2C43CB2DC02D9"
+					title: "クリックして読む"
+					type: "checkmark"
+				}
+			]
+			title: "隠された深淵"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5E98541EEB25174A"]
+			description: [
+				"かつてアンダーガーデンに住んでいたという村の住民と話をしました。その住民によると、かつてこの地の至る所にある寺院には、忍び寄る腐敗から文明を守っていた強力な存在がいたそうです。このクエストを完了するには、アンダーガーデンの「カタコンベ」を見つける必要があります。"
+				""
+				"しかし、どうやらそれは全て過去のことのようです。新たな調査により、地上世界の深淵に潜む新たな生物の存在が示唆されています。"
+				""
+				"完了すると、「繰り返し可能なクエスト」の章で繰り返し可能なクエストが解除されます！"
+			]
+			id: "775A13E1924D6C9A"
+			rewards: [
+				{
+					id: "22D6AB0E769C0B19"
+					item: {
+						Count: 1
+						id: "mmorpg:chest/rare_gear"
+						tag: {
+							mmorpg_loot_chest: "{\"num\":5,\"rar\":\"rare\",\"lvl\":35,\"id\":\"gear\",\"key\":\"\"}"
+						}
+					}
+					title: "レアギア戦利品宝箱（レベル35）"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 6250"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "235DECB54BBFBDE3"
+					silent: true
+					title: "6250 経験"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					icon: "ftb_ph:talent"
+					id: "1E135904CF7ED95A"
+					title: "1 タレントポイント"
+					type: "custom"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "メインクエスト"
+			tasks: [{
+				entity: "undergarden:forgotten"
+				icon: {
+					Count: 1
+					id: "undergarden:forgotten_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "074321BF73A109FA"
+				type: "kill"
+				value: 12L
+			}]
+			title: "過去の文明"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2AFB98683E249B7D"]
+			description: [
+	"村の年配の住民から、彼らは元々アンダーガーデン出身だったと聞きました！ 住民によると、忍び寄る腐敗のせいでアンダーガーデンにはもう村は存在しないそうです。しかし、交易に応じる「ストーンボーン」と呼ばれる生き物がまだ住んでいるかもしれません。"
+]
+			id: "34AE4F64C6DCC76B"
+			rewards: [
+				{
+					id: "3598048059AFC907"
+					item: {
+						Count: 1
+						id: "mmorpg:chest/currency"
+						tag: {
+							mmorpg_loot_chest: "{\"num\":5,\"rar\":\"common\",\"lvl\":30,\"id\":\"currency\",\"key\":\"\"}"
+						}
+					}
+					title: "共通通貨戦利品宝箱（レベル30）"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "7B53CAD7E3888851"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 5500"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "4AB967C7D0BC5EA0"
+					silent: true
+					title: "5500 経験値"
+					type: "command"
+				}
+			]
+			subtitle: "委任"
+			tasks: [{
+				advancement: "undergarden:undergarden/stoneborn_trade"
+				criterion: ""
+				id: "41919A014FCB8BFF"
+				type: "advancement"
+			}]
+			title: "外国人の友人"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2AFB98683E249B7D"]
+			description: [
+	"アンダーガーデンの奥深くを探索すると、ギアに変えることができる便利なリソースが見つかります。"
+]
+			id: "73CB23341BA13CD0"
+			rewards: [
+				{
+					count: 3
+					id: "61183E226D5E94A5"
+					item: "mmorpg:stone/3"
+					title: "エピックストーン"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 5000"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "6B975E6A9D52282E"
+					silent: true
+					title: "5000経験値"
+					type: "command"
+				}
+			]
+			subtitle: "鉱山とスラッシュ"
+			tasks: [{
+				advancement: "undergarden:undergarden/mine_ore"
+				criterion: ""
+				id: "5E1546F833807E4F"
+				type: "advancement"
+			}]
+			title: "新しいリソース"
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["217637D12CF3011E"]
+			description: [
+	"&eエンド ポータル フレーム&r が見つからず、&eエンダーの目&r が不足している場合は、&eエンドロケーター&r を作成するとよいでしょう。&eエンドロケーターは機能的にはエンダーの目と同じですが、使用回数は無制限です。"
+]
+			id: "2E0F302F9BBF7E36"
+			rewards: [
+				{
+					count: 3
+					id: "04EA5114ACF663AF"
+					item: "lightmanscurrency:coin_gold"
+					title: "お金"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 7500"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "1FC44A6913452913"
+					silent: true
+					title: "7500 経験値"
+					type: "command"
+				}
+			]
+			subtitle: "エコーロケーション"
+			tasks: [{
+				id: "40F07F24ADE9D1A4"
+				item: {
+					Count: 1
+					id: "alexsmobs:endolocator"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "構造探索のヘルプ"
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"59A29FC72CB20EB7"
+				"6BA03D598BD6C2AD"
+				"360C736C3975B377"
+				"43D444B5C1395F3E"
+				"2A8673F98F14484D"
+				"11DB53435CA1D59E"
+				"5E98541EEB25174A"
+				"2E0F302F9BBF7E36"
+				"2AFB98683E249B7D"
+				"217637D12CF3011E"
+				"18B4B295493669DD"
+				"775A13E1924D6C9A"
+				"60A18C940B623CDA"
+				"73CB23341BA13CD0"
+				"46DB9530C236A4AD"
+				"55F9F418C4CA3B3A"
+				"0998037F5701A2D7"
+				"5C25A5681CC704B8"
+				"0AFF7911E9C10C1B"
+				"3054F5AA249874B1"
+				"58F782F592F2ADEB"
+				"34AE4F64C6DCC76B"
+				"45EA60D4FE6CFFAC"
+				"713FE37BCF17FA27"
+				"4F6C1721D3A47BFC"
+				"3242634F49140F5F"
+				"3984F3F1D86ADE21"
+				"45501F3F04639DB1"
+				"5FEC85CF65C29ED6"
+			]
+			description: [
+	"Act IIIのクエストをすべてクリアしてこの実績を達成しましょう。新しい帽子を身につけて、自慢しましょう！"
+]
+			hide_dependency_lines: true
+			icon: "simplehats:babydolphin"
+			id: "6852C249CA093735"
+			rewards: [
+				{
+					id: "07B40C2CAFFA4A41"
+					item: "lightmanscurrency:coin_emerald"
+					title: "お金"
+					type: "item"
+				}
+				{
+					id: "69E1F9E5F47DE548"
+					item: "simplehats:babydolphin"
+					title: "赤ちゃんイルカ"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "成果"
+			tasks: [{
+				id: "7F4620276B50AC30"
+				title: "クリックして読む"
+				type: "checkmark"
+			}]
+			title: "Act III のクエストをすべて完了しましょう!"
+			x: 10.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2E0F302F9BBF7E36"]
+			description: [
+	"&e奇妙な魚群探知機&rは、&eユニークな魚や戦利品&rが含まれる近くのデビルズホールのチャンクを見つけます。"
+]
+			id: "58F782F592F2ADEB"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 8000"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "479F2BD1BBE7BC9A"
+					silent: true
+					title: "8000の経験"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					icon: "ftb_ph:talent"
+					id: "2B95DBCDDE09AA83"
+					title: "1 タレントポイント"
+					type: "custom"
+				}
+				{
+					id: "2CD9791B813A37F2"
+					item: "simplehats:seaweedhat"
+					type: "item"
+				}
+			]
+			subtitle: "エコーロケーション"
+			tasks: [{
+				id: "0B89633D93313B67"
+				item: {
+					Count: 1
+					id: "alexsmobs:pupfish_locator"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["217637D12CF3011E"]
+			dependency_requirement: "one_completed"
+			description: [
+	"この&earmor&rセットがあれば、水中での&emine&rと戦闘&rが簡単に行えます。&eOxygen Tanks&rは、&eIce Maze&r内の水中、または&eTortured Souls&rから入手できるOxygelium&rで作成できます。また、釣りで入手できる&eNeptunium&r装備を水中戦闘に活用することも検討できます！"
+]
+			id: "43D444B5C1395F3E"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give exp @p 6750"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "482D24E3915BCF42"
+				silent: true
+				title: "6750 経験"
+				type: "command"
+			}]
+			shape: "circle"
+			subtitle: "ダイビングキット"
+			tasks: [
+				{
+					id: "7B1370680492A67F"
+					item: {
+						Count: 1
+						id: "aquamirae:three_bolt_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "15969F7FC51090F2"
+					item: {
+						Count: 1
+						id: "aquamirae:three_bolt_suit"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["217637D12CF3011E"]
+			description: [
+				"これらのアンデッドクリーチャーは、シェルター地下の「氷の迷路」、深海付近で徘徊しているのが目撃されています。"
+				""
+				"&o&7クリアすると、「繰り返し可能」チャプターで繰り返しプレイ可能なクエストが解除されます！&r&r"
+			]
+			id: "60A18C940B623CDA"
+			rewards: [
+				{
+					count: 8
+					id: "4C7692645F8A7345"
+					item: "mmorpg:material/fishing/1"
+					type: "item"
+				}
+				{
+					id: "023076E4060597AE"
+					item: "mmorpg:material/fishing/2"
+					title: "エンピリアン生魚"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 8500"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "132D51D143AFAECD"
+					silent: true
+					title: "8500 経験"
+					type: "command"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "海底冒険"
+			tasks: [{
+				entity: "aquamirae:tortured_soul"
+				icon: {
+					Count: 1
+					id: "betterarcheology:soul_totem"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "6DC389E918151695"
+				type: "kill"
+				value: 16L
+			}]
+			title: "落ち着きのない死者"
+			x: 7.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["217637D12CF3011E"]
+			description: [
+	"この魚、明らかに魚っぽい…しかも陸にいます！この生き物は「深海凍土の氷迷路」付近で見つかります。"
+]
+			id: "3054F5AA249874B1"
+			rewards: [
+				{
+					count: 4
+					id: "18127D8F7D2FE528"
+					item: "mmorpg:material/fishing/2"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 8750"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "2D6BC5CAD878B4F4"
+					silent: true
+					title: "8750 経験"
+					type: "command"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "海底冒険"
+			tasks: [{
+				entity: "aquamirae:maw"
+				icon: "alexsmobs:flying_fish"
+				id: "64029E0952041AA3"
+				type: "kill"
+				value: 12L
+			}]
+			title: "地上の恐怖"
+			x: 7.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["217637D12CF3011E"]
+			description: [
+	"「氷迷路」の水中の「アンコウ」は、ごく普通に見えますが..."
+]
+			id: "59A29FC72CB20EB7"
+			rewards: [
+				{
+					id: "5623647895FDB31F"
+					item: "mmorpg:material/fishing/3"
+					title: "天使のような生魚"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 8750"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "325506065E24D465"
+					silent: true
+					title: "8750 経験"
+					type: "command"
+				}
+				{
+					id: "13A003531A29BE48"
+					item: {
+						Count: 1
+						id: "gateways:gate_pearl"
+						tag: {
+							gateway: "gateways:ice_maze"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "海底冒険"
+			tasks: [{
+				entity: "aquamirae:anglerfish"
+				icon: "aquamirae:anglers_fang"
+				id: "793FAAC99A394C65"
+				type: "kill"
+				value: 8L
+			}]
+			title: "深海生物"
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["59A29FC72CB20EB7"]
+			description: [
+				"このぬるぬるした生き物は、&e氷の迷路&rの近くの&eシェルター&rで見つかります。また、&e氷の迷路の入り口&rでも見つかります。"
+				""
+				"&cウナギはレベル35以上で出現します。&r"
+				""
+				"ウナギの特徴："
+				"&b物理ダメージから冷気ダメージに+50%&r"
+				"&aルーンを落とす確率15%&r"
+			]
+			id: "46DB9530C236A4AD"
+			rewards: [
+				{
+					count: 2
+					id: "16C206CAA7691022"
+					item: "mmorpg:stone/3"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 9250"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "5E42161C284D2B09"
+					silent: true
+					title: "9250 経験"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					icon: "ftb_ph:talent"
+					id: "0F7E84FB337FE624"
+					title: "1 タレントポイント"
+					type: "custom"
+				}
+				{
+					auto: "enabled"
+					icon: "ftb_ph:ascend"
+					id: "61E1F9C240855D16"
+					title: "残酷な優位性"
+					type: "custom"
+				}
+			]
+			shape: "diamond"
+			subtitle: "海底冒険"
+			tasks: [{
+				entity: "aquamirae:eel"
+				icon: "alexsmobs:shed_snake_skin"
+				id: "05F31113091D1241"
+				type: "kill"
+				value: 1L
+			}]
+			title: "滑りやすい水泳選手"
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3054F5AA249874B1"]
+			description: [
+				"氷迷路の母は、実在する生物の姿を見ることはありませんが、海を彷徨い、船乗りや海賊を襲う強大な生物であるという伝説があります。もしこの生物を見つけたいなら、アンコウと一緒に出現する可能性があると言われています（アンコウが死ぬと出現する確率は75.0%）。また、この生物の腹の中には、希少な古代の海賊の宝物が隠されているという噂もあります…"
+				""
+				"氷迷路の母はレベル35以上で出現します。"
+				""
+				"氷迷路の母には以下の特性があります："
+				"物理ダメージ→冷気ダメージ+50%"
+				"ルーンドロップ確率50%"
+			]
+			id: "18B4B295493669DD"
+			rewards: [
+				{
+					count: 8
+					id: "3E4E7CF7278690E7"
+					item: "lightmanscurrency:coin_gold"
+					title: "お金"
+					type: "item"
+				}
+				{
+					id: "0DDB0EF1FF5F5BA3"
+					item: {
+						Count: 1
+						id: "mmorpg:chest/rare_gear"
+						tag: {
+							mmorpg_loot_chest: "{\"num\":5,\"rar\":\"rare\",\"lvl\":35,\"id\":\"gear\",\"key\":\"\"}"
+						}
+					}
+					title: "レアギア戦利品宝箱（レベル35）"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 14000"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "7153FEA8AA828FFB"
+					silent: true
+					title: "14000 経験値"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					icon: "ftb_ph:talent"
+					id: "060035A5B1D52952"
+					title: "1 タレントポイント"
+					type: "custom"
+				}
+			]
+			shape: "diamond"
+			subtitle: "海底冒険"
+			tasks: [{
+				entity: "aquamirae:maze_mother"
+				icon: {
+					Count: 1
+					id: "aquamirae:maze_rose"
+					tag: {
+						Damage: 0
+						Enchantments: [
+							{
+								id: "obscure_api:distance"
+								lvl: 3s
+							}
+							{
+								id: "obscure_api:fast_spin"
+								lvl: 5s
+							}
+						]
+					}
+				}
+				id: "0962A21E9E55A320"
+				type: "kill"
+				value: 1L
+			}]
+			title: "深海の母"
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"3054F5AA249874B1"
+				"60A18C940B623CDA"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"&eキャプテン・コーネリアのゴースト&rは、&eホーン&rから特定の音が鳴ると現れます…"
+				""
+				"&eホーン&rは&e深海&rに潜む&e巨大な母親のような生き物&rの中にいるという説や、&e氷の迷路の入り口&rをクリアすることで入手できるという説もあります。"
+				""
+				"&eキャプテン・コーネリアのゴースト&rは死に対して耐性があります…体力が低下するとすぐに急速に回復し始めます。これに対抗するには&e弱化のスプラッシュポーション&rを使用することができます。"
+				""
+				"&cキャプテン・コルネリアのゴーストはレベル40以上で出現します。&r"
+				""
+				"キャプテン・コルネリアのゴーストの特徴:"
+				"&b物理→冷気ダメージ+50%&r"
+				"&bクリティカルヒット+25%&r"
+				"&aルーンドロップ率10%&r"
+				""
+				"&e完了には依存アイテムが1つ必要です。&r"
+				""
+				"&6このクエストを完了すると、キャンペーンショップに新しいショップがアンロックされます。"
+				"&o&7完了すると、「繰り返し可能」チャプターで繰り返し可能なクエストがアンロックされます！&r&r"
+			]
+			id: "55F9F418C4CA3B3A"
+			rewards: [
+				{
+					id: "3460CB6300D902AD"
+					item: "lightmanscurrency:coin_emerald"
+					title: "お金"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "2A9A07576D36CFDF"
+					item: "mmorpg:material/fishing/3"
+					title: "天使のような生魚"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 15000"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "59ABA7C0A346C178"
+					silent: true
+					title: "15000経験値"
+					type: "command"
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			subtitle: "メインクエスト"
+			tasks: [{
+				entity: "aquamirae:captain_cornelia"
+				icon: "aquamirae:pirate_pouch"
+				id: "36993DF8C06FCE11"
+				type: "kill"
+				value: 1L
+			}]
+			title: "コルネリア船長のロッカー"
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["73CB23341BA13CD0"]
+			description: [
+	"これらの「冷インゴット」は、強力な「フロストスチール」装備を作成するために使用できます。「フロストフィールド」、「フロスティ・スモッグステム・フォレスト」、「氷の海」バイオームなどの「冷地下バイオーム」で見つかります。"
+]
+			id: "0AFF7911E9C10C1B"
+			rewards: [
+				{
+					count: 4
+					id: "0D451539F1EC255E"
+					item: "mmorpg:material/mining/1"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 5000"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "052C4DC20201AB66"
+					silent: true
+					title: "5000経験値"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					icon: "ftb_ph:talent"
+					id: "0CBDF4F483A66437"
+					title: "1 タレントポイント"
+					type: "custom"
+				}
+			]
+			subtitle: "鉱山とスラッシュ"
+			tasks: [{
+				count: 8L
+				id: "154C7E9E60887877"
+				item: "undergarden:froststeel_ingot"
+				type: "item"
+			}]
+			title: "コールドインゴット"
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["55F9F418C4CA3B3A"]
+			description: [
+				"村人の学者を訪ねる時間です。彼らは強力な生物が存在する異次元について何か知っているかもしれません。"
+				""
+				"&e門番&rは&e山岳地帯、平原、雪の村&rに出現する&e門番の家&rにいます。"
+				""
+				"しかし、彼らに情報を提供するには何らかの方法が必要かもしれません…&aエメラルド&rなどでしょうか？"
+			]
+			id: "0998037F5701A2D7"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give exp @p 9250"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "4BE8EDFC75B0DD85"
+				silent: true
+				title: "9250 経験"
+				type: "command"
+			}]
+			shape: "rsquare"
+			subtitle: "メインクエスト"
+			tasks: [{
+				icon: "blue_skies:blinding_key"
+				id: "0C15001804C8AF74"
+				structure: "#blue_skies:gatekeeper_houses"
+				title: "ゲートキーパーを見つける"
+				type: "structure"
+			}]
+			title: "門番たち"
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["775A13E1924D6C9A"]
+			dependency_requirement: "one_completed"
+			description: [
+				"&eカタコンベ&rの奥深くでは、稀に無効化された守護者が見つかることがあります。かつてこれらの守護者は人々を腐敗の怪物から守っていたと言われていますが、今はもう魔力を失っていると言われています。もちろん、それは彼らの言い伝えに過ぎませんが…"
+				""
+				"もしこれらの守護者が見つからない場合は、&e迷宮の門&rを使って過去へのポータルを強制的に開く方がうまくいくかもしれません。"
+				""
+				"&c忘れられた守護者はレベル35以上で出現します。&r"
+				""
+				"忘れられた守護者の特徴："
+				"&b属性耐性+50%&r"
+				"&aルーンドロップ率10%&r"
+			]
+			icon: {
+				Count: 1
+				id: "undergarden:forgotten_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5C25A5681CC704B8"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 12500"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "45269ACB23D984A3"
+					silent: true
+					title: "12500 経験値"
+					type: "command"
+				}
+				{
+					id: "2EFCEBBD529078B6"
+					item: {
+						Count: 1
+						id: "gateways:gate_pearl"
+						tag: {
+							gateway: "gateways:endless/labyrinth"
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "413C00B019997763"
+					table_id: 7143075762642060613L
+					type: "choice"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "メインクエスト"
+			tasks: [{
+				entity: "undergarden:forgotten_guardian"
+				icon: "ftb_ph:forgotten_guardian"
+				id: "68ABFF4A22C968A4"
+				type: "kill"
+				value: 1L
+			}]
+			title: "隠された秘密"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5C25A5681CC704B8"]
+			description: [
+				"一部のモブに苦戦していますか？採掘と斬撃の「注入のプロフェッション」で強化できます。「注入の巻物」を装備に使用すると、ランダムに有益なステータスを付与できます。このステータスは、後から「注入の巻物」を使用することでさらに強化できます。"
+				""
+				"このシステムの使い方について詳しくは、「M\\&Sのプロフェッション」の章をご覧ください！"
+			]
+			icon: "minecraft:paper"
+			id: "360C736C3975B377"
+			rewards: [
+				{
+					count: 4
+					id: "45BD213CEE617FC1"
+					item: {
+						Count: 1
+						id: "mmorpg:enchantment/family/armor/common"
+						tag: {
+							level: 1
+							tier: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "06864F652BEF71AF"
+					item: {
+						Count: 1
+						id: "mmorpg:enchantment/family/armor/uncommon"
+						tag: {
+							level: 1
+							tier: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "失われたページ"
+			tasks: [{
+				id: "1CF415B71E5C7734"
+				title: "クリックして読む"
+				type: "checkmark"
+			}]
+			title: "バニラのエンチャントではない"
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4F6C1721D3A47BFC"]
+			description: [
+				"CTE2では、バニラの一部のステータスが「地雷と斬撃」と互換性があります！"
+				""
+				"バニラ：&a地雷と斬撃&r"
+				"体力：&b+0.5% 魔法シールド&r"
+				"アーマー：&b+0.1% 装備防御&r"
+				"アーマー耐久力：&b+0.1% 装備防御&r"
+				"攻撃力：&b+0.5% 総ダメージ&r"
+				"幸運：&b+3% 魔法発見&r"
+				""
+				"さらに、エンチャントとの互換性も考慮されています。エンチャントが「地雷と斬撃」ステータスにどのように影響するかは、「エンチャント」の青い説明で確認できます。"
+				""
+				"エンチャントによるステータスボーナスは、アイテムごとに最大エンチャントレベル+1まで増加します。例えば、「プロテクション」はアーマー+2%のボーナスを与えますが、このエンチャントを持つアイテムは、たとえ「プロテクション VIII」アイテムを入手したとしても、+12%しか増加しません。ただし、アイテムキャップには全体上限の3倍の上限があります。プロテクションVIアイテムを4つ装備しても、装甲値は+36%しか上がりません。"
+			]
+			icon: "minecraft:paper"
+			id: "11DB53435CA1D59E"
+			rewards: [{
+				id: "050336E8ABF73D0D"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:protection"
+							lvl: 2s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "失われたページ"
+			tasks: [{
+				id: "28690175BDCF5B11"
+				title: "クリックして読む"
+				type: "checkmark"
+			}]
+			title: "ステータスとエンチャントの互換性"
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["34AE4F64C6DCC76B"]
+			description: [
+				"&eImbuing Table&r を使用すると、最大レベルのエンチャントを &ecombine&r できます。この表を使用すると、アイテムの最大レベルのエンチャントを &e1&r 上げることができます。例えば、&eFortune III&r の本を使って、既に &eFortune III&r が付与されているツルハシをアップグレードすると、&eFortune IV&r が付与されたツルハシになります。"
+				""
+				"&oすべてのエンチャントがこのシステムをサポートしているわけではないことに注意してください。"
+			]
+			id: "6BA03D598BD6C2AD"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give exp @p 5500"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "7B45C6A08AC082FC"
+				silent: true
+				title: "5500 経験値"
+				type: "command"
+			}]
+			subtitle: "注入テーブルを作成する"
+			tasks: [{
+				id: "50C250274B0E7598"
+				item: "illagerinvasion:imbuing_table"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["60A18C940B623CDA"]
+			description: [
+	"&eアクアマリン&rは&eドラウンド、イカ、ガーディアン&rからドロップし、&e海の住人&rとの交換に使用できます！海の住人は&e海の深み&rに生息する人魚です。彼らは通常&e海底の村&rに集まっています。"
+]
+			id: "2A8673F98F14484D"
+			rewards: [
+				{
+					id: "2623FECED1EC26D4"
+					item: {
+						Count: 1
+						id: "seadwellers:depth_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 8000"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "0E5CD2D42DE0C09E"
+					silent: true
+					title: "8000の経験"
+					type: "command"
+				}
+			]
+			subtitle: "海底冒険"
+			tasks: [{
+				id: "59C725105DC08072"
+				item: "seadwellers:aquamarine"
+				type: "item"
+			}]
+			title: "海の住人"
+			x: 9.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2AFB98683E249B7D"]
+			description: [
+				"耐性は生き残る上で重要な役割を果たします。属性には&c火炎&r、&b冷気&r、&e雷撃&rの3種類があります。また、&7物理&rと&5混沌&rのダメージタイプもあります。"
+				""
+				"&6属性ダメージ&rはこの時点から重要になり、ほとんどのモブは何らかの属性ダメージ（生来またはアフィックスによる）を持っています。&6属性耐性&rを維持することは&evital&rです！&5混沌耐性&rも重要ですが、取得はより困難です。"
+				""
+				"プレイヤーが強くなるにつれて、モブも強くなります。&l&c25レベルごとに、耐性が恒久的に25%低下します！&r&r"
+				""
+				"&eレベル1～24：&r &b+25% 属性/混沌耐性&r"
+				"&eレベル1～24：&r 25-49:&r +0% エレ/カオス耐性"
+				"&eLv. 50-74:&r &c-25% Ele/カオス耐性&r"
+				"&eLv. 75+:&r &c-50% Ele/カオス耐性&r"
+			]
+			icon: "minecraft:paper"
+			id: "45EA60D4FE6CFFAC"
+			rewards: [
+				{
+					id: "40026BEF380DF951"
+					item: "mmorpg:runes/und"
+					type: "item"
+				}
+				{
+					id: "2CA2591F8F90D243"
+					item: "mmorpg:gems/emerald/3"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 6000"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "1698C3C7A8EAD812"
+					silent: true
+					title: "6000経験"
+					type: "command"
+				}
+			]
+			subtitle: "失われたページ"
+			tasks: [{
+				id: "3C2F08373F7EA7F7"
+				title: "クリックして読む"
+				type: "checkmark"
+			}]
+			title: "抵抗"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["360C736C3975B377"]
+			description: [
+	"よりレア度の高いインフュージョンスクロールを自分好みに作ってみましょう！ブーツインフュージョンは、ブーツインフュージョンならではの特別なステータスを得られるので、特に強力です！"
+]
+			id: "713FE37BCF17FA27"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give exp @p 7500"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "794C0235E593BB75"
+				silent: true
+				title: "7500 経験値"
+				type: "command"
+			}]
+			subtitle: "M\\&S 職業"
+			tasks: [{
+				id: "3909083DF06CD4CE"
+				item: {
+					Count: 1
+					id: "mmorpg:enchantment/family/armor/rare"
+					tag: {
+						tier: 1
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "足を守る"
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["775A13E1924D6C9A"]
+			description: [
+				"&eナーガ&rは&eアンダーガーデン&rの至る所で見られる飛行生物です。"
+				""
+				"ナーガは以下の効果を持ちます:"
+				"&b物理ダメージからカオスダメージへのダメージ+75%&r"
+				"&b毒発生率+50%&r"
+				"&b毒ダメージ+50%&r"
+			]
+			icon: "mowziesmobs:naga_fang"
+			id: "4F6C1721D3A47BFC"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give exp @p 7500"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "1F0BB657CC303C1D"
+				silent: true
+				title: "7500 経験値"
+				type: "command"
+			}]
+			subtitle: "アンダーガーデン"
+			tasks: [{
+				entity: "mowziesmobs:naga"
+				icon: "ftb_ph:naga_mowzie"
+				id: "6D0F50A483937869"
+				type: "kill"
+				value: 4L
+			}]
+			title: "地下…地下庭園？"
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["775A13E1924D6C9A"]
+			description: [
+				"&e太陽鳥ウムヴティ&rは、アバヴサナの創造主であるヘリオマサーであり、大型の中立ボスモンスターです。"
+				""
+				"ウムヴティは&e深淵の門&rで見つかります。"
+				""
+				"ウムヴティのマスクを装着したプレイヤーがウムヴティに近づくと、ウムヴティと取引できるようになります。"
+				""
+				"&cウムヴティはレベル35以上で出現します。&r"
+				""
+				"ウムヴティの特徴:"
+				"&b物理ダメージ+100%&r"
+				"&b燃焼確率+50%&r"
+				"&b火炎耐性+50%&r"
+				"&b雷耐性+50%&r"
+				"&aルーンドロップ確率+10%&r"
+			]
+			icon: "mowziesmobs:grant_suns_blessing"
+			id: "3242634F49140F5F"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 10000"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "57410F6F9D28BDAF"
+					silent: true
+					title: "10000経験値"
+					type: "command"
+				}
+				{
+					id: "74337A0D2AD5AE80"
+					item: "handcrafted:golden_thick_pot"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "アンダーガーデン"
+			tasks: [{
+				advancement: "mowziesmobs:kill_umvuthi"
+				criterion: ""
+				icon: "ftb_ph:umvuthithesunbird"
+				id: "12AECD7958F2AB3C"
+				title: "倒す: 太陽の鳥ウムヴティ 1体"
+				type: "advancement"
+			}]
+			title: "太陽の酋長"
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4F6C1721D3A47BFC"]
+			description: [
+				"&e鉄の錬金術師&rは斧に腕を置いたまま静止します。プレイヤーが近くに来るか攻撃を受けると、準備を整えて攻撃を開始します。戦闘中でない場合、錬金術師は体力を急速に回復します。"
+				""
+				"&c&l警告！鉄の錬金術師はシールドを破壊する可能性があります。注意して進んでください！&r&r"
+				""
+				"彼らはアンダーガーデンの各アリーナで見つかります。"
+				""
+				"&c鉄の錬金術師はレベル35以上で出現します。&r"
+				""
+				"鉄の錬金術師には以下の効果があります。"
+				"&b出血確率+50%&r"
+				"&b装甲+50%&r"
+				"&b属性耐性+40%&r"
+				"&aルーンドロップ確率+10%&r"
+			]
+			icon: {
+				Count: 1
+				id: "mowziesmobs:wrought_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3984F3F1D86ADE21"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 11000"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "62F5C57610CB66C2"
+					silent: true
+					title: "11000 経験値"
+					type: "command"
+				}
+				{
+					count: 3
+					id: "180E05BD7E85DF3F"
+					item: "mmorpg:material/mining/1"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "アンダーガーデン"
+			tasks: [{
+				id: "74A2D2C74D0310B4"
+				item: {
+					Count: 1
+					id: "mowziesmobs:wrought_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "鋼のような決意"
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["59A29FC72CB20EB7"]
+			description: [
+	"EXPを少し稼ぎたいですか？職業で作った「経験値稼ぎシーフード」を食べてみましょう！"
+]
+			id: "0E47D45B630AF684"
+			rewards: [
+				{
+					id: "39D6AD6223534A8D"
+					item: "mmorpg:material/fishing/1"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 8500"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "4A1C2918189AC326"
+					silent: true
+					title: "8500 経験"
+					type: "command"
+				}
+			]
+			subtitle: "M\\&S 職業"
+			tasks: [{
+				id: "16B63C712B862DD3"
+				item: {
+					Count: 1
+					id: "mmorpg:seafood/rare_exp"
+					tag: {
+						tier: 1
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "少し空腹を感じています"
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["55F9F418C4CA3B3A"]
+			description: [
+				"オーバーワールドに戻って探検したいと思ったことはあるけれど、レベルが低すぎて楽しめないと感じたことはありませんか？特定のブレイクポイントレベルで過去の次元が「エンレイジ」状態になり、レベル帯が上昇することで、プレイヤーは過去の次元に戻って楽しむことができるようになります！"
+				""
+				"&c------------------------------&r"
+				""
+				"&eオーバーワールド&r - レベル&b50-70&r"
+				"&eネザー&r - レベル&b55-75&r"
+				"&eアンダーガーデン&r - レベル&b60-80&r"
+				"&eエバーブライト/エバードーン&r - レベル&b65-85&r"
+				"&eジ・エンド&r - レベル&b70-90&r"
+				"&eアザーサイド&r - レベル&b75-95&r"
+			]
+			icon: "minecraft:paper"
+			id: "45501F3F04639DB1"
+			rewards: [{
+				id: "231B1473E7401DAA"
+				item: "mmorpg:currency/enchant_reroll"
+				type: "item"
+			}]
+			subtitle: "失われたページ"
+			tasks: [{
+				id: "69D1987CC32E4D4C"
+				title: "クリックして読む"
+				type: "checkmark"
+			}]
+			title: "逆方向への旅"
+			x: 10.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["775A13E1924D6C9A"]
+			description: [
+				"&e彫刻家トンビ&rは、&e修道院&rで見つかる強力な風水術師モブです。"
+				""
+				"彫刻家トンビは&e深淵の門&rで見つかります。"
+				""
+				"&c彫刻家トンビはレベル35以上で出現します。&r"
+				""
+				"彫刻家トンビの特徴:"
+				"&b物理→冷気ダメージ+25%&r"
+				"&b物理→混沌ダメージ+25%&r"
+				"&b冷気耐性+40%&r"
+				"&b混沌耐性+40%&r"
+				"&aルーンドロップ確率10%&r"
+			]
+			id: "5FEC85CF65C29ED6"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give exp @p 10000"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "3E1B0097332F1A41"
+				silent: true
+				title: "10000経験値"
+				type: "command"
+			}]
+			subtitle: "アンダーガーデン"
+			tasks: [{
+				entity: "mowziesmobs:sculptor"
+				icon: {
+					Count: 1
+					id: "mowziesmobs:sculptor_staff"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "04AB6B426D446BA9"
+				type: "kill"
+				value: 1L
+			}]
+			title: "彫刻家"
+			x: 4.5d
+			y: 1.5d
+		}
+	]
+	subtitle: [
+	"レベル25～40"
+]
+	title: "第三幕"
+}

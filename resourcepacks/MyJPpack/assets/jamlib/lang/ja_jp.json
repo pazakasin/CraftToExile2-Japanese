@@ -1,0 +1,20 @@
+{
+  "config.jamlib.selection_screen_title": "%s の設定を選択",
+  "config.jamlib.open": "開ける",
+  "config.jamlib.edit_manually": "手動で編集",
+  "config.jamlib.reset": "リセット",
+  "config.jamlib.reset_tooltip": "デフォルト値にリセット",
+  "config.jamlib.matches_regex_tooltip": "値は次の正規表現に一致する必要があります: %s",
+  "config.jamlib.requires_restart_tooltip": "この変更を有効にするには再起動が必要です",
+  "config.jamlib.within_range_tooltip": "値は %d から %d の間でなければなりません",
+  "text.jamlib.renamed_1": "次の mod ファイルの名前が変更されました。これは、mod が %s であることを示します。",
+  "text.jamlib.renamed_1.1": "許可なく再配布",
+  "text.jamlib.renamed_2": "%s %s などのサイトは %s に使用できます。Mod は %s と %s で公式に見つかります。",
+  "text.jamlib.renamed_2.1": "9マインクラフト",
+  "text.jamlib.renamed_2.2": "モッダーに危害を加える",
+  "text.jamlib.renamed_2.3": "マルウェアを配布する",
+  "text.jamlib.renamed_2.4": "カースフォージ",
+  "text.jamlib.renamed_2.5": "モドリンス",
+  "text.jamlib.renamed_3": "このメッセージは一度だけ表示されます。%s。",
+  "text.jamlib.renamed_3.1": "これが誤検知だと思われる場合は、MODの作者に連絡してください。"
+}

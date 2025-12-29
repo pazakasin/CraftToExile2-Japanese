@@ -1,0 +1,14 @@
+{
+  "text.structurecredits.message": "§7ようこそ: %1$s §7- 投稿者: %2$s",
+  "text.structurecredits.message_dimensional_dungeon": "§7ようこそ: %1$s §7- 投稿者: %2$s",
+  "text.structurecredits.message_no_creator": "§7ようこそ: %1$s",
+  "text.structurecredits.message_no_creator_dimensional_dungeon": "§7ようこそ: %1$s",
+  "category.structurecredits.keys": "構造クレジット",
+  "key.structurecredits.deactivate_key": "構造メッセージを非アクティブ化",
+  "text.structurecredits.deactivated": "§7構造メッセージが非アクティブ化されました。",
+  "text.structurecredits.activated": "§7構造メッセージがアクティブ化されました。",
+  "key.structurecredits.show_again_key": "構造メッセージを再度表示",
+  "key.structurecredits.dont_show_key": "この構造を二度と表示しない",
+  "text.structurecredits.dont_show": "§7この構造ではメッセージは表示されません。",
+  "text.structurecredits.already_dont_show": "§7この構造体は、メッセージを表示しないようにすでに設定されています。"
+}

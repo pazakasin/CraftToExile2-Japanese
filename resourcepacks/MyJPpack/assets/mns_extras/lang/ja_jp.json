@@ -1,0 +1,19 @@
+{
+  "key.categories.mns_extras": "MnSエクストラ",
+  "item.mns_extras.bounty_slip": "賞金引換券",
+  "item.mns_extras.empowered_bounty_slip": "強化された賞金領収書",
+  "itemGroup.mns_extras": "MnSエクストラ",
+  "key.mns_extras.open_profession_shop": "職業ショップを開く",
+  "gui.mns_extras.profession_shop.title": "職業ショップ",
+  "gui.mns_extras.profession_shop.cost": "コスト: %s x %s",
+  "gui.mns_extras.profession_shop.required": "必須: %s レベル %s",
+  "profession.farming": "農業",
+  "profession.mining": "鉱業",
+  "profession.husbandry": "賞金稼ぎ",
+  "profession.fishing": "釣り",
+  "profession.cooking": "料理",
+  "profession.alchemy": "錬金術",
+  "profession.enchanting": "注入",
+  "profession.gear_crafting": "ギアクラフト",
+  "profession.salvaging": "サルベージ"
+}

@@ -1,0 +1,21 @@
+{
+  "inventorysorter.gui.title": "在庫仕分け機（設定可能）",
+  "inventorysorter.gui.middleClickSorting": "在庫整理",
+  "inventorysorter.gui.middleClickSorting.tooltip": "在庫整理モジュールは有効になっていますか?",
+  "inventorysorter.gui.containerDebug": "コンテナのソートをデバッグする",
+  "inventorysorter.gui.containerDebug.tooltip": "ブラックリストの作成を支援するためにコンテナがソートされているときにログメッセージを作成します",
+  "keygroup.inventorysorter": "在庫仕分け機（設定可能）",
+  "key.inventorysorter.sort": "在庫を整理する",
+  "inventorysorter.commands.inventorysorter.usage": "/invsorter §ebladd§f|§eblrem§f|§eshow§f|§elist§f",
+  "inventorysorter.commands.inventorysorter.bladd.message": "コンテナのブラックリストに§e{0}§fを追加しました",
+  "inventorysorter.commands.inventorysorter.blremove.message": "コンテナのブラックリストから§e{0}§fを削除しました",
+  "inventorysorter.commands.inventorysorter.badtype": "文字列§c{0}§fは有効なコンテナ型ではないため、無視されます。",
+  "inventorysorter.commands.inventorysorter.showlast.message": "最後にソートされたコンテナ: §e{0}§f",
+  "inventorysorter.commands.inventorysorter.showlast.nosort": "まだコンテナをソートしていません。ソートしてみましょう。",
+  "inventorysorter.commands.inventorysorter.showblacklist.message": "現在のブラックリスト §e{0}§f",
+  "inventorysorter.commands.inventorysorter.showblacklist.empty": "ブラックリストは空です",
+  "inventorysorter.config.containerblacklist": "コンテナブラックリスト",
+  "inventorysorter.config.slotblacklist": "スロットタイプのブラックリスト",
+  "inventorysorter.config.sortorder": "並べ替え順",
+  "inventorysorter.config.sortbycountfirst": "まずカウントで並べ替える"
+}

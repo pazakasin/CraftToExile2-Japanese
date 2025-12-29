@@ -1,0 +1,13 @@
+{
+  "block.tfbr.respawn_naga": "ナーガの復活台座",
+  "block.tfbr.respawn_lich": "リッチの復活台座",
+  "block.tfbr.respawn_hydra": "ヒドラ復活台座",
+  "block.tfbr.respawn_ur_ghast": "ウルガストの台座",
+  "block.tfbr.respawn_snow_queen": "雪の女王の復活台座",
+  "creativetab.tfbr_tab": "トワイライトフォレスト：ボスの復活",
+  "message.naga.incorrect": "§7ハイライトされたスポットに§f %s§7を配置し、台座の上に§a %s §7を配置します。",
+  "message.lich.incorrect": "§7ハイライトされたスポットに§6 %s§7を配置し、台座の上に§5 %s §7を配置します。",
+  "message.hydra.incorrect": "§7ハイライトされたスポットに§f %s§7を配置し、台座の上に§6 %s §7を配置します。",
+  "message.ur_ghast.incorrect": "§7ハイライトされたスポットに§c %s§7を配置し、台座の上に§e %s §7を配置します。",
+  "message.snow_queen.incorrect": "§7ハイライトされたスポットに§f %s§7を配置し、台座の上に§b %s §7を配置します。"
+}

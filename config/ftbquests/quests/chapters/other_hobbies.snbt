@@ -1,0 +1,1357 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "other_hobbies"
+	group: "37C10F4BE9E00A26"
+	icon: "minecraft:sniffer_egg"
+	id: "09DEC7C6D9BF9CAB"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&eスニファー&rは、&esuspicious sand &rから&ewarm ocean ruins&rで見つかる&esniffer egg&rから孵化して出現します。&etorchflower seeds&rでスニファーを繁殖させると、アイテムとしてスニファーの卵も産まれます。スニファーは土、草、苔ブロックから様々なユニークな装飾植物の種を&e嗅ぎ分け、掘り出します&r。彼らは&edirtやgrass&rのようなブロックを掘り出します。"
+				""
+				"スニファーは最後に掘り出した20箇所を&e復元&rするため、それ以上その場所を掘ることはできません。種を嗅ぎ分けた後、再び掘り出す前に&eeight minutes cooldown&rが発生します。"
+				""
+				"&eボンミールの種&rは&eボンミールの瓶&rを作成するために使用されます。これは、成長した作物の3x3グリッドで使用すると、巨大な作物を作成します！"
+			]
+			id: "1D611B5828213E51"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "5508F53BDD3E83AE"
+				silent: true
+				title: "経験値100×Lv."
+				type: "command"
+			}]
+			subtitle: "スニファーエッグを入手する"
+			tasks: [
+				{
+					id: "090B2E583665D316"
+					item: "minecraft:sniffer_egg"
+					type: "item"
+				}
+				{
+					id: "23D0BB0A19AF8D8D"
+					item: "moresnifferflowers:bonmeelia_seeds"
+					type: "item"
+				}
+			]
+			title: "スニファー"
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1D611B5828213E51"]
+			description: [
+				"&eトーチフラワーの種&rは農地に設置でき、3段階に成長します。トーチフラワーが成熟する前に収穫すると種がドロップされますが、最終段階を収穫するとトーチフラワーが1つ出現しますが、種はドロップしません。トーチフラワーは&e見た目がかっこいい&r以外に特別な効果はありません。"
+				""
+				"&eピッチャーポッド&rはピッチャーポッドとして3段階に成長します。これも見た目がかっこいい以外に特別な効果はありません。"
+				""
+				"&eスニファーフラワーを増やす&rは、スニファーが掘り出せる、実際に効果のある種や植物を追加します。"
+				""
+				"&eドーンベリー&rは、収穫すると食べられるベリーをドロップします。"
+				""
+				"&e待ち伏せ&rは&eアンバー&rを生み出し、新しい鎧の装飾や旗の模様などをドロップします。"
+				""
+				"&eカウラーフラワーとボンドリピア&rは、アニメーションする観賞用の植物です。"
+			]
+			id: "141FAE11D6180780"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "1F1AAEF0168D5E6F"
+					silent: true
+					title: "経験値100×Lv."
+					type: "command"
+				}
+				{
+					count: 5
+					id: "76A47040004E1E6D"
+					item: "moresnifferflowers:corrupted_slime_ball"
+					type: "item"
+				}
+			]
+			subtitle: "それぞれ1つずつ入手"
+			tasks: [
+				{
+					id: "4A1EC9F27C69F7C4"
+					item: "minecraft:torchflower_seeds"
+					type: "item"
+				}
+				{
+					id: "61297EA8B1558B06"
+					item: "minecraft:pitcher_pod"
+					type: "item"
+				}
+				{
+					id: "3A09AD7ABC0BA1DE"
+					item: "moresnifferflowers:ambush_seeds"
+					type: "item"
+				}
+				{
+					id: "6D245436442A59EB"
+					item: "moresnifferflowers:dawnberry_vine_seeds"
+					type: "item"
+				}
+				{
+					id: "3FE47DD125FAC6B9"
+					item: "moresnifferflowers:caulorflower_seeds"
+					type: "item"
+				}
+				{
+					id: "295AEFC0BD15F50E"
+					item: "moresnifferflowers:bondripia_seeds"
+					type: "item"
+				}
+			]
+			title: "スニファーフラワー"
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["141FAE11D6180780"]
+			description: [
+				"&eGloomberries&r は収穫すると食べられるベリーを落としますが、同時にちょっと気持ち悪いです。"
+				""
+				"&eGarbush&r は &eAmbush&r の派生種で、よりレアな鉱石を落とします。これらの苗木は Amber から入手できます。"
+				""
+				"&eAciddripia&r はアニメーションする観賞用の植物です。これらの苗木は Amber から入手できます。"
+			]
+			id: "0D8B0AB8564ABCB9"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "6F86EA0055996E20"
+				silent: true
+				title: "経験値100×Lv."
+				type: "command"
+			}]
+			subtitle: "それぞれ1つずつ入手"
+			tasks: [
+				{
+					id: "4B23799C7BCBA42A"
+					item: "moresnifferflowers:gloomberry_vine_seeds"
+					type: "item"
+				}
+				{
+					id: "53500BE0B14D83BC"
+					item: "moresnifferflowers:garbush_seeds"
+					type: "item"
+				}
+				{
+					id: "45B6F3473B8FBB14"
+					item: "moresnifferflowers:acidripia_seeds"
+					type: "item"
+				}
+			]
+			title: "腐敗の種"
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3DB047DAC7A392C3"]
+			description: [
+				"「ヒツジの化石」は、小さな石の山頂で見つかります。音符ブロックのように調整して起動すると、ヤギの角のような音を鳴らすことができます。"
+				""
+				"「エオセロットの化石」は、ジャングル内の（おそらく崩壊した）洞窟に隠れています。クリーパーを猫の2倍の距離まで追い払います（ただし、不快な音は出ません）。"
+				""
+				"「クリーパーの化石」は、爆発した古い土の小屋で見つかります。設置すると炎と煙の粒子を放出します。"
+				""
+				"「村人の化石」は、朽ち果てた追放者の家の墓で見つかります。ディスプレイのようにアイテムを置くことができ、置いているアイテムの光を発します。"
+				""
+				"「ニワトリの化石」は、小さな岩に囲まれた木の下で見つかります。半径10ブロック以内にいるプレイヤーにスローフォール効果を与えます。"
+			]
+			id: "4687F41A2DC1F1F6"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "498FD4941D060885"
+				silent: true
+				title: "経験値100×Lv."
+				type: "command"
+			}]
+			subtitle: "それぞれ1つずつ入手"
+			tasks: [
+				{
+					id: "6E1BBB79990C18E3"
+					item: "betterarcheology:creeper_fossil"
+					type: "item"
+				}
+				{
+					id: "787401578CD7901A"
+					item: "betterarcheology:villager_fossil"
+					type: "item"
+				}
+				{
+					id: "716587A0E389F3D4"
+					item: "betterarcheology:chicken_fossil"
+					type: "item"
+				}
+				{
+					id: "7ED41F714F1807FE"
+					item: "betterarcheology:ocelot_fossil"
+					type: "item"
+				}
+				{
+					id: "200F4A277C26812A"
+					item: "betterarcheology:sheep_fossil"
+					type: "item"
+				}
+			]
+			title: "化石"
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4687F41A2DC1F1F6"]
+			description: [
+	"&eトーテム&rは&e水中構造物&rと&eメサ遺跡&rで見つかります。"
+]
+			id: "6D81B1B54FCBAFA0"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "1AFBDF90391AE1C3"
+				silent: true
+				title: "経験値100×Lv."
+				type: "command"
+			}]
+			subtitle: "それぞれ1つずつ入手"
+			tasks: [
+				{
+					id: "5FE97D3DDBF7A7E1"
+					item: {
+						Count: 1
+						id: "betterarcheology:torrent_totem"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3BEF716754381262"
+					item: {
+						Count: 1
+						id: "betterarcheology:soul_totem"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "トーテム"
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			description: [
+				"&eBetter Archeology&rは考古学に新たなコンテンツをもたらします。様々なMobの&eFossils&rは、特定のエリアに生成される&eFossiliferous Dirt&rを&eブラッシングすることで見つけることができます。各エリアには&e特定の種類の化石&rが含まれます。例えば、石柱の近くにあるFossiliferous Dirtには、羊の化石が含まれています。"
+				""
+				"&eArcheology Table&rは、あらゆる種類のブラシを使用して未確認の遺物を&eanalyze&rするために使用します。&eIdentified Artifacts&rは、Enchanted Book&rと同様に、&eAncient Enchantmentの触媒として機能します。金床を使用して装備に適用します。"
+				""
+				"&eArtifact Shards&rは、&e壺を壊すか、怪しい砂を&rブラッシングすることで見つけることができます。これらは知識の断片であり、組み合わせることで未確認の遺物を作成できます。"
+				""
+				"&e考古学テーブル&rを使用して未確認の遺物を&e識別&rします。"
+			]
+			id: "3DB047DAC7A392C3"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "60C206051579389D"
+				silent: true
+				title: "経験値100×Lv."
+				type: "command"
+			}]
+			subtitle: "それぞれ1つずつ作成する"
+			tasks: [
+				{
+					id: "1EE5F2F4EF889807"
+					item: "betterarcheology:archeology_table"
+					type: "item"
+				}
+				{
+					id: "6BD72743811EF470"
+					item: {
+						Count: 1
+						id: "betterarcheology:iron_brush"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1563FEEE74FDE751"
+					item: "betterarcheology:unidentified_artifact"
+					type: "item"
+				}
+				{
+					id: "58FDCF2AD34CFDAF"
+					item: "betterarcheology:artifact_shards"
+					type: "item"
+				}
+			]
+			title: "より良い考古学"
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6D81B1B54FCBAFA0"]
+			id: "6EAAB84EB04E035A"
+			rewards: [
+				{
+					command: "/mine_and_slash give xp_times_lvl @p 500"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "27CC9951B28EB7D5"
+					silent: true
+					title: "経験値500×Lv."
+					type: "command"
+				}
+				{
+					id: "0C196B060E25D63C"
+					item: "simplehats:plaguedoctor"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "チャレンジ"
+			tasks: [{
+				consume_items: true
+				id: "192947A1A4847203"
+				item: {
+					Count: 1
+					id: "betterarcheology:diamond_brush"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "古代人類学者"
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"6EAAB84EB04E035A"
+				"73612B81124DE424"
+				"7A0715E60A882B2A"
+				"635EB23DC67E9B2A"
+				"160A8E0EF74CCF7D"
+				"2F32A34764DD8F55"
+				"46CE10AA0F5E648A"
+			]
+			icon: "alexsmobs:mimicream"
+			id: "6DF33D1B5C76639B"
+			rewards: [
+				{
+					command: "/tellraw @a {\"text\":\"\",\"color\":\"blue\",\"extra\":[{\"selector\":\"@p\"},{\"text\":\" has achieved The Multipotentialite !\"}]}"
+					elevate_perms: true
+					icon: "minecraft:cookie"
+					id: "5E89A5FC157054B3"
+					title: "自慢するにはここをクリック"
+					type: "command"
+				}
+				{
+					command: "/mine_and_slash give xp_times_lvl @p 750"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "312CF3C2B8F795EF"
+					silent: true
+					title: "経験値750×Lv."
+					type: "command"
+				}
+				{
+					count: 6
+					id: "314DD321EC8CEA73"
+					item: "lightmanscurrency:coin_diamond"
+					title: "お金"
+					type: "item"
+				}
+				{
+					id: "4D21ACABF78321AE"
+					item: "simplehats:baseballhatrgb"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "成果"
+			tasks: [{
+				id: "0BD9F8B671E38D86"
+				title: "クリックして読む"
+				type: "checkmark"
+			}]
+			title: "マルチポテンシャライト"
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0D8B0AB8564ABCB9"]
+			id: "73612B81124DE424"
+			rewards: [
+				{
+					command: "/mine_and_slash give xp_times_lvl @p 500"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "635FEB1219074A0C"
+					silent: true
+					title: "経験値500×Lv."
+					type: "command"
+				}
+				{
+					id: "4BEDE46D5EF456DC"
+					item: "simplehats:strawberry_hat"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "チャレンジ"
+			tasks: [
+				{
+					consume_items: true
+					count: 256L
+					id: "6056263F619A0D1B"
+					item: "moresnifferflowers:amber_shard"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 256L
+					id: "0EF8A81697E4986F"
+					item: "moresnifferflowers:garnet_shard"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "19A2C4810CA6A74F"
+					item: { Count: 64, id: "moresnifferflowers:dawnberry" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "22CD6DE525D339FE"
+					item: { Count: 64, id: "moresnifferflowers:gloomberry" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 16L
+					id: "7C8E44F753D34C0B"
+					item: { Count: 16, id: "moresnifferflowers:jar_of_bonmeel" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 16L
+					id: "2E738140C12C3BE8"
+					item: { Count: 16, id: "moresnifferflowers:jar_of_acid" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 8L
+					id: "13D934AF4379241F"
+					item: {
+						Count: 8
+						id: "moresnifferflowers:dyespria"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 8L
+					id: "5DCD42692B9B5E7C"
+					item: {
+						Count: 8
+						id: "moresnifferflowers:dyescrapia"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "2EC986CA7455FEF1"
+					item: "moresnifferflowers:cropressor"
+					type: "item"
+				}
+			]
+			title: "古代の農民"
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			description: [
+	"&eゲートウェイ&rを使用すると、特定の種類のモブがウェーブ状に出現し、戦闘に参加できます。各ウェーブは&etime limit&r以内に撃破する必要があります。撃破しない場合、ゲートウェイは消滅します。全てのウェーブをクリアすると、ゲートウェイの基部に&ebunch of mob drops&rが出現します。"
+]
+			id: "3E5A643A19ECF957"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "074EE398AB5748F8"
+				silent: true
+				title: "経験値100×Lv."
+				type: "command"
+			}]
+			subtitle: "ゾンビゲートウェイを1つ入手する"
+			tasks: [{
+				id: "007A339DDC0E287A"
+				item: {
+					Count: 1
+					id: "gateways:gate_pearl"
+					tag: {
+						gateway: "gateways:basic/zombie"
+					}
+				}
+				type: "item"
+			}]
+			title: "永遠への入り口"
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3E5A643A19ECF957"]
+			description: [
+	"&eより大きなゲートウェイ&rはウェーブごとのモブの数を増やすだけでなく、ドロップの量も増やします。"
+]
+			icon: {
+				Count: 1
+				id: "minecraft:tipped_arrow"
+				tag: {
+					Potion: "minecraft:night_vision"
+				}
+			}
+			id: "5C89FB95B4B3B3C4"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "284AE3D5303FF1E2"
+				silent: true
+				title: "経験値100×Lv."
+				type: "command"
+			}]
+			subtitle: "ゲートウェイ5つを破壊"
+			tasks: [{
+				id: "32012537114311E4"
+				stat: "gateways:gates_defeated"
+				type: "stat"
+				value: 5
+			}]
+			title: "異次元ハンター"
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5C89FB95B4B3B3C4"]
+			description: [
+	"「大規模ゲートウェイ」は究極の挑戦であり、厳しい時間制限があります。"
+]
+			icon: {
+				Count: 1
+				id: "minecraft:tipped_arrow"
+				tag: {
+					Potion: "minecraft:swiftness"
+				}
+			}
+			id: "19026C269C1E109C"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "2DB868FFA4D236E4"
+				silent: true
+				title: "経験値100×Lv."
+				type: "command"
+			}]
+			subtitle: "ゲートウェイを10個破壊する"
+			tasks: [{
+				id: "50B3081435E93654"
+				stat: "gateways:gates_defeated"
+				type: "stat"
+				value: 10
+			}]
+			title: "次元の門番"
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["19026C269C1E109C"]
+			id: "7A0715E60A882B2A"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 500"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "51050FA3A1AAB53D"
+					silent: true
+					title: "経験値500×Lv."
+					type: "command"
+				}
+				{
+					id: "6A4D29FCBB94E914"
+					item: "simplehats:headshot"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "チャレンジ"
+			tasks: [{
+				icon: "dungeon_realm:home_pearl"
+				id: "37DCF8DC33EEBCEF"
+				stat: "gateways:gates_defeated"
+				type: "stat"
+				value: 25
+			}]
+			title: "国土安全保障省"
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			id: "7BE88C3D7287D322"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "45FFD1EC176A50AA"
+				silent: true
+				title: "経験値100×Lv."
+				type: "command"
+			}]
+			subtitle: "一度死ぬ"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "minecraft:player_head"
+					tag: {
+						SkullOwner: ""
+					}
+				}
+				id: "713B2CECB8A88321"
+				stat: "minecraft:deaths"
+				title: "一度死ぬ"
+				type: "stat"
+				value: 1
+			}]
+			title: "Craft to Exile 2へようこそ"
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7BE88C3D7287D322"]
+			id: "36A9457DD4BA277F"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "7D5F07EE76519098"
+				silent: true
+				title: "経験値100×Lv."
+				type: "command"
+			}]
+			subtitle: "25回死ぬ"
+			tasks: [{
+				icon: "minecraft:skeleton_skull"
+				id: "0F35571D76091705"
+				stat: "minecraft:deaths"
+				type: "stat"
+				value: 25
+			}]
+			title: "これはクラフト・トゥ・エグザイル2です"
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["36A9457DD4BA277F"]
+			id: "78AA28A9F76F7BCA"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "66EE632F173355DE"
+				silent: true
+				title: "経験値100×Lv."
+				type: "command"
+			}]
+			subtitle: "50回死ぬ"
+			tasks: [{
+				icon: "minecraft:wither_skeleton_skull"
+				id: "284110B216A15CE0"
+				stat: "minecraft:deaths"
+				type: "stat"
+				value: 50
+			}]
+			title: "Craft to Exile 2: Prepare to Mine Edition へようこそ"
+			x: 5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["78AA28A9F76F7BCA"]
+			id: "635EB23DC67E9B2A"
+			rewards: [
+				{
+					command: "/mine_and_slash give xp_times_lvl @p 500"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "14F7CE2018D48BB2"
+					silent: true
+					title: "経験値500×Lv."
+					type: "command"
+				}
+				{
+					id: "6FF02EA9DAA490AA"
+					item: "simplehats:dorkglassesandteeth"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "チャレンジ"
+			tasks: [{
+				icon: "minecraft:dragon_head"
+				id: "0D403D8B23E6D98D"
+				stat: "minecraft:deaths"
+				type: "stat"
+				value: 100
+			}]
+			title: "中空"
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			id: "6EAC9D2D70106BDB"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "0812D567A416ACE0"
+				silent: true
+				title: "経験値100×Lv."
+				type: "command"
+			}]
+			subtitle: "100体のモブを倒す"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "minecraft:wooden_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "2593BC1835330321"
+				stat: "minecraft:mob_kills"
+				type: "stat"
+				value: 100
+			}]
+			title: "ウォーミングアップ"
+			x: -3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6EAC9D2D70106BDB"]
+			id: "2C4C9137E512E59A"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "49E4DE4BF1590E2A"
+				silent: true
+				title: "経験値100×Lv."
+				type: "command"
+			}]
+			subtitle: "500体のモブを倒す"
+			tasks: [{
+				id: "35DFB874EE92E276"
+				stat: "minecraft:mob_kills"
+				type: "stat"
+				value: 500
+			}]
+			title: "モンスターハンター"
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2C4C9137E512E59A"]
+			id: "2AF6754ABC84000A"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "486BE1CCDFE7813F"
+				silent: true
+				title: "経験値100×Lv."
+				type: "command"
+			}]
+			subtitle: "1000体のモブを倒す"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "minecraft:diamond_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "2A6B409D14409A97"
+				stat: "minecraft:mob_kills"
+				type: "stat"
+				value: 1000
+			}]
+			title: "血に飢えた"
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2AF6754ABC84000A"]
+			id: "160A8E0EF74CCF7D"
+			rewards: [
+				{
+					command: "/mine_and_slash give xp_times_lvl @p 500"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "27B87D0FCB706481"
+					silent: true
+					title: "経験値500×Lv."
+					type: "command"
+				}
+				{
+					id: "3C0E0794E437837E"
+					item: "simplehats:murdered"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "チャレンジ"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "aquaculture:neptunium_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "484B483D66088238"
+				stat: "minecraft:mob_kills"
+				type: "stat"
+				value: 5000
+			}]
+			title: "清算人"
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0C91F7CC3D7675AF"]
+			id: "2F32A34764DD8F55"
+			rewards: [
+				{
+					command: "/mine_and_slash give xp_times_lvl @p 500"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "64800E1CE8CBF4E8"
+					silent: true
+					title: "経験値500×Lv."
+					type: "command"
+				}
+				{
+					count: 2
+					id: "3C57DEEC8E181EEF"
+					item: "lightmanscurrency:coin_emerald"
+					title: "お金"
+					type: "item"
+				}
+				{
+					id: "4EA8F31039FBF052"
+					item: "simplehats:vikinghatbeard"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "チャレンジ"
+			tasks: [
+				{
+					id: "05F0F5F68C77971D"
+					item: {
+						Count: 1
+						id: "minecraft:goat_horn"
+						tag: {
+							instrument: "minecraft:admire_goat_horn"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "0A5CD8FDD9467EA9"
+					item: {
+						Count: 1
+						id: "minecraft:goat_horn"
+						tag: {
+							instrument: "minecraft:call_goat_horn"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "3CF9939D151D89B1"
+					item: {
+						Count: 1
+						id: "minecraft:goat_horn"
+						tag: {
+							instrument: "minecraft:feel_goat_horn"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "53536DD5708BB6AD"
+					item: {
+						Count: 1
+						id: "minecraft:goat_horn"
+						tag: {
+							instrument: "minecraft:ponder_goat_horn"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "10DF65E8ABEF6AAE"
+					item: {
+						Count: 1
+						id: "minecraft:goat_horn"
+						tag: {
+							instrument: "minecraft:seek_goat_horn"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "47E75944263D8CA0"
+					item: {
+						Count: 1
+						id: "minecraft:goat_horn"
+						tag: {
+							instrument: "minecraft:sing_goat_horn"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "44A816F82ADF838C"
+					item: {
+						Count: 1
+						id: "minecraft:goat_horn"
+						tag: {
+							instrument: "minecraft:dream_goat_horn"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "44819B3C41EE3DE6"
+					item: {
+						Count: 1
+						id: "minecraft:goat_horn"
+						tag: {
+							instrument: "minecraft:yearn_goat_horn"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+			]
+			title: "コール・オブ・ウォー"
+			x: 7.0d
+			y: -2.0d
+		}
+		{
+			description: [
+				"クエスト完了やMobファーミング用のモンスターを探すには、Yキーを押して「ミニマップ設定」を開きます。「エンティティレーダー」をクリックし、「エンティティカテゴリ」をクリックします。「生物」をクリックし、「サブカテゴリを追加」をクリックして任意の名前を付けます。この「新しいサブカテゴリ」をクリックし、「設定」をクリックして以下の操作を行います。"
+				""
+				"「表示」: オン"
+				"アイコン: 常に表示"
+				"名前: 常に表示"
+				"エンティティのドットサイズ: 3"
+				"エンティティアイコンのスケール: 2.00"
+				"ミニマップフレーム上にレンダリング: 常に表示"
+				""
+				"次に、「リストに含める」に進みます。「リストに追加」ボックスに、追加したいMobの名前を入力し、正しい名前をクリックします。例えば「spider」と入力して「minecraft:cave_spider」をクリックします。これで、選択したすべてのMobがミニマップとマップ上に大きなアイコンとして表示されます。"
+				""
+				"また、エンティティレーダーで2ページ目（「次のページ」をクリック）に移動し、「エンティティの高さ制限」を「2050」に変更すると、ミニマップにすべてのYレベルにあるMobが表示されるようになります。"
+				""
+				"完了したら、レーダーからMobを削除することを忘れないでください。"
+			]
+			id: "24A1F71924383794"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 50"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "1AF7E547098AFD59"
+				silent: true
+				title: "経験値50×Lv."
+				type: "command"
+			}]
+			size: 1.0d
+			subtitle: "読んでチェックマークをクリック"
+			tasks: [{
+				id: "0EE61E427FF22F79"
+				title: "クリックして読む"
+				type: "checkmark"
+			}]
+			title: "狩猟ツール：エンティティレーダー"
+			x: 7.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["24A1F71924383794"]
+			description: [
+	"&eAlex's Mobs &radds は、飼いならされて狩られる可能性のある多数のモブを登場させます。"
+]
+			id: "3C8E45CB8CEA634D"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "7E7040314627CB0C"
+				silent: true
+				title: "経験値100×Lv."
+				type: "command"
+			}]
+			subtitle: "動物辞典を作る"
+			tasks: [{
+				id: "50E1D666495F1533"
+				item: "alexsmobs:animal_dictionary"
+				type: "item"
+			}]
+			title: "狩猟道具：知識"
+			x: 7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3C8E45CB8CEA634D"]
+			description: [
+	"何を学習したか確認しましょう。"
+]
+			icon: "kobolds:kobold_skull"
+			id: "0C91F7CC3D7675AF"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "696E851FBF1B8E5D"
+				silent: true
+				title: "経験値100×Lv."
+				type: "command"
+			}]
+			subtitle: "各モブを16体ずつ倒す"
+			tasks: [
+				{
+					entity: "minecraft:sheep"
+					id: "447CF12D24A59994"
+					type: "kill"
+					value: 16L
+				}
+				{
+					entity: "minecraft:pig"
+					id: "651923E28FE2A76C"
+					type: "kill"
+					value: 16L
+				}
+				{
+					entity: "minecraft:cow"
+					id: "0E383B6CFE120F7D"
+					type: "kill"
+					value: 16L
+				}
+				{
+					entity: "alexsmobs:raccoon"
+					id: "1414A17494EB126D"
+					type: "kill"
+					value: 16L
+				}
+				{
+					entity: "alexsmobs:fly"
+					id: "13A66BE4F4F86D6F"
+					type: "kill"
+					value: 16L
+				}
+				{
+					entity: "minecraft:goat"
+					id: "09DE7A4AB5930ECF"
+					type: "kill"
+					value: 16L
+				}
+			]
+			title: "ハンターの道具：テスト"
+			x: 7.0d
+			y: -0.5d
+		}
+		{
+			description: [
+				"「Doggy Talents Next」では、犬と触れ合ったり、レベルアップしたり、世話をしたりできます。「タグをしたり、ボールを拾ったり、犬の位置を確認したり、復活させたり、役に立つ才能を教えたり」することができます。"
+				""
+				"「オオカミを飼いならす」と「トレーニングトリーツ」を使ってみましょう。棒で犬を右クリックしてメニューを開きます。「その他のオプション」は画面下部のGUIで確認できます。"
+				""
+				"「無線首輪」を犬に装着し、「犬ロケーター」を作成すれば、犬を迷子にすることがなくなります。「骨」を使えば犬を頭に乗せることもできます。「伝導骨」を使えば、世界中のどこからでも犬をテレポートさせることができます。"
+				""
+				""
+				""
+				"「行動モード」"
+				"「従順」：後をついて回りますが、攻撃はしません。"
+				"「放浪」：餌入れの近くに留まります。"
+				"&eAggressive&r: あなたを攻撃してきたMob、またはあなたが攻撃してきたMobを攻撃します。"
+				"&eBerserker&r: 近くのMobを攻撃します。マイナーバージョンはピグリンとエンダーマンを攻撃しません。"
+				"&ePatrol&r: エリアを巡回してMobを探します。"
+				"&eGuard&r: 近くにいるMobを攻撃します。フラットバージョンはピグリンとエンダーマンを攻撃しません。マイナーバージョンは攻撃せず、代わりに警告のために唸り声を上げます。"
+			]
+			id: "77DED163AD398568"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "01AE52CA844F06A8"
+					silent: true
+					title: "経験値100×Lv."
+					type: "command"
+				}
+				{
+					id: "6F31C5034D07BA5F"
+					item: "doggytalents:conducting_bone"
+					type: "item"
+				}
+			]
+			subtitle: "それぞれ1つずつ作成する"
+			tasks: [
+				{
+					id: "66AF3B35CCDEFBFD"
+					item: "doggytalents:training_treat"
+					type: "item"
+				}
+				{
+					id: "52BACC7DAF80AAAD"
+					item: "doggytalents:radio_collar"
+					type: "item"
+				}
+				{
+					id: "2F6D6735B32311A9"
+					item: "doggytalents:canine_tracker"
+					type: "item"
+				}
+				{
+					id: "7FF051BCD8101C8D"
+					item: "minecraft:bone"
+					type: "item"
+				}
+			]
+			title: "犬の才能次"
+			x: 9.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["77DED163AD398568"]
+			description: [
+				"犬の世話をするには、&e犬用ベッド、犬用バス、フードボウル&rが必要です。&e犬用ベッド&rを犬にリンクするには、ベッドを&er右クリック&rしてから犬を&er右クリック&rします。&eフードボウル&rを犬にリンクするには、犬を&erフードボウルから1ブロック以内に&r移動します。空腹になったら、フードボウルに餌を入れておけば、犬はそこから食べます。"
+				""
+				"&eホイッスル&rは犬に指示を出す主な方法です。&e右クリック&rで現在選択中のコマンドを使用し、&eしゃがみながら右クリック&rでコマンドを選択します。"
+				""
+				"犬には&e空腹&r（頭の上の真ん中の数字）があり、これは&e回復と才能&rから消費されます。この数値が&e0&rに達すると、犬は&edieを始めます。&r"
+				""
+				"&nホイッスルコマンド&r"
+				""
+				"&e立つ/OK?&r：犬はあなたに向かって立つ/テレポートします。"
+				"&eHeel&r: 立っている犬が全員あなたのところに来ます。"
+				"&eStay&r: 立っている犬が全員座ります。"
+				"&eTo Bed&r: ベッドがある場合は、犬全員がベッドに戻ります。"
+				"&eGo Behind&r: 立っている犬が全員あなたの後ろにテレポートします。"
+				"&eTactical&r: タクティカルモードの犬全員に、ホイッスルで狙ったターゲットを攻撃するように指示します。"
+				"&eHowl&r: 犬を狙って遠吠えさせます。"
+				"&eRide With Me&r: ボートなどの乗り物に狙うと、犬が乗り込みます。"
+			]
+			id: "1BAD2923BF4081F3"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "58F716F857F5DB38"
+				silent: true
+				title: "経験値100×Lv."
+				type: "command"
+			}]
+			subtitle: "それぞれ1つずつ作成する"
+			tasks: [
+				{
+					id: "4343B7F7B6C39F6A"
+					item: {
+						Count: 1
+						id: "doggytalents:dog_bed"
+						tag: {
+							doggytalents: {
+								beddingId: "minecraft:green_wool"
+								casingId: "undergarden:grongle_wood"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5FAACE0FD8AB481F"
+					item: "doggytalents:dog_bath"
+					type: "item"
+				}
+				{
+					id: "3CF3C341D681C9C7"
+					item: "doggytalents:food_bowl"
+					type: "item"
+				}
+				{
+					id: "1CC86BFECD4C5A97"
+					item: "doggytalents:whistle"
+					type: "item"
+				}
+			]
+			title: "家庭での準備"
+			x: 9.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1BAD2923BF4081F3"]
+			description: [
+				"&e無力化&r中は、回復を早めるために犬をベッドに&e移送&rし、&eバンドエイド&rを与える必要があります。犬の空腹度は0に設定され、徐々に64まで&e回復&rします。64になると犬は&er復活&rします。犬に&e骨&rを使って持ち上げてください。"
+				""
+				"ベッドに&eリンク&rされていない犬は、&e不死のトーテム&rを使用して、誰も所有していないベッドで復活させることができます。"
+				""
+				"十分な&eバンドエイド&rが貼られれば、犬は&e歩き始めることができます。&r犬が&edamage&rを受けると、空腹度はリセットされ、&eバンドエイド&rが外れることに注意してください。犬は無力化されると&eテレポートできません&r。 &e不死のトーテム&rは、近くにいる犬を全員即座に蘇生させます。"
+				""
+				"犬に&e雪玉&rを投げると、犬は&e鬼ごっこ&rをします。&e投げ棒&rや投げ骨&rを使ってボール遊びをしましょう。"
+				""
+				"&eエナジャイザーボーン&rは、犬に&eスピード&rなどの小さな&buff&rを与えます。これは、犬を&e乗り物&rとして使用する場合に最適です。&e繁殖骨&rは、異性の犬2匹を繁殖させることができます。"
+				""
+				"&e拡大骨&rは犬のサイズを&e大きく&rし、&e縮小槌&rは犬を&e子犬&rになるまで&e小さく&rします。&r"
+			]
+			id: "2DED343BD83179E3"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "2B6D36197CB197FB"
+				silent: true
+				title: "経験値100×Lv."
+				type: "command"
+			}]
+			subtitle: "それぞれ1つずつ作成する"
+			tasks: [{
+				id: "2D51AC345728136C"
+				item: "doggytalents:bandaid"
+				type: "item"
+			}]
+			title: "犬の世話"
+			x: 9.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2DED343BD83179E3"]
+			description: [
+				"犬を&eレベルアップ&rするには、&eより高レベルのおやつ&rが必要です。最大レベルは&e60&rです。&rこれは&4Min and Slashのレベルアップではありません&rです。"
+				""
+				"犬は&eコスチューム、染色可能なケープ、首輪などで&rカスタマイズ&rできます。中には、着用中にモブを倒すと&r特別な音楽ディスク&rを落とすものもあります。"
+			]
+			id: "46CE10AA0F5E648A"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 500"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "227CFC5C7EB9CBCA"
+					silent: true
+					title: "経験値500×Lv."
+					type: "command"
+				}
+				{
+					count: 2
+					id: "7FC92D4FF998B4CA"
+					item: "lightmanscurrency:coin_emerald"
+					title: "お金"
+					type: "item"
+				}
+				{
+					id: "79292EB52FA9BFB5"
+					item: "simplehats:longfoxears"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "チャレンジ"
+			tasks: [
+				{
+					id: "1739E3CF4C2FEC23"
+					item: "doggytalents:super_treat"
+					type: "item"
+				}
+				{
+					id: "74BF6896DAE77C01"
+					item: "doggytalents:master_treat"
+					type: "item"
+				}
+				{
+					id: "24629A9B22F86228"
+					item: "doggytalents:kami_treat"
+					type: "item"
+				}
+			]
+			title: "犬学者"
+			x: 9.0d
+			y: -2.0d
+		}
+	]
+	title: "その他の趣味"
+}

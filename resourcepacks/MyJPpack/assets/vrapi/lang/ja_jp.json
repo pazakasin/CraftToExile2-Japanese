@@ -1,0 +1,11 @@
+{
+  "message.vrapi.no_api_server": "サーバーに API モッドがないので、モッド VR 機能は動作しない可能性があります。",
+  "message.vrapi.version_mismatch": "バージョンが一致しません。サーバーは %d にありますが、あなたは %d にあります。",
+  "message.vrapi.dev.in_vr": "今VRにいるふりをしています！",
+  "message.vrapi.dev.out_of_vr": "もうVRにいるふりをする必要はありません！",
+  "category.vrapi.dev_keys": "mc-vr-api 開発者キー",
+  "key.vrapi.position_left": "コントローラ1の位置を設定",
+  "key.vrapi.position_right": "コントローラ0の位置を設定",
+  "key.vrapi.position_hmd": "HMDの位置を設定する",
+  "key.vrapi.toggle_vr": "VRを切り替える"
+}

@@ -1,0 +1,16 @@
+{
+  "fml.menu.mods.filter_updates": "アップデートのあるMODのみ表示",
+  "catalogue.gui.internal_libraries": "内部ライブラリを表示",
+  "catalogue.gui.no_selection": "モッドが選択されていません...",
+  "catalogue.gui.mod_list": "モッズ",
+  "catalogue.gui.search": "検索",
+  "catalogue.gui.config": "設定",
+  "catalogue.gui.open_mods_folder": "Modsフォルダを開く",
+  "catalogue.gui.licenses": "ライセンス: %s",
+  "catalogue.gui.authors": "著者: %s",
+  "catalogue.gui.contributors": "貢献者: %s",
+  "catalogue.gui.credits": "クレジット: %s",
+  "catalogue.gui.version": "バージョン: %s",
+  "catalogue.gui.update_available": "更新: %s",
+  "catalogue.gui.info": "このメニューはCatalogueによって提供されています。ここをクリックして、このMODのCurseForgeページを開いてください。"
+}

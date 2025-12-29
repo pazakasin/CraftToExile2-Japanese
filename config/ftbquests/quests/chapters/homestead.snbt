@@ -1,0 +1,1078 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "homestead"
+	group: "5F2CCE8075FCC994"
+	icon: "handcrafted:bamboo_fancy_bed"
+	id: "08A3CE628804D7D6"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"それぞれの「風鈴」は、素材に応じて異なる環境音を発します。また、半径25ブロック以内のファントムを追い払います。"
+				""
+				"「ガラスの風鈴」は染料を塗布して独自のデザインを作成できます。水源ブロックを右クリックしてデザインを洗い流してください。"
+				""
+				"しゃがんだ状態で風鈴ブロックを右クリックすると、ファントムの恐怖効果を停止できます。"
+			]
+			id: "0E7863B918B4B195"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "05957DDC02A24CC9"
+				silent: true
+				title: "経験値100×Lv."
+				type: "command"
+			}]
+			subtitle: "チャイム"
+			tasks: [{
+				id: "3355405161F752F4"
+				item: "chimes:glass_bells"
+				type: "item"
+			}]
+			title: "風が吹く"
+			x: 4.5d
+			y: -4.5d
+		}
+		{
+			description: [
+	"&eNight Lights &radds は、オンとオフを切り替えることができる装飾的な光源を追加します。"
+]
+			id: "31C042465B27EC87"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "28E649D855379875"
+				silent: true
+				title: "経験値100×Lv."
+				type: "command"
+			}]
+			subtitle: "ナイトライト"
+			tasks: [
+				{
+					id: "77BD1CD948CBC5A5"
+					item: "nightlights:hanging_lights_default"
+					type: "item"
+				}
+				{
+					id: "1A360D0080ACEB31"
+					item: "nightlights:fairy_lights_default"
+					type: "item"
+				}
+			]
+			title: "スタイリッシュな照明"
+			x: -4.5d
+			y: -6.0d
+		}
+		{
+			description: [
+	"&eSupplementaries&r と &eSupplementaries Squared&r は、作成や使用が比較的簡単な数多くの &edocoration ブロックと functional&r ブロックを追加します。"
+]
+			id: "74E14D9A9F4799D4"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "12CDA68D5F398808"
+				silent: true
+				title: "経験値100×Lv."
+				type: "command"
+			}]
+			subtitle: "補足資料"
+			tasks: [
+				{
+					id: "3D5A39806227B36B"
+					item: "supplementaries:flag_white"
+					type: "item"
+				}
+				{
+					id: "2417CC783542CB88"
+					item: "supplementaries:candle_holder"
+					type: "item"
+				}
+				{
+					id: "46B341261AC67D12"
+					item: "supplementaries:item_shelf"
+					type: "item"
+				}
+				{
+					id: "2552629E3C335847"
+					item: "supplementaries:wind_vane"
+					type: "item"
+				}
+				{
+					id: "0F14FADDFB78FF74"
+					item: "supplementaries:sconce"
+					type: "item"
+				}
+			]
+			title: "インテリアデザイナー"
+			x: -3.0d
+			y: -6.0d
+		}
+		{
+			description: [
+				"&eHandcrafted&r は、&efancy ベッド、カウンター、椅子&r などの家具を追加します。これらは、さまざまな色の &esheets&r や &epillows&r を使ってカスタマイズできます。"
+				""
+				"&eHammer&r を使用すると、ブロックの外観をさまざまな形に変えることができます。例えば、階段の種類を変更する場合、ブロックを一度設置してから再度設置する必要はありません。"
+			]
+			id: "6A465BF497661001"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "45138A03C0BDB5AC"
+				silent: true
+				title: "経験値100×Lv."
+				type: "command"
+			}]
+			subtitle: "手作り"
+			tasks: [
+				{
+					id: "7C737EF24A0DD366"
+					item: "handcrafted:white_cushion"
+					type: "item"
+				}
+				{
+					id: "31FE8C4D49C42EA5"
+					item: "handcrafted:white_sheet"
+					type: "item"
+				}
+				{
+					id: "4A94BB46A7D9D52C"
+					item: "handcrafted:hammer"
+					type: "item"
+				}
+			]
+			title: "特殊家具"
+			x: -3.0d
+			y: -4.5d
+		}
+		{
+			description: [
+				"&eMacaw's Doors &r は、クラフトできるドアのバリエーションとテーマを多数追加します。"
+				""
+				"&eMacaw's Bridges&r は、橋と橋のバリエーションを追加します。"
+				""
+				"&eMacaw's Lights and Lamps&r は、さまざまな種類のランプと光源を追加します。"
+			]
+			id: "3C9F2AB674921503"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "3F7E8E123A70AC50"
+				silent: true
+				title: "経験値100×Lv."
+				type: "command"
+			}]
+			subtitle: "コンゴウインコの装飾"
+			tasks: [
+				{
+					id: "6B06D8650053E266"
+					item: "mcwdoors:oak_barn_door"
+					type: "item"
+				}
+				{
+					id: "3BEA773995483823"
+					item: "mcwbridges:pliers"
+					type: "item"
+				}
+				{
+					id: "3C698BB503A1FAEC"
+					item: "mcwlights:lava_lamp"
+					type: "item"
+				}
+			]
+			title: "強化された建設"
+			x: -4.5d
+			y: -4.5d
+		}
+		{
+			description: [
+	"&e花のエンチャント&rは、花の茂みを追加します。これにより、それぞれの花の&蔓&rを入手できます。花の蔓は&e茂みから入手できます。それぞれの花から&e苔むした丸石&rを入手して飾ることができます。また、花をテーマにした他の&egear&rや装飾品も追加します。"
+]
+			id: "32823645E2FE4F43"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "4BD548221E47022A"
+				silent: true
+				title: "経験値100×Lv."
+				type: "command"
+			}]
+			subtitle: "花の魔法"
+			tasks: [{
+				id: "4F4158D32907A7C0"
+				item: "floralench:floral_basket"
+				type: "item"
+			}]
+			title: "庭師+"
+			x: 3.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5E71DC1D9E7A83BB"]
+			description: [
+				"Chipped は、様々なブロックをクラフトできる作業台を追加します。&eChipped は FramedBlocks! と互換性があります。&r"
+				""
+				"&eAlchemy Bench&r では、黒曜石、グロウストーン、シーランタン、ソウルサンドの様々な種類をクラフトできます。"
+				""
+				"&eBotanist's Workbench&r では、植物ベースのブロックの様々な種類をクラフトできます。"
+				""
+				"&eCarpenter's Table&r では、様々な種類の板材や松明をクラフトできます。"
+				""
+				"&eGlassblower&r では、様々な種類のガラスブロックや板ガラスをクラフトできます。"
+				""
+				"&eLoom&r では、様々な種類の羊毛ブロックやカーペットをクラフトできます。"
+				""
+				"&eMason's Table&r では、様々な種類の石材ブロックをクラフトできます。"
+				""
+				"&eTinkering Table&r では、様々な種類のレッドストーンランプ、松明、ランタンをクラフトできます。"
+			]
+			id: "3A66909746F7E06D"
+			rewards: [
+				{
+					id: "349B4A117F7BD340"
+					item: "simplehats:tinkerhat"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 250"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "7BF0D4BE713CE528"
+					silent: true
+					title: "経験値250×Lv."
+					type: "command"
+				}
+			]
+			size: 1.25d
+			subtitle: "欠けた"
+			tasks: [
+				{
+					id: "4D48B532F654158B"
+					item: "chipped:alchemy_bench"
+					type: "item"
+				}
+				{
+					id: "5FD900BDF5AFACED"
+					item: "chipped:botanist_workbench"
+					type: "item"
+				}
+				{
+					id: "01B19695667C65A6"
+					item: "chipped:carpenters_table"
+					type: "item"
+				}
+				{
+					id: "7B6D1A3CA7E94CF5"
+					item: "chipped:glassblower"
+					type: "item"
+				}
+				{
+					id: "1B8FF702B10E8DA9"
+					item: "chipped:loom_table"
+					type: "item"
+				}
+				{
+					id: "7E39A28EC72BC4C8"
+					item: "chipped:mason_table"
+					type: "item"
+				}
+				{
+					id: "50DE9684F0DB3A91"
+					item: "chipped:tinkering_table"
+					type: "item"
+				}
+			]
+			title: "オプション付きチップ"
+			x: 6.0d
+			y: -4.5d
+		}
+		{
+			description: [
+				"&eMCA: Reborn&r は、プレイヤーに没入感あふれる体験をもたらします。主な特徴は以下の通りです。"
+				""
+				"- イカ人間はもういません。村人たちは人間になり、交流できます！"
+				"- 村人たちとは、贈り物やチャットなど、様々な交流方法があります！"
+				"- 村人たちはそれぞれ個性や気分を持っており、交流することで絆を深めることができます。"
+				"- ハートが十分に貯まると、結婚できます！"
+				"- 結婚すると、農作業や木の伐採などの家事をしてくれる子供が生まれます！"
+				"- 子供たちはやがて成長し、それぞれの人生を歩んでいきます。"
+				"- LAN または SMP サーバーで他のプレイヤーと結婚できます。"
+				"- 村の拡大に貢献し、地位を上げて、最終的には王になりましょう！"
+			]
+			id: "5DEC625AAF61ADAE"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "3BE249E997A6481F"
+				silent: true
+				title: "経験値100×Lv."
+				type: "command"
+			}]
+			subtitle: "Minecraft が生き返る!"
+			tasks: [{
+				id: "7DF2002BF8966859"
+				item: "mca:book_romance"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5DEC625AAF61ADAE"]
+			description: [
+	"王様になることを夢見たことはありますか？村を統治して繁栄させましょう！詳しくは本をお読みください。"
+]
+			id: "57B5209F6744960D"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "5238432C6F96151E"
+				silent: true
+				title: "経験値100×Lv."
+				type: "command"
+			}]
+			subtitle: "村の管理"
+			tasks: [{
+				id: "1B52B998DACA2A94"
+				item: "mca:book_blueprint"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5DEC625AAF61ADAE"]
+			description: [
+				"MCAでは、&eDestinyを起動することで外見を選択できます。&r"
+				""
+				"&eDestinyではキャラクターの外見をカスタマイズできます。&cただし、ワールドごとに1回しか実行できませんのでご注意ください！&r"
+				""
+				"コマンド: /mca destiny"
+				""
+				"&b&oポーションの作成には、錬金術のスキルが必要です。&r&r"
+			]
+			id: "405A63031F2B3DD4"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "38CE3E0A09909566"
+					silent: true
+					title: "経験値100×Lv."
+					type: "command"
+				}
+				{
+					command: "/mca destiny"
+					elevate_perms: true
+					icon: "mca:villager_editor"
+					id: "52498BF9583E22B2"
+					silent: true
+					title: "&eキャラクター デスティニー カスタマイザーを起動&r &c(1 回限りの使用)&r"
+					type: "command"
+				}
+			]
+			subtitle: "運命"
+			tasks: [
+				{
+					id: "18B7CA6CFEC6E3A0"
+					item: "mca:potion_of_feminity"
+					type: "item"
+				}
+				{
+					id: "3D44930F8FDA61E0"
+					item: "mca:potion_of_masculinity"
+					type: "item"
+				}
+			]
+			title: "グルーミング"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5DEC625AAF61ADAE"]
+			description: [
+	"&eRose Gold&rは、関係性に特化したアイテムを作成するために使われます。詳しくは本を読んでみてください！"
+]
+			id: "6B0990886F0D079E"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "4923C57810A678C4"
+				silent: true
+				title: "経験値100×Lv."
+				type: "command"
+			}]
+			subtitle: "人間関係"
+			tasks: [{
+				id: "5E26B808ED87038B"
+				item: "mca:book_rose_gold"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6B0990886F0D079E"]
+			description: [
+	"この新版で家族の管理方法を学びましょう!"
+]
+			id: "17AF31897E44E881"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "1A9495733A04F89B"
+				silent: true
+				title: "経験値100×Lv."
+				type: "command"
+			}]
+			subtitle: "人間関係"
+			tasks: [{
+				id: "73C366ABDCFD9554"
+				item: "mca:book_family"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6B0990886F0D079E"]
+			description: [
+	"&eRaw Gold&r と &eRaw Copper&r を使用して &eRose Gold&r を作成できます。"
+]
+			id: "5610D44E742948CC"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "269A6DF9AC9FD22D"
+				silent: true
+				title: "経験値100×Lv."
+				type: "command"
+			}]
+			subtitle: "人間関係"
+			tasks: [{
+				id: "156DCFFEED6DD7D6"
+				item: "mca:rose_gold_dust"
+				type: "item"
+			}]
+			title: "高価な材料"
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5DEC625AAF61ADAE"]
+			id: "7581AE7038A4357A"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "1D4D510D6BD7D1BF"
+				silent: true
+				title: "経験値100×Lv."
+				type: "command"
+			}]
+			subtitle: "人間関係"
+			tasks: [{
+				id: "7E892780F9050184"
+				item: "mca:bouquet"
+				type: "item"
+			}]
+			title: "贈り物"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["57B5209F6744960D"]
+			description: [
+	"この本で村の歴史を見ることができます！"
+]
+			id: "3366932C88556127"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "7E70154BB9F7355A"
+				silent: true
+				title: "経験値100×Lv."
+				type: "command"
+			}]
+			subtitle: "村の管理"
+			tasks: [{
+				id: "2D10ACB81E6A6877"
+				item: "mca:civil_registry"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["57B5209F6744960D"]
+			description: [
+	"村を管理するには、村の &eBlueprint&r を使用します。"
+]
+			id: "6E074D0EF3EC5B70"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "1A10F71B3BA1F601"
+				silent: true
+				title: "経験値100×Lv."
+				type: "command"
+			}]
+			subtitle: "村の管理"
+			tasks: [{
+				id: "0C15C2D4DB69840D"
+				item: "mca:blueprint"
+				type: "item"
+			}]
+			title: "進歩のための青写真"
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["57B5209F6744960D"]
+			description: [
+	"稀に、村人が感染し、死に至ることもあります。感染を防ぐには、病気の種類と治療法についてよく読んでおきましょう。"
+]
+			id: "6AEF98877F6AF6CA"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "24CC02F15B2D516B"
+					silent: true
+					title: "経験値100×Lv."
+					type: "command"
+				}
+				{
+					id: "037FB8A8F0CBF9EB"
+					item: "simplehats:doctorhat"
+					type: "item"
+				}
+			]
+			subtitle: "村の管理"
+			tasks: [{
+				id: "1A7691EF79F81ED9"
+				item: "mca:book_infection"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6AEF98877F6AF6CA"]
+			description: [
+	"村人たちは時折（事故であれ故意であれ…）死んでしまいます。しかし、MCAを使えば、彼らを生き返らせることができます！この書物では、その方法を説明します。ただし、死そのものと闘わなければならないので、覚悟してください。"
+]
+			id: "009437C8BB7D9892"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "77C26525CBA1DE0C"
+				silent: true
+				title: "経験値100×Lv."
+				type: "command"
+			}]
+			subtitle: "村の管理"
+			tasks: [{
+				id: "07B0F92FC4E41DE3"
+				item: "mca:book_death"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5610D44E742948CC"]
+			description: [
+				"MCAでは、村人だけでなく他のプレイヤーとも結婚できます。村人と結婚するには、まずプロポーズする必要があります。うまくいけば、関係が良好で、相手が受け入れてくれるでしょう！"
+				""
+				"プレイヤーと結婚するには、「/mca propose」コマンドを使用します。"
+			]
+			id: "03DAE0F3497FF661"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 250"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "0B8FCD61D3E2F9DE"
+					silent: true
+					title: "経験値250×Lv."
+					type: "command"
+				}
+				{
+					id: "0230537D62321FCF"
+					item: "simplehats:milady_doll"
+					type: "item"
+				}
+			]
+			subtitle: "人間関係"
+			tasks: [{
+				id: "2FE89D39632D7B42"
+				item: "mca:engagement_ring_rg"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["009437C8BB7D9892"]
+			description: [
+				"&e死神&rを倒して、倒れた村人たちを生き返らせましょう！"
+				""
+				"&e死神&rを召喚するには、「&e祭壇&r」を建てる必要があります。"
+				"&e祭壇&rは、少なくとも&e2ブロックの高さの3本の&b黒曜石&rの柱で構成されます。"
+				"柱の&e中心&rに「&aエメラルドブロック&r」を設置する必要があります。"
+				"3つの柱の&e上部&rを火打石と打ち金で&e点火&rし、"
+				"最後に&aエメラルドブロック&rに点火して&e死神&rを召喚します。"
+				""
+				"{image:cte2:textures/mca_grimreaper.png width:160 height:140 align:center}"
+				""
+				"&e死神&rは&e夜間&rにのみ召喚可能です。"
+				""
+				""
+				"&c死神はレベル30以上で出現します。&r"
+				""
+				"死神には以下の能力があります。"
+				"&bライフスティール+1%&r"
+				"&aオールドルーンをドロップする確率10%&r"
+			]
+			id: "564F958C07802B5B"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 500"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "6D63A4B38E0C681C"
+					silent: true
+					title: "経験値500×Lv."
+					type: "command"
+				}
+				{
+					id: "1B2624ED552C3789"
+					item: "simplehats:bigbrain"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "村の管理"
+			tasks: [{
+				entity: "mca:grim_reaper"
+				icon: {
+					Count: 1
+					id: "mca:scythe"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "3C838778447C9753"
+				type: "kill"
+				value: 1L
+			}]
+			title: "ギブアンドテイク"
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["564F958C07802B5B"]
+			description: [
+	"「生命の杖」を使って死んだ村人を生き返らせることができます！"
+]
+			id: "171F2819791E3C2F"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 250"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "33C5158A421806ED"
+				silent: true
+				title: "経験値250×Lv."
+				type: "command"
+			}]
+			subtitle: "村の管理"
+			tasks: [{
+				id: "7194C831C004317D"
+				item: {
+					Count: 1
+					id: "mca:staff_of_life"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "復活"
+			x: 0.0d
+			y: -7.5d
+		}
+		{
+			description: [
+				"建設ワンドを使えば、複数のブロックを一度に配置して、向いている側の建築範囲を拡張できます。さらに、コアを追加してワンドをアップグレードすることで、向いているブロックの後ろにブロックを配置したり、空中にブロックを召喚したりできるようになります。"
+				""
+				"すべてのワンドには建設コアが付属しています。コアを追加することで、ワンドをさらに強化できます。新しいコアは、ワンドと一緒にクラフトグリッドに配置することで設置できます。コアを切り替えるには、OPTKEY（Ctrl）キーを押しながら、ワンドで何もないスペースを左クリックします。&c石のワンドはアップグレードできません。&r"
+				""
+				"&e建設コア&r"
+				""
+				"向いている側の建築範囲を拡張します。ブロックの最大数はワンドのランクによって異なります。OPTKEY（Ctrl）キーを押しながらスクロールすると、配置制限（水平、垂直、南北、東西、ロックなし）を変更できます。"
+			]
+			id: "130759BFC47D58DE"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "1BE7D312966DC021"
+				silent: true
+				title: "経験値100×Lv."
+				type: "command"
+			}]
+			subtitle: "建設用ワンド"
+			tasks: [{
+				id: "6BD0E93EAF4C4C9E"
+				item: {
+					Count: 1
+					id: "constructionwand:stone_wand"
+					tag: {
+						Damage: 0
+						wand_options: { }
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["130759BFC47D58DE"]
+			description: [
+	"基本的な杖には、石、鉄、ダイヤモンドの杖があります。上位の杖ほど強力で、持続時間も長くなります。"
+]
+			id: "7DDC60601812FEA6"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "300917AC34F03D82"
+				silent: true
+				title: "経験値100×Lv."
+				type: "command"
+			}]
+			subtitle: "建設用ワンド"
+			tasks: [{
+				id: "50DEC00FF30F8074"
+				item: {
+					Count: 1
+					id: "constructionwand:iron_wand"
+					tag: {
+						Damage: 0
+						wand_options: { }
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7DDC60601812FEA6"]
+			description: [
+				"&eエンジェル・コア&r"
+				""
+				"向いているブロック（またはブロックの列）の反対側にブロックを設置します。設置距離の上限はワンドのランクによって異なります。空中にブロックを設置するには、何もない場所で右クリックします（エンジェルブロックに似た効果なので、この名前が付けられています）。設置するには、設置したいブロックをオフハンドに持っている必要があります。10ブロック以上落下した場合は、空中にブロックを設置することはできません（落下から簡単に救出できる手段がないためです）。"
+			]
+			id: "13B7B1C35F13C86D"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "1B26FC45F4717F75"
+				silent: true
+				title: "経験値100×Lv."
+				type: "command"
+			}]
+			subtitle: "建設用ワンド"
+			tasks: [{
+				id: "72C3C6230D81D4E4"
+				item: "constructionwand:core_angel"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7DDC60601812FEA6"]
+			description: [
+				"&eRestriction&r: 制限が有効になっている場合、ワンドはブロックを1つの行または列にのみ配置します（水平面では南北、東西、垂直面では水平、垂直から選択）。方向ロックがオフになっている場合、ワンドは指している建物の正面全体にブロックを配置します。このオプションはエンジェルモードでは効果がありません。"
+				""
+				"&eDirection&r: 「プレイヤー」に設定すると、ワンドは自分が配置した場合と同じ方向にブロックを配置します。ターゲットモードでは、ブロックはサポートブロックと同じ方向に配置されます。"
+				""
+				"&eReplacement&r: 置き換え可能なブロック（流体、雪、背の高い草）の置き換えを有効/無効にします。"
+				""
+				"&eMatching&r: ワンドで拡張するブロックを選択します。「EXACT」に設定すると、選択したブロックと全く同じブロックのみを拡張します。"
+				"「SIMILAR」に設定すると、類似のブロックを均等に扱います（例：土ブロックと草ブロックを拡張します）。"
+				"「ANY」を選択すると、現在見ている建物の正面にある任意のブロックが拡張されます。"
+				""
+				"&eRandom&r: ランダムモードが有効になっている場合、ワンドはホットバーからランダムにブロックを配置します。"
+			]
+			id: "619A04B3428907F1"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 500"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "2CD67EABBBECB4C4"
+				silent: true
+				title: "経験値500×Lv."
+				type: "command"
+			}]
+			subtitle: "建設用ワンド"
+			tasks: [{
+				id: "52E3A18F1E4BE3F5"
+				item: {
+					Count: 1
+					id: "constructionwand:diamond_wand"
+					tag: {
+						Damage: 0
+						wand_options: { }
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: -3.0d
+		}
+		{
+			description: [
+				"&eFramedBlocks&rは、ゲーム内のほぼすべてのブロックに似た形状のブロックを追加します。まず、基本的な&eFramed Block&rを作成します。"
+				""
+				"&eFraming Saw&rを作成します。これは、フレームブロック用のStonecutterと同じ機能を持ちます。これにより、フレームブロックの形状を簡単に調整できます。"
+			]
+			id: "03D703094F2DC94A"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "0370DBFA598A59EC"
+				silent: true
+				title: "経験値100×Lv."
+				type: "command"
+			}]
+			subtitle: "フレームブロック"
+			tasks: [{
+				id: "48E8FEFCED620C0A"
+				item: "framedblocks:framing_saw"
+				type: "item"
+			}]
+			title: "Framed を使い始めましょう!"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["03D703094F2DC94A"]
+			description: [
+	"&eFraming Saw&r を使用して &eFramed Slope&r を作成します。"
+]
+			id: "7D4D72D4B936240C"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "6548E28FCD6DB0A3"
+				silent: true
+				title: "経験値100×Lv."
+				type: "command"
+			}]
+			subtitle: "フレームブロック"
+			tasks: [{
+				id: "62E342C0A2DED1C9"
+				item: "framedblocks:framed_slope"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7D4D72D4B936240C"]
+			description: [
+				"&eFramed Wrench&r はフレームブロックを回転させるツールです。ほとんどのブロックでは、回転の動作はクリックした面によって異なります。"
+				""
+				"&eFramed Hammer&r はブロックをフレームから取り出し、デフォルトの状態に戻すことができます。"
+				""
+				"&eFramed Screwdriver&r は、迷彩ブロックのさまざまな状態を切り替えるのに使用できます。"
+				""
+				"&eFramed Key&r は、特定のフレームブロックを現在の形状でロックし、隣接するブロックの更新を抑制します。これにより、隣接するブロックが意図した形状では不可能な配置（例えば、必要な隣接するブロックを維持せずにコーナー形状にフレーム階段を配置するなど）でブロックを配置できます。"
+				""
+				"他にも FramedBlock ツールは利用可能です。&eJEI&r でご確認ください。"
+			]
+			id: "5E71DC1D9E7A83BB"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "337D19FEE194795C"
+				silent: true
+				title: "経験値100×Lv."
+				type: "command"
+			}]
+			subtitle: "フレームブロック"
+			tasks: [
+				{
+					id: "2CD93E35DB4888B6"
+					item: "framedblocks:framed_wrench"
+					type: "item"
+				}
+				{
+					id: "26B02CB43C3D8E5E"
+					item: "framedblocks:framed_hammer"
+					type: "item"
+				}
+				{
+					id: "346E0C173E6BEB68"
+					item: "framedblocks:framed_screwdriver"
+					type: "item"
+				}
+				{
+					id: "72ECCC291DE1738D"
+					item: "framedblocks:framed_key"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7D4D72D4B936240C"]
+			description: [
+	"&eFramed Reinforcements&r を使用すると、挿入したフレーム ブロックに &eObsidian&r の硬度と特性を与えることができます。"
+]
+			id: "49ED3E0B2E317DF6"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "7D808B6752D831FC"
+				silent: true
+				title: "経験値100×Lv."
+				type: "command"
+			}]
+			subtitle: "フレームブロック"
+			tasks: [{
+				id: "63B204F32F396EF5"
+				item: "framedblocks:framed_reinforcement"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5DEC625AAF61ADAE"]
+			description: [
+	"村に人がいなくなった場合、または単にコインの力で村の人口を増やしたい場合は、「eトレーディング ターミナル」にアクセスして村人の卵を購入できます。"
+]
+			id: "20AB86BF7E21FD3B"
+			rewards: [
+				{
+					count: 5
+					id: "4159A4D6D2EE46E3"
+					item: "lightmanscurrency:coin_emerald"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "2A2C8679E7193891"
+					silent: true
+					title: "経験値100×Lv."
+					type: "command"
+				}
+			]
+			subtitle: "取引端末"
+			tasks: [
+				{
+					id: "7590F368349C7E55"
+					item: "mca:male_villager_spawn_egg"
+					type: "item"
+				}
+				{
+					id: "0C9856B277D7C90B"
+					item: "mca:female_villager_spawn_egg"
+					type: "item"
+				}
+			]
+			title: "ゴーストタウン"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			description: [
+	"「メガトーチ」は、広大な「半径964ブロック」の範囲内の敵モンスターの出現を防ぐことができる、基地建設者にとってまさに夢のようなアイテムです！ 空手で右クリックすると効果範囲が表示され、Shiftキーを押しながら右クリックすると非表示になります。"
+]
+			id: "25A4EFCBB5F8AC31"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "6327B1498874B28B"
+				silent: true
+				title: "経験値100×Lv."
+				type: "command"
+			}]
+			subtitle: "もう嫌な驚きはありません。"
+			tasks: [{
+				id: "34E000AEDA4852D2"
+				item: "torchmaster:megatorch"
+				type: "item"
+			}]
+			title: "世界を照らす"
+			x: 3.0d
+			y: -6.0d
+		}
+	]
+	title: "ホームステッド"
+}
