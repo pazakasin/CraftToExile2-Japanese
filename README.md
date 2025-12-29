@@ -22,10 +22,12 @@ Craft to Exile 2の日本語翻訳ファイルを提供するプロジェクト�
 
 3. 以下のフォルダを、Minecraftインスタンスフォルダにコピーまたはマージ
 ```
-   解凍したフォルダ → Minecraftインスタンスフォルダ
-   ├── config/         → .instances/Craft to Exile 2/config/
-   └── resourcepacks/  → .instances/Craft to Exile 2/resourcepacks/
+解凍したフォルダ   → Minecraftインスタンスフォルダ
+├── config/         → .instances/Craft to Exile 2/config/ （※）
+└── resourcepacks/  → .instances/Craft to Exile 2/resourcepacks/
+  ※：configはファイル差し替えのため、フォルダのバックアップ推奨
 ```
+
 
 4. Minecraftを起動し、「設定」→「リソースパック」から「MyJPpack」を有効化
 
