@@ -9,9 +9,9 @@ Craft to Exile 2の日本語翻訳ファイルを提供するプロジェクト�
 
 このリポジトリは、Minecraft ModPack「**Craft to Exile 2**」に含まれる各MODとクエストの日本語翻訳ファイルを提供します。
 
-- **対応バージョン**: Craft to Exile 2 v1.1.3
+- **対応バージョン**: Craft to Exile 2 v2.1.4
 - **Minecraftバージョン**: 1.20.1
-- **翻訳状況**: クエスト100% / MODほぼ100%
+- **翻訳状況**: クエストほぼ100% / MOD 90%
 
 ## 📥 インストール方法
 
@@ -23,11 +23,9 @@ Craft to Exile 2の日本語翻訳ファイルを提供するプロジェクト�
 3. 以下のフォルダを、Minecraftインスタンスフォルダにコピーまたはマージ
 ```
 解凍したフォルダ   → Minecraftインスタンスフォルダ
-├── config/         → .instances/Craft to Exile 2/config/ （※）
+├── kubejs/         → .instances/Craft to Exile 2/kubejs/
 └── resourcepacks/  → .instances/Craft to Exile 2/resourcepacks/
-  ※：configはファイル差し替えのため、フォルダのバックアップ推奨
 ```
-
 
 4. Minecraftを起動し、「設定」→「リソースパック」から「MyJPpack」を有効化
 
@@ -38,9 +36,14 @@ Craft to Exile 2の日本語翻訳ファイルを提供するプロジェクト�
 ## 📂 ファイル構成
 
 ```
-config/ftbquests/quests/*.snbt           # クエスト翻訳ファイル
+kubejs/assets/<mod_id>/lang/ja_jp.json   # KubeJS管理MOD翻訳
 resourcepacks/MyJPpack/                  # リソースパック形式翻訳ファイル
 ```
+
+## 📥 MOD「The Twilight Forest」を日本語化したい場合
+
+Craft to Exile 2に含まれるMOD「The Twilight Forest」は上記手順では日本語化されません。
+日本語化には追加の手順が必要になります。詳細は [INSTALL_GUIDE.md](INSTALL_GUIDE.md) をご覧ください。
 
 ## 🐛 問題報告
 
@@ -81,7 +84,11 @@ resourcepacks/MyJPpack/                  # リソースパック形式翻訳フ�
 
 ### [v1.0.0] - 2024-12-29
 
-#### 🎉 初回リリース
+#### 🎉 ModPack1.1.3用リソースパックの初回リリース
+
+### [v2.0.0] - 2024-12-29
+
+#### 🎉 ModPack2.1.4用リソースパックの初回リリース
 
 ---
 

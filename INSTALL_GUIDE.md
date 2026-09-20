@@ -32,8 +32,8 @@ Craft to Exile 2 日本語化ファイルのインストール方法を詳しく
 ### ステップ1: 日本語化ファイルのダウンロード
 
 1. [Releases](https://github.com/pazakasin/CraftToExile2-Japanese/releases)ページを開く
-2. 最新版のZIPファイルをダウンロード
-   - 例: `CrafttoExile2-JP-v1.0.0.zip`
+2. 使いたいバージョン用のZIPファイルをダウンロード
+   - 例: `CrafttoExile2-JP-for-modpack-v2.1.4.zip`
 
 ### ステップ2: ファイルの解凍
 
@@ -42,7 +42,7 @@ Craft to Exile 2 日本語化ファイルのインストール方法を詳しく
 3. 適当な場所に解凍（デスクトップなど）
 解凍したフォルダ内に以下のフォルダがあることを確認:
 ```
-config/
+kubejs/
 resourcepacks/
 ```
 
@@ -51,19 +51,19 @@ resourcepacks/
 解凍したフォルダを、Minecraftインスタンスフォルダにコピー
 ```
 解凍したフォルダ   → Minecraftインスタンスフォルダ
-├── config/         → .instances/Craft to Exile 2/config/ （※）
+├── kubejs/         → .instances/Craft to Exile 2/kubejs/
 └── resourcepacks/  → .instances/Craft to Exile 2/resourcepacks/
-  ※：configはファイル差し替えのため、フォルダのバックアップ推奨
 ```
 
 最終的に以下のようになります
 ```
 instances/
 └ Craft to Exile 2/
-    ├─ config/
-    │   └─ ftbquests/
-    │       └─ quests/
-    │           └── *.snbt             ← クエスト翻訳ファイル、既存の英語ファイルを差し替え
+    ├─ kubejs/
+    │   └─ assets/
+    │       └─ ftbquestlocalizer/
+    │           └─ lang/
+    │               └── ja_jp.json     ← KubeJS管理MOD翻訳ファイル
     └─ resourcepacks/
          └─ MyJPpack/
              ├ pack.mcmeta                ← リソースパック管理ファイル
@@ -73,7 +73,38 @@ instances/
                          └── ja_jp.json ← リソースパック管理MOD翻訳ファイル
 ```
 
-### ステップ4: マイクラの言語設定を日本語に変更
+### ステップ4: MOD「The Twilight Forest」用の追加設定（任意）
+
+<details>
+<summary>クリックして詳細を表示（実施しなくてもプレイ可能です）</summary>
+
+MOD「The Twilight Forest」に同梱されている日本語ファイルに不具合があり、そのファイルが残っていると、MOD「The Twilight Forest」が正しく日本語化されない現象が確認されています。
+これを解消するには、MOD本体（jarファイル）の中にある日本語ファイルを削除する必要があります。
+
+1. 7-Zipなど、zipファイルを開けるソフトを用意する（未インストールの場合は[7-Zip公式サイト](https://7-zip.opensource.jp/)などからダウンロード）
+2. Minecraftインスタンスフォルダ内の `mods` フォルダを開く
+```
+   instances/Craft to Exile 2/mods/
+```
+3. `twilightforest-` から始まるjarファイル（例: `twilightforest-1.20.1-4.3.2508-universal.jar`）を右クリックし、「7-Zipで開く」などを選択
+4. jarファイル内を以下の順にたどる
+```
+   assets/
+   └ twilightforest/
+       └ lang/
+           └ ja_jp.json
+```
+5. `ja_jp.json` を右クリックし、「削除」を選択
+6. 確認画面が出た場合は「はい」を選択し、jarファイルを閉じる
+
+削除が完了すると、MOD「The Twilight Forest」も正しく日本語化されるようになります。
+
+> **注意:** この修正はMOD本体のファイルを直接書き換えるものです。Modpackを更新してMODファイルが再ダウンロード・上書きされた場合、この手順は再度やり直す必要があります。
+なお本手順で削除するのは日本語ファイルのみで、MOD自体の機能には影響しません。
+
+</details>
+
+### ステップ5: マイクラの言語設定を日本語に変更
 
 （既に設定済みの場合は不要）
 
@@ -83,7 +114,7 @@ instances/
 4. 「日本語（日本）」を選択
 4. 「DONE」（完了）を選択
 
-### ステップ5: リソースパックの有効化
+### ステップ6: リソースパックの有効化
 
 1. Minecraftを起動
 2. タイトル画面で「設定」を開く
@@ -92,7 +123,7 @@ instances/
 5. 「MyJPpack」をクリックして右側の「選択中」に移動
 6. 「完了」をクリック
 
-### ステップ6: ゲームの再起動
+### ステップ7: ゲームの再起動
 
 1. Minecraftを完全に終了
 2. 再度起動
@@ -149,7 +180,7 @@ instances/
 
 ## 🔄 更新方法
 
-新しいバージョンがリリースされたら:
+日本語化ファイルの新しいバージョンがリリースされたら:
 
 1. 最新版のZIPをダウンロード
 2. 上記の「ステップ2」以降を繰り返す
