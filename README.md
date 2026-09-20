@@ -1,7 +1,7 @@
 # Craft to Exile 2 日本語化プロジェクト
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
-[![Version](https://img.shields.io/badge/ModPack-Craft%20to%20Exile%202%20v1.1.3-blue.svg)](https://www.curseforge.com/minecraft/modpacks/craft-to-exile-2)
+[![Version](https://img.shields.io/badge/ModPack-Craft%20to%20Exile%202%20v2.1.4-blue.svg)](https://www.curseforge.com/minecraft/modpacks/craft-to-exile-2)
 
 Craft to Exile 2の日本語翻訳ファイルを提供するプロジェクトです。
 
