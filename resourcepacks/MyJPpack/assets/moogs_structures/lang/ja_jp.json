@@ -1,0 +1,16 @@
+{
+  "moogs_structures.config.title": "モーグの構造",
+  "moogs_structures.config.reload_notice": "変更はワールドを再読み込みした後（タイトル画面に戻って再度起動するか、/reloadコマンドを実行）に適用され、新しく生成されたチャンクのみに影響します。",
+  "moogs_structures.config.category.replace_vanilla": "バニラ構造物を置き換える",
+  "moogs_structures.config.category.structures": "構造物",
+  "moogs_structures.config.universal_rarity": "普遍的な希少性",
+  "moogs_structures.config.universal_rarity.tooltip": "各Moog構造の間隔を乗算します。値が大きいほど希少になり、値が小さいほど一般的になります。",
+  "moogs_structures.config.all_of_mod": "すべての%",
+  "moogs_structures.config.mod_rarity.tooltip": "%s構造の間隔をそれぞれ倍にします。",
+  "moogs_structures.config.preview": "プレビュー",
+  "moogs_structures.config.preview.unavailable": "プレビューなし: このMODはプレビューリンク(mod_slug)を設定していません。",
+  "moogs_structures.config.enabled": "有効",
+  "moogs_structures.config.disabled": "無効",
+  "moogs_structures.cloth_required.title": "Moogの構造ライブラリ",
+  "moogs_structures.cloth_required.message": "Moog\u0027s Structure Libの設定画面にはCloth Config APIが必要です。ゲーム内で設定するには、Cloth Config APIをインストールしてください。"
+}

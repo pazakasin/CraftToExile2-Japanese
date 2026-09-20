@@ -3,7 +3,7 @@
   "entity.riskofrain_mobs.lemurian_entity": "レムリア人",
   "entity.riskofrain_mobs.stone_golem_entity": "ストーンゴーレム",
   "item.riskofrain_mobs.gunner_drone_spawn_egg": "ガンナードローンのスポーンエッグ",
-  "item.riskofrain_mobs.lemurian_spawn_egg": "レムリアンスポーンエッグ",
+  "item.riskofrain_mobs.lemurian_spawn_egg": "レムリアン・スポーンの卵",
   "item.riskofrain_mobs.stone_golem_spawn_egg": "ストーンゴーレムのスポーンエッグ",
-  "message.riskofrain_mobs.not_gold": "金じゃないよ！"
+  "message.riskofrain_mobs.not_gold": "金ではありません！"
 }

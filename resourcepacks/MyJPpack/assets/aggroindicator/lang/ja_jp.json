@@ -1,13 +1,15 @@
 {
-  "config.client.renderAlertIcon": "falseに設定するとアラートアイコンは表示されません",
-  "config.client.renderRange": "範囲内のMobにのみ警告アイコンが表示されます",
+  "config.client.renderAlertIcon": "アラートアイコンは、trueに設定されている場合にのみ表示されます。",
+  "config.client.renderRange": "範囲内のモンスターのみに警告アイコンが表示されます",
   "config.client.xOffset": "アラートアイコンの位置を水平方向に調整します",
   "config.client.yOffset": "アラートアイコンの位置を垂直方向に調整します",
   "config.client.alertIconSize": "アラートアイコンのサイズを調整します",
-  "config.client.scaleWithMobSize": "モブのサイズに合わせてアラートアイコンのサイズを調整します",
-  "config.client.clientMobBlacklist": "クライアントはこれらのモブの上に警告アイコンをレンダリングしません",
-  "config.client.treatBlacklistAsWhitelist": "クライアントはこれらのモブの上にのみ警告アイコンをレンダリングします",
+  "config.client.scaleWithMobSize": "アラートアイコンのサイズをモブのサイズに合わせて調整します",
+  "config.client.clientMobBlacklist": "クライアントはこれらのモブの上に警告アイコンを表示しません",
+  "config.client.treatBlacklistAsWhitelist": "trueに設定すると、モブのブラックリストをホワイトリストとして扱います。",
   "config.client.clientAggroIconStyle": "アグロアイコンを描画するために使用されるテクスチャを制御します",
-  "config.server.clientMobBlacklist": "サーバーはこれらのモブのターゲット獲得をチェックしません",
-  "config.server.hideAlertAfterTicks": "X ティックの間表示されたモブの警告アイコンを非表示にします。この機能を無効にするには、\u003c\u003d 0 に設定します。"
+  "config.server.clientMobBlacklist": "サーバーはこれらのモンスターのターゲット取得をチェックしません",
+  "config.server.clientHideAlertAfterTicks": "Xティック以上表示されているモンスターの警告アイコンを非表示にします。この機能を無効にするには、0以下に設定してください。",
+  "config.client.clientAlertColorHex": "アラートアイコンの色を制御します。16進数形式で指定してください。",
+  "config.server.clientPlayAlertSound": "trueに設定すると、敵がプレイヤーをターゲットにしたときに警告音を鳴らします。"
 }

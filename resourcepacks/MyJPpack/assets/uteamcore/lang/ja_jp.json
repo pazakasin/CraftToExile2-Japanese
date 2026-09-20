@@ -1,8 +1,8 @@
 {
-  "commands.uteamcore.dimteleport.success.multiple": "%s エンティティを %s にテレポートしました",
-  "commands.uteamcore.dimteleport.success.position.multiple": "%s エンティティを %s、%s、%s にテレポートしました",
-  "commands.uteamcore.dimteleport.success.position.single": "%s を %s、%s、%s に %s へテレポートしました",
-  "commands.uteamcore.dimteleport.success.single": "%s を %s にテレポートしました",
+  "commands.uteamcore.dimteleport.success.multiple": "%s個のエンティティを%sにテレポートしました",
+  "commands.uteamcore.dimteleport.success.position.multiple": "%s個のエンティティを%sの%s、%s、%sにテレポートしました。",
+  "commands.uteamcore.dimteleport.success.position.single": "%s を %s へ、%s、%s の %s へテレポートしました。",
+  "commands.uteamcore.dimteleport.success.single": "%s を %s へテレポートしました",
   "commands.uteamcore.ping.success.other": "%s の ping は %sms です",
   "commands.uteamcore.ping.success.self": "あなたのpingは%smsです",
   "commands.uteamcore.stackinfo.success.block": "ブロック: %s",
@@ -10,5 +10,5 @@
   "commands.uteamcore.stackinfo.success.item": "アイテム: %s",
   "commands.uteamcore.stackinfo.success.nbt": "NBT: %s",
   "gui.widget.uteamcore.energy.fe_tooltip": "%sFE/%sFE",
-  "jei.uteamcore.dyeable.info": "これらのアイテムはクラフトフィールドで染料を使って染色することができます。"
+  "jei.uteamcore.dyeable.info": "これらのアイテムは、製作現場で染料を使って染色することができます。"
 }

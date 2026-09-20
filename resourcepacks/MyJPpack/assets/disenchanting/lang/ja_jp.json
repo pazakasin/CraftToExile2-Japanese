@@ -1,8 +1,8 @@
 {
   "_comment": "UI",
-  "block.disenchanting.disenchanter": "解呪者",
-  "block.disenchanting.disenchanter.tooltip": "アイテムの魔法を解除して本に置きます。",
-  "itemGroup.Disenchanting": "幻滅",
+  "block.disenchanting.disenchanter": "ディスエンチャンター",
+  "block.disenchanting.disenchanter.tooltip": "アイテムの魔法を解除して、本に貼り付けましょう。",
+  "itemGroup.Disenchanting": "幻滅する",
   "gui.disenchanting.disenchanter.cost": "料金",
-  "tabs.disenchanting.tab": "幻滅"
+  "tabs.disenchanting.tab": "幻滅する"
 }

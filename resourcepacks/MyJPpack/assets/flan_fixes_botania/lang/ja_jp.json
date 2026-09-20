@@ -1,3 +1,7 @@
 {
-  "flan_fixes_botania.unowned_corporea_index": "所有者なしのCorporea Indexを使用できません"
+  "flan_fixes_botania.unowned_corporea_index": "所有者のいないCorporea Indexは使用できません",
+  "flan.permission.flan_fixes_botania:botania": "ボタニア",
+  "flan.permission.flan_fixes_botania:botania.desc": "すべてのボタニアアイテムがあなたの主張に影響を与えることを許可します",
+  "flan.permission.flan_fixes_botania:corporea_index": "体格指数",
+  "flan.permission.flan_fixes_botania:corporea_index.desc": "他のプレイヤーにあなたのコーポレアインデックスを使用する許可を与えます"
 }

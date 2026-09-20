@@ -1,8 +1,12 @@
 {
-  "gateways_to_emiloot.wave": "ウェーブ %s",
+  "gateways_to_emiloot.wave": "波の割合",
   "gateways_to_emiloot.word.rewards": "報酬",
   "gateways_to_emiloot.word.from": "から：",
   "gateways_to_emiloot.final": "完了報酬",
-  "gateways_to_emiloot.spawns": "スポーン:",
-  "gateways_to_emiloot.endless_wave": "エンドレスウェーブ"
+  "gateways_to_emiloot.spawns": "出現：",
+  "gateways_to_emiloot.endless_wave": "エンドレスウェーブ",
+  "gateways_to_emiloot.from_mob": "から：",
+  "gateways_to_emiloot.from_loot": "戦利品：",
+  "gateways_to_emiloot.drops": "ドロップ:",
+  "gateways_to_emiloot.wave_endless": "エンドレスウェーブ"
 }

@@ -1,13 +1,13 @@
 {
-  "subtitles.wyrm_hurt": "ワームは痛い",
+  "subtitles.wyrm_hurt": "ワームが痛む",
   "item.realmrpg_wyrms.wyrm_fireball": "ワームファイアボール",
-  "item.realmrpg_wyrms.red_wyrm_spawn_egg": "レッドワームのスポーンエッグ",
+  "item.realmrpg_wyrms.red_wyrm_spawn_egg": "レッドワームの産卵",
   "entity.realmrpg_wyrms.ender_wyrm": "エンダーワーム",
   "subtitles.wyrm_death": "ワームが死ぬ",
-  "item.realmrpg_wyrms.ender_wyrm_fireball": "エンダーワームのファイアボール",
-  "subtitles.wyrm_ambient": "ワームの咆哮",
+  "item.realmrpg_wyrms.ender_wyrm_fireball": "エンダーワームファイアボール",
+  "subtitles.wyrm_ambient": "ワームが咆哮する",
   "entity.realmrpg_wyrms.red_wyrm": "レッドワーム",
-  "item_group.realmrpg_wyrms.realm_rpg_wyrms_tab": "レルムRPG：ドラゴンワームズ",
-  "item.realmrpg_wyrms.ender_wyrm_spawn_egg": "エンダーワームのスポーンエッグ",
-  "itemGroup.tabrealm_rpg_wyrms_tab": "レルムRPG：ドラゴンワームズ"
+  "item_group.realmrpg_wyrms.realm_rpg_wyrms_tab": "レルムRPG：ドラゴンワイアームズ",
+  "item.realmrpg_wyrms.ender_wyrm_spawn_egg": "エンダーワームの産卵",
+  "itemGroup.tabrealm_rpg_wyrms_tab": "レルムRPG：ドラゴンワイアームズ"
 }

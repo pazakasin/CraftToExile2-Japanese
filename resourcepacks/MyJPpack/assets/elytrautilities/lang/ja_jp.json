@@ -1,0 +1,17 @@
+{
+  "elytrautilities.enableFlight": "エリトラ飛行有効",
+  "elytrautilities.disableFlight": "エリトラ飛行無効",
+  "key.elytrautilities.category": "エリトラユーティリティーズ",
+  "key.elytrautilities.toggle.desc": "エリトラ飛行の切り替え",
+  "key.elytrautilities.trigger.desc": "エリトラ飛行を開始",
+  "gui.elytrautilities.config.toggleIcon.name": "表示切り替えアイコン",
+  "gui.elytrautilities.config.toggleIcon.description": "有効にすると、落下飛行が無効になったときにHUDにアイコンが表示されます。",
+  "gui.elytrautilities.config.simpleTakeoff.name": "シンプルな花火の打ち上げ",
+  "gui.elytrautilities.config.simpleTakeoff.description": "有効になっている場合、「エリトラ発動」キーを押し続けると、インベントリから花火を取り出して離陸します。",
+  "gui.elytrautilities.config.enableElytra.name": "秋の飛行を許可する",
+  "gui.elytrautilities.config.enableElytra.description": "有効にすると、プレイヤーは落下しながら飛行できるようになります。これはゲーム内で「エリトラの切り替え」キーを使って操作することもできます。",
+  "gui.elytrautilities.config.jumpTriggerable.name": "空中ジャンプ落下飛行",
+  "gui.elytrautilities.config.jumpTriggerable.description": "有効にすると、空中ジャンプによって落下飛行を発動できます。",
+  "gui.elytrautilities.config.restrictFireworks.name": "花火ロケットを制限する",
+  "gui.elytrautilities.config.restrictFireworks.description": "有効にすると、花火ロケットは落下飛行中のみ使用可能になります。"
+}
