@@ -42,6 +42,7 @@ Craft to Exile 2 日本語化ファイルのインストール方法を詳しく
 3. 適当な場所に解凍（デスクトップなど）
 解凍したフォルダ内に以下のフォルダがあることを確認:
 ```
+config/
 kubejs/
 resourcepacks/
 ```
@@ -51,6 +52,7 @@ resourcepacks/
 解凍したフォルダを、Minecraftインスタンスフォルダにコピー
 ```
 解凍したフォルダ   → Minecraftインスタンスフォルダ
+├── config/         → .instances/Craft to Exile 2/config/
 ├── kubejs/         → .instances/Craft to Exile 2/kubejs/
 └── resourcepacks/  → .instances/Craft to Exile 2/resourcepacks/
 ```
@@ -59,6 +61,14 @@ resourcepacks/
 ```
 instances/
 └ Craft to Exile 2/
+    ├─ config/
+    │   └─ openloader/
+    │       └─ resources/
+    │           └─ resources/
+    │               └─ assets/
+    │                   └── <mod_id>
+    │                       └─ lang/
+    │                           └── ja_jp.json     ← OpenLoader管理MOD翻訳ファイル
     ├─ kubejs/
     │   └─ assets/
     │       └─ ftbquestlocalizer/
