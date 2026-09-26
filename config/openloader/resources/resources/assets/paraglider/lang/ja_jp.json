@@ -1,0 +1,6 @@
+{
+  "tooltip.paraglider.heart_container.1": "最大体力を%s（2体力）増加させ、最大%s倍まで増加させます。",
+  "tooltip.paraglider.heart_container.1.hearts": "1ハート",
+  "tooltip.paraglider.stamina_vessel.1": "最大スタミナを300増加させ、最大%s倍まで増加します。",
+  "tooltip.paraglider.anti_vessel.0": "消費したすべてのハートコンテナとスタミナ容器を取得します。"
+}

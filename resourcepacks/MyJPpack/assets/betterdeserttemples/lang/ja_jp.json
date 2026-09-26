@@ -1,8 +1,8 @@
 {
-  "Use /locate structure betterdeserttemples:desert_temple instead!": "代わりに /locate structure betterdeserttemples:desert_temple を使用してください！",
+  "Use /locate structure betterdeserttemples:desert_temple instead!": "代わりに/locate structure betterdeserttemples:desert_templeを使用してください！",
   "text.autoconfig.betterdeserttemples-fabric-1_20.title": "ユンのより良い砂漠の寺院",
   "text.autoconfig.betterdeserttemples-fabric-1_20.option.general.disableVanillaPyramids": "バニラピラミッドを無効にする",
-  "text.autoconfig.betterdeserttemples-fabric-1_20.option.general.disableVanillaPyramids.@Tooltip": "バニラデザートピラミッドを無効化すべきかどうか。",
+  "text.autoconfig.betterdeserttemples-fabric-1_20.option.general.disableVanillaPyramids.@Tooltip": "バニラ版の砂漠ピラミッドを無効化すべきかどうか。",
   "text.autoconfig.betterdeserttemples-fabric-1_20.option.general.applyMiningFatigue": "採掘疲労を適用する",
   "text.autoconfig.betterdeserttemples-fabric-1_20.option.general.applyMiningFatigue.@Tooltip[0]": "寺院内のプレイヤーに採掘疲労が適用されるかどうか",
   "text.autoconfig.betterdeserttemples-fabric-1_20.option.general.applyMiningFatigue.@Tooltip[1]": "まだ承認されていない場合。"

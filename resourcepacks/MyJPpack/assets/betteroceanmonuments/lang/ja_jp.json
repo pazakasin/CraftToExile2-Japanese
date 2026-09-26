@@ -1,5 +1,5 @@
 {
-  "Use /locate structure betteroceanmonuments:ocean_monument instead!": "代わりに /locate structure betteroceanmonuments:ocean_monument を使用してください！",
+  "Use /locate structure betteroceanmonuments:ocean_monument instead!": "代わりに/locate structure betteroceanmonuments:ocean_monumentを使用してください！",
   "text.autoconfig.betteroceanmonuments-fabric-1_20.title": "ユンのより良い海洋モニュメント",
   "text.autoconfig.betteroceanmonuments-fabric-1_20.option.general.disableVanillaMonuments": "バニラ版の海洋モニュメントを無効にする",
   "text.autoconfig.betteroceanmonuments-fabric-1_20.option.general.disableVanillaMonuments.@Tooltip": "バニラ版の海洋遺跡を無効化すべきかどうか。"

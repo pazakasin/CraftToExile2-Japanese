@@ -1,6 +1,6 @@
 {
-  "betterstrongholds.commands.locate.stronghold": "代わりに /locate structure betterstrongholds:stronghold を使用してください！",
-  "Use /locate structure betterstrongholds:stronghold instead!": "代わりに /locate structure betterstrongholds:stronghold を使用してください！",
+  "betterstrongholds.commands.locate.stronghold": "代わりに/locate structure betterstrongholds:strongholdを使用してください！",
+  "Use /locate structure betterstrongholds:stronghold instead!": "代わりに/locate structure betterstrongholds:strongholdを使用してください！",
   "text.autoconfig.betterstrongholds-fabric-1_20.title": "YUNGのより良い要塞",
   "text.autoconfig.betterstrongholds-fabric-1_20.option.betterStrongholds": "YUNGのより良い要塞",
   "text.autoconfig.betterstrongholds-fabric-1_20.option.betterStrongholds.general": "一般設定",

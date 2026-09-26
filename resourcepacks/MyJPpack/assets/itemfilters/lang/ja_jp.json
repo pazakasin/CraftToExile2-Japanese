@@ -32,12 +32,12 @@
   "item.itemfilters.weak_nbt.description": "指定されたNBTの一部のみが存在する場合に一致します",
   "item.itemfilters.custom": "カスタムフィルター",
   "item.itemfilters.custom.description": "動作させるには、通常はKubeJSなどのモジュールまたはスクリプトが必要です。",
-  "itemfilters.variants": "バリアント [%d]",
-  "itemfilters.help_text.variants": "Tabキー、スクロールホイール、カーソル上下：ハイライト位置を調整\nEnterキー：ハイライトされた項目を選択",
+  "itemfilters.variants": "バリアント[ %d ]",
+  "itemfilters.help_text.variants": "Tabキー、スクロールホイール、カーソル上下：ハイライトを調整\n入力:ハイライトされた項目を選択",
   "itemfilters.help_text.filter": "フィルター（右クリックで解除）",
-  "itemfilters.help_text.nbt": "NBT文字列\n▶ 例：{ text:\"hello\", value: 1, active: true }",
-  "itemfilters.help_text.weak_nbt": "弱いNBT文字列\n▶ 例：{ text:\"hello\", value: 1, active: true }\n▶ 指定されたNBTフィールドのみがチェックされます（アイテム内のその他のフィールドは無視されます）",
-  "itemfilters.help_text.regex": "正規表現\n\nアイテムIDとの照合\n▶ 例：「^minecraft:」はすべてのバニラアイテムに一致します",
-  "itemfilters.help_text.max_count": "最大スタックサイズ\n▶ 関係演算子も使用できます。例: \"\u003c64\" または \"\u003e\u003d16\"",
-  "itemfilters.help_text.damage": "アイテムの損傷度\n▶ 関係演算子も使用できます（例：「\u003c10」または「\"\u003e\u003d5」）。\n\nまた、パーセンテージも任意で指定できます（例：「\"\u003e50%」）。"
+  "itemfilters.help_text.nbt": "NBT文字列\n▶例{ text:\"hello\", value: 1, active: true }",
+  "itemfilters.help_text.weak_nbt": "弱いNBT文字列\n▶例{ text:\"hello\", value: 1, active: true }\n▶指定されたNBTフィールドのみがチェックされます（アイテム内のその他のフィールドは無視されます）。",
+  "itemfilters.help_text.regex": "正規表現\nアイテムIDと照合されました\n▶例\"^minecraft:\"はすべてのバニラアイテムに一致します",
+  "itemfilters.help_text.max_count": "最大スタックサイズ\n▶関係演算子も含まれる場合があります。例: \"\u003c64\"または\"\u003e\u003d16\"",
+  "itemfilters.help_text.damage": "商品の損傷\n▶関係演算子も含まれる場合があります。例: \"\u003c10\"または\"\u003e\u003d5\"\nパーセンテージで指定することも可能です（例：\"\u003e50%\"）。"
 }

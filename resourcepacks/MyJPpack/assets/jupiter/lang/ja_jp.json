@@ -13,7 +13,7 @@
   "jupiter.screen.back": "戻る",
   "jupiter.screen.button.remove": "取り除く",
   "jupiter.screen.button.reset": "リセット",
-  "jupiter.screen.cannot_process_list_enum": "Jupiter はデフォルトの空の List\u003cEnum\u003e エントリを処理できません",
+  "jupiter.screen.cannot_process_list_enum": "Jupiterはデフォルトの空のList\u003cEnum\u003eエントリを処理できません",
   "jupiter.screen.check_server": "権限を確認中...",
   "jupiter.screen.client_config": "クライアント設定",
   "jupiter.screen.common_config": "共通設定",
@@ -41,7 +41,7 @@
   "jupiter.screen.restart_required": "（再起動が必要です）",
   "jupiter.screen.server_config": "サーバー設定",
   "jupiter.screen.unavailable": "設定が無効になっているか、提供されていません",
-  "jupiter.screen.unregistered_widget": "%s のウィジェットが見つかりませんでした。%s の開発者にお問い合わせください。",
+  "jupiter.screen.unregistered_widget": "%sのウィジェットが見つかりませんでした。%sの開発者にお問い合わせください。",
   "jupiter.toast.upload_config_error_content": "許可が拒否されました",
   "jupiter.toast.upload_config_error_title": "サーバー設定の変更に失敗しました"
 }

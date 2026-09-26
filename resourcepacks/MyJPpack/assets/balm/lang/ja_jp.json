@@ -32,6 +32,6 @@
   "tag.item.balm.wooden_rods": "木製の棒",
   "disconnect.balm.mod_missing_on_server": "サーバーに%sがインストールされていません。ゲームからmodを削除するか、サーバーにもインストールしてください。",
   "disconnect.balm.mod_missing_on_client": "%sがインストールされていません。このサーバーでプレイするには、%sバージョン%sをインストールしてください。",
-  "disconnect.balm.mod_version_mismatch": "%s のバージョンが一致しません。サーバーはバージョン %s を必要としていますが、現在インストールされているバージョンは %s です。正しいバージョンをインストールしてください。",
+  "disconnect.balm.mod_version_mismatch": "%sのバージョンが一致しません。サーバーはバージョン%sを必要としていますが、現在インストールされているのは%sです。正しいバージョンをインストールしてください。",
   "config.jade.plugin_balm.jade": "バーム"
 }

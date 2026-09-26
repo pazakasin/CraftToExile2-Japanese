@@ -9,8 +9,8 @@
   "text.autoconfig.smoothboot.option.threadCount.main.@Tooltip[1]": "ゲーム内のパフォーマンスにも影響を与える可能性があります。",
   "text.autoconfig.smoothboot.option.threadPriority": "スレッドの優先順位",
   "text.autoconfig.smoothboot.option.threadPriority.game": "ゲームスレッドの優先順位",
-  "text.autoconfig.smoothboot.option.threadPriority.bootstrap": "Bootstrapワーカーの優先順位",
+  "text.autoconfig.smoothboot.option.threadPriority.bootstrap": "ブートストラップワーカーの優先順位",
   "text.autoconfig.smoothboot.option.threadPriority.main": "主要労働者の優先事項",
   "text.autoconfig.smoothboot.option.threadPriority.io": "IOワーカーの優先度",
-  "text.autoconfig.smoothboot.option.threadPriority.integratedServer": "統合サーバー スレッド優先度"
+  "text.autoconfig.smoothboot.option.threadPriority.integratedServer": "統合サーバースレッド優先度"
 }

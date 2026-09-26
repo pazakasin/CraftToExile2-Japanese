@@ -1,0 +1,6 @@
+{
+  "majruszsaccessories.bonuses.potion_amplifier": "作成された採掘と斬撃以外のポーションのレベルを%1$s強化します。",
+  "majruszsaccessories.bonuses.potion_duration": "作成された非マインおよびスラッシュポーションの持続時間を%1$s減少させます。",
+  "majruszsaccessories.boosters.drop_chance": "%1$sマジュルスのアクセサリーのドロップ率を%2$s増加させます。",
+  "majruszsaccessories.boosters.experience_bonus": "%1$s %2$sによって得られるバニラ経験値を増加させます。"
+}

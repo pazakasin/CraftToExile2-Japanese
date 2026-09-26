@@ -3,7 +3,7 @@
   "config.defaultoptions.defaultDifficulty": "デフォルト難易度",
   "config.defaultoptions.defaultDifficulty.tooltip": "新規作成ワールドにデフォルトで選択される難易度。",
   "config.defaultoptions.lockDifficulty": "ロック難易度",
-  "config.defaultoptions.lockDifficulty.tooltip": "新しいワールドの難易度を特定のデフォルトに固定する場合は、true に設定します。外部ツールなしではプレイヤーがロックを解除することはできません。おそらく良くないアイデアです。お勧めしません。なぜこのオプションを追加するのでしょうか?",
+  "config.defaultoptions.lockDifficulty.tooltip": "新しいワールドの難易度を特定のデフォルトに固定する場合は、trueに設定します。外部ツールなしではプレイヤーがロックを解除することはできません。おそらく良くないアイデアです。お勧めしません。なぜこのオプションを追加するのでしょうか?",
   "config.defaultoptions.defaultResourcePacks": "デフォルトのリソースパック",
   "config.defaultoptions.defaultResourcePacks.tooltip": "初回実行時にデフォルトで有効にするリソースパックのID。"
 }

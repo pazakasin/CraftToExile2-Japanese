@@ -1,0 +1,17 @@
+{
+  "cuisinedelight.info.max_time": "最大調理時間：%s秒",
+  "cuisinedelight.info.min_time": "最低調理時間：%s秒",
+  "cuisinedelight.info.nutrition": "栄養成分：1食分あたり%s",
+  "cuisinedelight.info.overcook_penalty": "焼き過ぎペナルティ：- %s%%",
+  "cuisinedelight.info.raw_penalty": "生のペナルティ: - %s%%",
+  "cuisinedelight.info.size": "一人分の量：%s人分",
+  "cuisinedelight.info.stir_time": "最大撹拌間隔：%s",
+  "cuisinedelight.msg.place_help": "しゃがんだまま位置を調整してください。",
+  "cuisinedelight.tooltip.burnt": "材料の%sが焦げています...",
+  "cuisinedelight.tooltip.good": "材料%sはよく調理されています！",
+  "cuisinedelight.tooltip.overcooked": "材料の%sが加熱しすぎです。",
+  "cuisinedelight.tooltip.raw": "成分の%sが少し生っぽい。",
+  "cuisinedelight.tooltip.score": "品質: %s%%",
+  "cuisinedelight.tooltip.shift": "調理の詳細については、シフトをお待ちください",
+  "cuisinedelight.tooltip.size": "一人分の量：%s"
+}

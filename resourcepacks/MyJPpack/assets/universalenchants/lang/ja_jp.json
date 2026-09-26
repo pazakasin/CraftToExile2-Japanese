@@ -1,4 +1,4 @@
 {
-  "commands.enchant.remove.success.single": "%sのアイテムからエンチャント%sを削除しました",
-  "commands.enchant.remove.success.multiple": "%s個のエンティティからエンチャント%sを削除しました"
+  "commands.enchant.remove.success.single": "%2$sのアイテムからエンチャント%1$sを削除しました",
+  "commands.enchant.remove.success.multiple": "%2$sエンティティからエンチャント%1$sを削除しました"
 }

@@ -1,0 +1,19 @@
+{
+  "advancements.nagaresp.descr": "リスポーン。ザ。ナーガ",
+  "advancements.lichresp.descr": "リスポーン。ザ・リッチ",
+  "advancements.snawqueenresp.descr": "リスポーン。雪の女王",
+  "advancements.nagaresp.title": "ナーガをリスポーンさせる",
+  "advancements.hydraresp.title": "ハイドラをリスポーンさせる",
+  "advancements.hydraresp.descr": "リスポーン。ヒドラ。",
+  "block.dimasic_server.snowqueenspawn": "雪の女王リスポーン記念碑",
+  "block.dimasic_server.sabudka": "ドギーハウス",
+  "advancements.urghastresp.title": "ウルガストを復活させる",
+  "block.dimasic_server.hydraspawn": "ハイドラリスポーン記念碑",
+  "item.dimasic_server.another_brick_in_the_wall": "ミュージックディスク",
+  "advancements.urghastresp.descr": "リスポーン。ウル・ガスト",
+  "block.dimasic_server.lichspawn": "リッチ復活記念碑",
+  "block.dimasic_server.nagarespawn": "ナーガの復活記念碑",
+  "advancements.lichresp.title": "リッチを復活させる",
+  "advancements.snawqueenresp.title": "雪の女王を復活させる",
+  "block.dimasic_server.ur_ghastspawn": "ウルガスト復活記念碑"
+}

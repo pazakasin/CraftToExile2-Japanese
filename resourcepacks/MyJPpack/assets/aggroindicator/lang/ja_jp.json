@@ -1,6 +1,6 @@
 {
   "config.client.renderAlertIcon": "アラートアイコンは、trueに設定されている場合にのみ表示されます。",
-  "config.client.renderRange": "範囲内のモンスターのみに警告アイコンが表示されます",
+  "config.client.renderRange": "範囲内のモンスターのみがアラートアイコンを表示します",
   "config.client.xOffset": "アラートアイコンの位置を水平方向に調整します",
   "config.client.yOffset": "アラートアイコンの位置を垂直方向に調整します",
   "config.client.alertIconSize": "アラートアイコンのサイズを調整します",

@@ -6,7 +6,7 @@
   "key.mns_extras.open_profession_shop": "職業ショップを開設する",
   "gui.mns_extras.profession_shop.title": "職業ショップ",
   "gui.mns_extras.profession_shop.cost": "費用：%s × %s",
-  "gui.mns_extras.profession_shop.required": "必須：%s レベル %s",
+  "gui.mns_extras.profession_shop.required": "必須: %sレベル%s",
   "profession.farming": "農業",
   "profession.mining": "鉱業",
   "profession.husbandry": "賞金稼ぎ",

@@ -2,5 +2,5 @@
   "config.damagevignette.title": "ダメージビネット設定",
   "config.damagevignette.enabled": "ダメージに関するビネットを有効にする",
   "config.damagevignette.lowthreshold": "健康状態の低さを示す割合（最大強度）",
-  "config.damagevignette.highthreshold": "高い健康閾値（％）（最小強度）"
+  "config.damagevignette.highthreshold": "健康状態の閾値が高い（%）（最小強度）"
 }

@@ -12,7 +12,7 @@
   "blueprint.config.slabfish_hat.type.tooltip": "スラブフィッシュハットのタイプを切り替えます。ティア4以上のパトロンのみが利用可能です。",
   "blueprint.screen.slabfish_settings": "スラブフィッシュハットの設定...",
   "blueprint.screen.slabfish_settings.title": "スラブフィッシュハットセッティング",
-  "blueprint.screen.slabfish_settings.tooltip": "Team Abnormalsのパトロン向けSlabfishハットの設定。%sでパトロンになりましょう。",
+  "blueprint.screen.slabfish_settings.tooltip": "Team AbnormalsパトロンSlabfishハットの設定。%sでパトロンになりましょう。",
   "blueprint.message.redirect": "リダイレクト中",
   "biome.blueprint.original_source_marker": "オリジナルソースマーカー",
   "entity.blueprint.boat": "ボート",

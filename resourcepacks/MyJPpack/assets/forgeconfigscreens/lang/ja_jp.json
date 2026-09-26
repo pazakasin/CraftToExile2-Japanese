@@ -1,5 +1,5 @@
 {
-  "configmenusforge.gui.select.title": "%s 設定を選択",
+  "configmenusforge.gui.select.title": "%s設定を選択",
   "configmenusforge.gui.select.edit": "設定を編集",
   "configmenusforge.gui.select.restore": "デフォルト設定に戻す",
   "configmenusforge.gui.select.copy": "デフォルトにコピー",
@@ -19,13 +19,13 @@
   "configmenusforge.gui.select": "選ぶ",
   "configmenusforge.gui.add": "付加価値を提供する",
   "configmenusforge.gui.search": "検索...",
-  "configmenusforge.gui.value.edit": "%s の値を編集",
-  "configmenusforge.gui.value.select": "%s の値を選択してください",
-  "configmenusforge.gui.value.add": "%s の値を追加します",
-  "configmenusforge.gui.list.edit": "%s リストを編集",
+  "configmenusforge.gui.value.edit": "%s値を編集",
+  "configmenusforge.gui.value.select": "%s値を選択してください",
+  "configmenusforge.gui.value.add": "%s値を追加します",
+  "configmenusforge.gui.list.edit": "%sリストを編集",
   "configmenusforge.gui.tooltip.sorting": "ソート: %s",
-  "configmenusforge.gui.tooltip.sorting.az": "A-Z",
-  "configmenusforge.gui.tooltip.sorting.za": "Z-A",
+  "configmenusforge.gui.tooltip.sorting.az": "アリゾナ州",
+  "configmenusforge.gui.tooltip.sorting.za": "ZA",
   "configmenusforge.gui.tooltip.showing": "表示中: %s",
   "configmenusforge.gui.tooltip.showing.all": "全て",
   "configmenusforge.gui.tooltip.showing.edited": "編集済み",
@@ -45,8 +45,8 @@
   "configmenusforge.gui.message.copy.title": "この設定をデフォルトとして設定してもよろしいですか？",
   "configmenusforge.gui.message.copy.description": "設定ファイルが再作成されるたびに、デフォルト設定が使用されます。これは主に、新しく作成されるワールドに適用されるデフォルトのサーバー設定を設定する際に役立ちます。",
   "configmenusforge.gui.message.copy.warning": "警告！この場所には既に別の設定ファイルが存在するため、コピー時に上書きされます。",
-  "configmenusforge.gui.type.title": "%s 設定",
+  "configmenusforge.gui.type.title": "%s設定",
   "configmenusforge.gui.type.client": "クライアント設定は、グラフィカルオプションなど、クライアントの状態のみに影響を与える設定用です。クライアント側でのみ読み込まれ、グローバル設定ディレクトリに保存されます。同期はされません。",
   "configmenusforge.gui.type.common": "両方の環境で読み込む必要がある設定のための共通mod設定ファイル。サーバーとクライアントの両方で読み込まれます。グローバル設定ディレクトリに保存されます。同期されません。",
-  "configmenusforge.gui.type.server": "サーバータイプ設定とは、サーバーインスタンスに関連付けられた設定のことです。サーバー起動時にのみ読み込まれます。サーバー/save ディレクトリ内の「serverconfig」という特定のディレクトリに保存されます。接続時にクライアントと同期されます。"
+  "configmenusforge.gui.type.server": "サーバータイプ設定とは、サーバーインスタンスに関連付けられた設定のことです。サーバー起動時にのみ読み込まれます。サーバー/saveディレクトリ内の「serverconfig」という特定のディレクトリに保存されます。接続時にクライアントと同期されます。"
 }

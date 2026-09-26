@@ -1,8 +1,8 @@
 {
   "enhancedai.subtitle.angry_creeper_fuse": "怒ったクリーパーが爆発寸前",
   "enhancedai.subtitle.angry_creeper_explode": "怒れるクリーパーが爆発する",
-  "death.attack.bite": "%sは%sに噛まれた",
-  "death.attack.shockwave": "%sは%sに衝撃を受けた",
+  "death.attack.bite": "%s %sに噛まれた",
+  "death.attack.shockwave": "%s %sに衝撃を受けた",
   "attribute.name.xray_follow_range": "モブX線追跡範囲",
   "attribute.name.push_resistance": "押し抵抗"
 }

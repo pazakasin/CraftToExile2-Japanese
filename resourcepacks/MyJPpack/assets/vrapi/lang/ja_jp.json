@@ -3,7 +3,7 @@
   "message.vrapi.version_mismatch": "バージョンが一致しません！サーバーは%dですが、あなたのバージョンは%dです！",
   "message.vrapi.dev.in_vr": "まるでVRの中にいるかのような体験を！",
   "message.vrapi.dev.out_of_vr": "もうVRの中にいるふりをする必要はありません！",
-  "category.vrapi.dev_keys": "mc-vr-api 開発者キー",
+  "category.vrapi.dev_keys": "mc-vr-api開発者キー",
   "key.vrapi.position_left": "コントローラー1の位置を設定",
   "key.vrapi.position_right": "コントローラー0の位置を設定",
   "key.vrapi.position_hmd": "HMDの位置を設定",

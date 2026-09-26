@@ -17,10 +17,10 @@
   "config.trashslot.allowDeletionWhileTrashSlotIsInvisible.tooltip": "推奨はしませんが、この方法を使えば、ゴミ箱スロット自体が非表示になっている場合でも、アイテムを削除するためのキーバインドを使用できるようになります。",
   "config.trashslot.deletionDenyList": "削除拒否リスト",
   "config.trashslot.deletionDenyList.tooltip": "削除できないアイテムのリストを、「modid:name」のカンマ区切り形式で表示します。",
-  "trashslot.hint.toggleOn": "この画面でゴミ箱を有効にするには、%sキーを押してください！",
-  "trashslot.hint.toggledOff": "ゴミ箱スロットが無効になっています。%s を押すと再度有効になります。",
+  "trashslot.hint.toggleOn": "この画面でゴミ箱を有効にするには、%sを押してください！",
+  "trashslot.hint.toggledOff": "ゴミ箱スロットが無効になっています。%sを押すと再度有効になります。",
   "trashslot.hint.deletedWhileHidden": "アイテムは廃棄されました！",
   "trashslot.hint.deletionDenied": "この商品は廃棄できません！",
   "trashslot.hint.locked": "ゴミ箱スロットがロックされています。ロックを解除するには%sを押してください。",
-  "trashslot.hint.unlocked": "ゴミ箱スロットのロックが解除されました。%s を押すとロックされます。"
+  "trashslot.hint.unlocked": "ゴミ箱スロットのロックが解除されました。%sを押すとロックされます。"
 }

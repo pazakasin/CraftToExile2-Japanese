@@ -1,5 +1,5 @@
 {
-  "config.jamlib.selection_screen_title": "%s の設定を選択してください",
+  "config.jamlib.selection_screen_title": "%sの設定を選択してください",
   "config.jamlib.open": "開ける",
   "config.jamlib.edit_manually": "手動で編集",
   "config.jamlib.reset": "リセット",
@@ -7,9 +7,9 @@
   "config.jamlib.matches_regex_tooltip": "値は次の正規表現に一致する必要があります: %s",
   "config.jamlib.requires_restart_tooltip": "この変更を有効にするには再起動が必要です",
   "config.jamlib.within_range_tooltip": "値は%dから%dの間である必要があります",
-  "text.jamlib.renamed_1": "以下のmodファイルは名前が変更されました。これは多くの場合、modが%sであることを示しています。",
+  "text.jamlib.renamed_1": "以下のmodファイルの名前が変更されました。これは多くの場合、modが%sであることを示しています。",
   "text.jamlib.renamed_1.1": "許可なく再配布",
-  "text.jamlib.renamed_2": "%s %s などのサイトは %s に使用できます。Mod は公式に %s と %s で見つけることができます。",
+  "text.jamlib.renamed_2": "%s %sなどのサイトは%sに使用できます。Modは公式には%sと%sで見つけることができます。",
   "text.jamlib.renamed_2.1": "9マインクラフト",
   "text.jamlib.renamed_2.2": "改造者を傷つける",
   "text.jamlib.renamed_2.3": "マルウェアを配布する",

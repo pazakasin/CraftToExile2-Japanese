@@ -8,7 +8,7 @@
   "key.inventoryessentials.bulk_transfer_all": "すべて転送",
   "key.inventoryessentials.bulk_transfer_all_modifier": "全て転送（保留）",
   "key.inventoryessentials.bulk_drop": "バルクドロップ",
-  "key.inventoryessentials.bulk_drop_modifier": "一括ドロップ（保留）",
+  "key.inventoryessentials.bulk_drop_modifier": "バルクドロップ（保留）",
   "key.inventoryessentials.bulk_drop_modifier_1": "バルクドロップ（保留）",
   "key.inventoryessentials.screen_bulk_drop": "画面から大量のドロップアウト",
   "key.inventoryessentials.screen_bulk_drop_modifier": "画面から大量のアイテムがドロップアウトする（ホールド）",

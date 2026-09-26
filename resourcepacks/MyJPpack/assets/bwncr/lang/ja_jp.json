@@ -1,7 +1,7 @@
 {
   "badwithernocookiereloaded.general.tooltip": "キャンセル可能なグローバルな基本サウンドとイベント",
   "badwithernocookiereloaded.xtra.tooltip": "キャンセル可能な追加のローカルサウンド",
-  "badwithernocookiereloaded.localized settings.silenceus": "例: entity.sheep.step - 他の音を聞くには /listen を使用してください",
+  "badwithernocookiereloaded.localized settings.silenceus": "例: entity.sheep.step -他の音を聞くには/listenを使用してください",
   "text.autoconfig.bwncr.title": "Bad Wither No Cookie - Reloaded",
   "text.autoconfig.bwncr.option.general": "一般的な",
   "text.autoconfig.bwncr.option.general.silenceWither": "沈黙は枯れる",

@@ -25,7 +25,7 @@
   "wheel.keyflow.search_hint": "検索アクション、モッド、カテゴリ、キーなど...",
   "wheel.keyflow.add": "追加",
   "wheel.keyflow.add_to_slot": "%sに追加",
-  "wheel.keyflow.move_to_slot": "%s へ移動",
+  "wheel.keyflow.move_to_slot": "%sへ移動",
   "wheel.keyflow.already_in_slot": "スロット%s",
   "wheel.keyflow.in_slot": "ホイールスロット%s",
   "wheel.keyflow.remove": "取り除く",
@@ -51,11 +51,11 @@
   "wheel.keyflow.slot_remove_blocked": "スロット数を減らす前に、最後のスロットをクリアしてください。",
   "wheel.keyflow.clear": "クリア",
   "wheel.keyflow.reset": "リセット",
-  "wheel.keyflow.assigned": "%s がスロット %s に割り当てられました",
-  "wheel.keyflow.removed": "スロット%sがクリアされました",
+  "wheel.keyflow.assigned": "%sスロット%sに割り当てられました",
+  "wheel.keyflow.removed": "スロット%sクリアされました",
   "wheel.keyflow.cleared": "ホイールクリア",
   "wheel.keyflow.reset_done": "パックのデフォルト設定が復元されました",
-  "wheel.keyflow.choose_slot": "%s 用のスロットを選択してください",
+  "wheel.keyflow.choose_slot": "%s用のスロットを選択してください",
   "message.keyflow.wheel_unavailable": "このアクションはホイールから安全に実行できません",
   "message.keyflow.wheel_hidden": "このアクションは隠されており、ホイールから実行することはできません。",
   "message.keyflow.command_unavailable": "このコマンドは現在実行できません",
@@ -71,5 +71,5 @@
   "tooltip.pack.keyflow.wheel_quick": "デフォルトのクイックアクセススロットを選択してください。既存のプレイヤーは、個人のホイールを保持します。",
   "pack.keyflow.icon_override": "ホイールアイコンのテクスチャ",
   "pack.keyflow.icon_override_help": "ホイールで使用されるオプションのテクスチャID",
-  "tooltip.pack.keyflow.icon_override": "modid:textures/gui/icon.png のようなテクスチャIDを入力してください。"
+  "tooltip.pack.keyflow.icon_override": "modid:textures/gui/icon.pngのようなテクスチャIDを入力してください。"
 }

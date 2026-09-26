@@ -1,0 +1,9 @@
+{
+  "library_of_exile.item_modification.add_spawn_rate": "モブの出現率を%1$s%%増加させる",
+  "library_of_exile.item_modification.add_tier": "%1$sティアを追加",
+  "library_of_exile.item_modification.add_wave": "%1$s Waveを追加",
+  "library_of_exile.item_requirement.has_less_than_x_waves": "追加の波は%1$s未満でなければなりません",
+  "library_of_exile.item_requirement.is_less_than_max_tier": "オベリスクのティアは%1$sより低くなければなりません",
+  "library_of_exile.item_requirement.is_obelisk_map": "オベリスクマップアイテムである必要があります",
+  "library_of_exile.item_requirement.obelisk_spawnrate_cap": "追加スポーン率が%1$s%%未満である必要があります"
+}

@@ -26,7 +26,7 @@
   "config.craftingtweaks.common.compressRequiresCraftingGrid": "圧縮にはクラフトグリッドが必要です",
   "config.craftingtweaks.common.compressRequiresCraftingGrid.tooltip": "クラフトGUI以外でも（解凍）機能を動作させたい場合は、これをfalseに設定してください（サーバーにインストールされていて、プレイヤーのインベントリ内にある場合にのみ機能します）。",
   "config.craftingtweaks.common.compressDenylist": "コンプレス・デニリスト",
-  "config.craftingtweaks.common.compressDenylist.tooltip": "圧縮キーによって作成されない modid:name エントリのリスト。",
+  "config.craftingtweaks.common.compressDenylist.tooltip": "圧縮キーによって作成されないmodid:nameエントリのリスト。",
   "config.craftingtweaks.client": "クライアント",
   "config.craftingtweaks.client.rightClickCraftsStack": "クラフトスタックを右クリック",
   "config.craftingtweaks.client.rightClickCraftsStack.tooltip": "trueに設定すると、クラフトテーブルの結果スロットを右クリックすると、フルスタックが作成されます。",
